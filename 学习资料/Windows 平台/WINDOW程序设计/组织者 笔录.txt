@@ -1,0 +1,9 @@
+wchar_t   为unicode下的常用字符串编码格式
+
+struct wpas{
+		int x;
+		int y;
+		int height;
+		int width;
+	}wndposandsize;
+wps相当于类名，wndposandsize相当于对象名

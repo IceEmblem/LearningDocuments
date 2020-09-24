@@ -1,0 +1,31 @@
+以下是基于WM_HSCROLL  WM_VSCROLL消息值为 LOWORD(wParam)
+
+#define SB_LINEUP       0
+        
+#define SB_LINELEFT           0
+        
+#define SB_LINEDOWN           1
+        
+#define SB_LINERIGHT          1
+        
+#define SB_PAGEUP         2
+        
+#define SB_PAGELEFT           2
+        
+#define SB_PAGEDOWN           3
+        
+#define SB_PAGERIGHT          3
+        
+#define SB_THUMBPOSITION   4
+        
+#define SB_THUMBTRACK         5               当把鼠标的光标放在卷动方块上并按住鼠标键时，产生了带有  SB_THUMBTRACK  和SB_THUMBPOSITION   。在wParam的低字组是SB_THUMBTRACK时，wParam的高字组是使用者在拖动卷动方块时的目前位置。该位置位于卷动列范围的最小值和最大值之间。在wParam的低字组是SB_THUMBPOSITION时，wParam的高字组是使用者释放鼠标键后卷动方块的最终位置。
+        
+#define SB_TOP                6
+        
+#define SB_LEFT           6
+        
+#define SB_BOTTOM        7
+        
+#define SB_RIGHT          7
+        
+#define SB_ENDSCROLL          8

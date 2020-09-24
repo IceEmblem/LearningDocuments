@@ -1,0 +1,9 @@
+netsh interface ip               更改到ip上下文
+set address 设置地址，网关等
+get address
+show address
+
+
+netsh interface ip set address "以太网" static 192.168.0.1 255.255.255.0    设置ip静态
+netsh interface ip set address "以太网" dhcp        设置ip自动获取
+netsh interface ip show address           查看IP、DNS、网关

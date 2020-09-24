@@ -1,0 +1,5 @@
+SetTimer(hwnd,1,1000,NULL)
+
+SetTimer(hwnd,1,1000,TimerProc)
+
+SetTimer(NULL,1,1000,TimerProc)

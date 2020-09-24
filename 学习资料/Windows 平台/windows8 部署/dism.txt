@@ -1,0 +1,179 @@
+命令格式：
+
+DISM.exe [dism选项] {WIM命令} [<WIM参数>]
+DISM.exe {/Image:<脱机映像路径> | /Online} [dism选项] {服务命令} [<服务参数>]
+
+描述:
+
+  DISM 枚举、安装、卸载、配置和更新 Windows 映像中的功能和程序包。可以使用的命令取决于提供的映像以及映像处于脱机状态还是正在运行。
+
+WIM命令:
+
+  1、显示WIM文件映像信息
+ 命令：DISM /Get-WimInfo /WimFile:映像文件名 [/Index:映像号|/Name:映像名]
+
+  2、安装（挂载）WIM映像
+ 命令：DISM /Mount-Wim /WimFile:映像文件名 {/Index:映像号|/Name:映像名} /MountDir:映像挂载目录 [/readonly]
+           其中/readonly为挂载只读。
+
+  3、显示安装（挂载）的WIM 映像信息
+ 命令：DISM /Get-MountedWimInfo
+
+  4、保存安装（挂载）的WIM 映像更改
+ 命令：DISM /Commit-Wim /MountDir:映像挂载目录
+
+  5、卸载安装（挂载）WIM 映像
+ 命令：DISM /Unmount-Wim /MountDir:映像挂载目录 {/Commit|/Discard}
+            其中/Commit为保存更改，/Discard为放弃更改。
+
+  6、恢复孤立的 WIM 安装目录。
+  命令：DISM /Remount-Wim /MountDir:映像挂载目录
+
+  7、删除与损坏的安装的 WIM 映像关联的资源。
+  命令：/Cleanup-Wim
+
+映像规格:
+
+  /Online                  - 以正在运行的操作系统为目标。
+  /Image                  - 指定脱机 Windows 映像的根目录的路径。
+
+服务命令:
+
+WINDOWS 版本服务命令:
+
+  1、将产品密钥填充到脱机映像中。
+  命令：DISM /Image:映像挂载目录 /Set-ProductKey:xxxxx-xxxxx-xxxxx-xxxxx-xxxxx
+
+  2、显示可以将映像升级到的 Windows 版本
+  命令：DISM /Image:映像挂载目录 /Get-TargetEditions
+
+  3、显示指定映像的版本。
+  命令：DISM /Image:映像挂载目录  /Get-CurrentEdition
+
+  4、将Windows 映像升级到较高版本。
+  命令：DISM /Image:映像挂载目录 /Set-Edition
+
+无人参与服务命令:
+
+  5、将无人参与文件应用于映像。
+  命令：DISM /Image:映像挂载目录 /Apply-Unattend:unattend.xml
+
+程序包服务命令:
+
+  6、向映像中添加程序包。
+  命令：DISM /Image:映像挂载目录 /Add-Package /PackagePath:{程序包文件.cab|程序包文件.msu|程序包目录} 
+             [/IgnoreCheck]
+             /IgnoreCheck 开关可跳过适用性检查失败的安装程序包。
+
+  7、从映像中删除程序包。
+  命令：DISM /Image:映像挂载目录 /Remove-Package {/PackagePath:程序包.cab|/PackageName:程序包名称}
+            不能使用此命令删除 .msu 文件。
+
+  8、启用映像中的特定功能。
+  命令：DISM /Image:映像挂载目录 /Enable-Feature /FeatureName:功能名称 [/PackageName:程序包名称]
+            如果未指定程序包名称，则使用 Windows Foundation 程序包。功能名称区分大小写。
+
+  9、禁用映像中的特定功能。
+  命令：DISM /Image:映像挂载目录 /Disable-Feature /FeatureName:功能名称 [/PackageName:程序包名称]
+            如果未指定程序包名称，则使用 Windows Foundation 程序包。功能名称区分大小写。
+
+  10、显示有关映像中所有程序包的信息。
+  命令：DISM /Image:映像挂载目录 /Get-Packages [/Format:显示输出格式]
+            /Format 选项为输出指定表（Table）或列表（List）格式。如果/Format未指定，则输出的格式为列表。
+
+  11、显示有关特定程序包的信息。
+  命令：DISM /Image:映像挂载目录 /Get-PackageInfo {/PackagePath:程序包.cab|/PackageName:程序包名称}
+            无法使用此命令获取 .msu 文件的程序包信息。
+
+  12、显示有关程序包中所有功能的信息。
+  命令：DISM /Image:映像挂载目录 /Get-Features [/Format:显示输出格式] [/PackagePath:程序包.cab]
+             [/PackageName:程序包名称]
+             /Format 选项为输出指定表（Table）或列表（List）格式。如果/Format未指定，则输出的格式为列表。
+
+  13、显示有关特定功能的信息。
+  命令：DISM /Image:映像挂载目录 /Get-FeatureInfo /FeatureName:功能名称 [/PackagePath:程序包.cab]
+            [/PackageName:程序包名称]
+
+  14、对映像执行清理和恢复操作。
+  命令：DISM /Image:映像挂载目录 /Cleanup-Image /RevertPendingActions
+            警告! 此操作将从以前的服务操作中还原挂起的操作。此操作应只用于恢复操作。
+
+  命令：DISM /Image:映像挂载目录 /Cleanup-Image /spsuperseded [/hidesp]
+            警告! 完成此操作之后将无法卸载 Service Pack。此操作将删除 Service Pack安装期间创建的备份文件。
+            /hidesp 开关从已安装更新中隐藏 Service Pack。
+
+应用程序服务命令（略）:
+
+  15、/Check-AppPatch         - 显示有关MSP修补程序是否适用于安装的映像的信息。
+
+  16、/Get-AppPatchInfo       - 显示有关安装的MSP修补程序的信息。
+
+  17、/Get-AppPatches         - 显示有关应用于所有安装的应用程序的所有MSP修补程序的信息。
+
+  18、/Get-AppInfo                - 显示有关特定安装的MSI应用程序的信息。
+
+  19、/Get-Apps                    - 显示有关安装的所有MSI应用程序的信息。
+
+驱动程序服务命令:
+
+  20、显示有关脱机映像中或正在运行的操作系统中的所有驱动程序的信息。
+  命令：DISM /Image:映像挂载目录 /Get-Drivers [/Format:显示输出格式] [/all]
+            /Format 选项为输出指定表（Table）或列表（List）格式。如果/Format未指定，则输出的格式为列表。
+            /all 开关可显示映像中所有驱动程序。默认情况下，只显示全新驱动程序。
+
+  21、显示有关脱机映像中或正在运行的操作系统中的特定驱动程序的信息。
+  命令：DISM /Image:映像挂载目录 /Get-DriverInfo /Driver:驱动文件.inf
+
+  22、从脱机映像中删除驱动程序包。
+  命令：DISM /Image:映像挂载目录 /Remove-Driver /Driver:驱动文件.inf
+
+  23、向脱机映像中添加驱动程序包。
+  命令：DISM /Image:映像挂载目录 /Add-Driver /Driver:{驱动目录|/驱动文件.inf} [/recurse] [/ForceUnsigned]
+            /recurse 可查询所有子文件夹中的驱动程序。/ForceUnsigned 可向基于X64的映像中添加未签名的驱动程序。
+
+国际服务命令（略）:
+
+  /Set-LayeredDriver      - 设置键盘分层驱动程序。
+
+  /Set-UILang                  - 设置安装的脱机映像中使用的默认系统用户界面语言。
+
+  /Set-UILangFallback     - 设置安装的脱机映像中系统用户界面的回滚默认语言。
+
+  /Set-UserLocale           - 设置安装的脱机映像中的用户区域设置。
+
+  /Set-SysLocale            - 设置安装的脱机映像中的非 Unicode 程序的语言(也称为系统区域设置)和字体设置。
+
+  /Set-InputLocale          - 设置要在安装的脱机映像中使用的输入区域设置和键盘布局。
+
+  /Set-TimeZone             - 设置安装的脱机映像中的默认时区。
+
+  /Set-AllIntl                    - 设置安装的脱机映像中的所有国际设置。
+
+  /Set-SKUIntlDefaults    - 将安装的脱机映像中的指定 SKU 语言的所有国际设置都设置为默认值。
+
+  /Gen-LangIni                - 生成新的 lang.ini 文件。
+
+  /Set-SetupUILang        - 定义安装程序将使用的默认语言。
+
+  /Get-Intl                       - 显示有关国际设置和语言的信息。
+
+DISM 选项:
+
+  /English                  - 用英文显示命令行输出。
+
+  /Format                  - 指定报告输出格式。
+
+  /WinDir                  - 指定 Windows 目录的路径。
+
+  /SysDriveDir          - 指定名为 BootMgr 的系统加载程序文件的路径。
+
+  /LogPath                - 指定日志文件路径。
+
+  /LogLevel               - 指定日志(1-4)中所示的输出级别。
+
+  /NoRestart              - 取消自动重新启动和重新启动提示。
+
+  /Quiet                     - 取消除错误消息之外的所有输出。
+
+  /ScratchDir             - 指定暂存目录的路径。
+

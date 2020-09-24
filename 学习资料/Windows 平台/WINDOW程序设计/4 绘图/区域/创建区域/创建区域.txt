@@ -1,0 +1,3 @@
+CreateRectRgnIndirect(&rect)  ;//æÿ–Œ
+CreateEllipticRgnIndirect(&rect) ; //Õ÷‘≤
+CreatePolygonRgn(&poin,icount,ipolyfillmode) ; //∂‡±ﬂ–Œ

@@ -1,0 +1,5 @@
+控件也是窗口
+
+WM_SETFOCUS
+WM_KILLFOCUS
+获得焦点和失去焦点

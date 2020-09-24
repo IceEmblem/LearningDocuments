@@ -1,0 +1,2 @@
+entityframework 主体包
+entityframework.zh  简体中文包

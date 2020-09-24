@@ -1,0 +1,2 @@
+在视图中引用Login视图的代码
+生成的验证码放在Session["ValidateCode"]，只要拿Session["ValidateCode"]来判断即可

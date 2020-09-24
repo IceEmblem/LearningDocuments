@@ -1,0 +1,2 @@
+beginpaint绘画返回的hdc是仅无效的部分
+endpaint会将绘好的hdc显示出来

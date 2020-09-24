@@ -1,0 +1,5 @@
+1.DISM /Image:h:\winpe\mount /Add-Package /PackagePath:"C:\Program Files (x86)\Windows Kits\8.1\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\**.cab"  [/IgnoreCheck]
+ 
+       挂载时添加工具，目录C:\Program Files (x86)\Windows Kits\8.1\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs
+
+2.dism /unmount-image /mountdir:h:\winpe\mount /commit                                        卸载并保存

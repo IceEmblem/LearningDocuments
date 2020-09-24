@@ -1,0 +1,19 @@
+﻿
+        <div class="form-group col-lg-4 col-md-5 col-sm-6 center-block">
+            <div class="row">
+                <label class="col-sm-2 control-label">验证码:</label>
+                @Html.TextBoxFor(model => model.VerificationCode,new { @class = "col-sm-4 form-control", placeholder = "请输入验证码" })
+                <img id="verificationcode" alt="" src="~/Validate/GetPicValidateCode" />
+                <a id="trydifferent" style="cursor: pointer">换一张</a>
+                <!--<input type="text" class="col-sm-4 form-control" id="name" placeholder="请输入验证码">
+                <img src="" alt="">-->
+            </div>
+            <input type="submit" class="btn btn-info" value="登录">@Html.ValidationMessage("Message")
+        </div>
+
+<script type="text/javascript">
+    $("#trydifferent").click(function () {
+        $("#verificationcode").attr("src", "/Validate/GetPicValidateCode?" + (new Date()).getTime());
+    })
+
+</script>

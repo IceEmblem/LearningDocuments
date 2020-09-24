@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Windows Kits\8.1\Assessment and Deployment Kit\Windows Preinstallation Environment
+C:\Program Files (x86)\Windows Kits\8.1\评估和部署工具               \视窗预安装环境
+
+copype amd64 h:\winpe     拷贝winpe环境
+
+makewinpemedia /iso h:\winpe h:\winpeiso\winpe.iso     制作winpe映像

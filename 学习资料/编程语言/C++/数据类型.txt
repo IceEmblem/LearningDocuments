@@ -1,0 +1,2 @@
+u_char是无符号的char型 
+char是有符号的char型，u_char和char都占一个字节，8个bit位

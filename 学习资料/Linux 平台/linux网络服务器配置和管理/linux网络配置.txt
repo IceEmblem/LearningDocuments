@@ -1,0 +1,35 @@
+设置主机名  HOSTNAME
+vi /ect/sysconfig/network
+
+查看主机名
+hostname
+
+设置dns  
+vi /etc/resolv.conf
+nameserver ip地址
+
+
+以下设置均为临时生效，若要永久用 setup 命令，或vi /ect/sysconfig/network-scripts/ifcfg-eth0
+
+
+设置ip地址
+ifconfig 【网卡】
+
+设置ip地址
+ifconfig 网卡名 ip netmask 子网掩码
+
+设置辅助ip地址
+ifconfig  网卡名：虚拟网卡id  ip  netmask  子网掩码
+
+启用和禁用网卡
+ifconfig 网卡名 up
+ifconfig 网卡名 down
+
+更改网卡mac地址
+ifconfig  网卡名  hw  ether MAC地址
+
+查看网关
+route
+修改默认网关
+route add default gw ip地址
+route del default tw ip地址

@@ -1,0 +1,9 @@
+[root@linux102 dhcpd]# rpm -qa dhcp      //检查是否安装
+
+dhcp-3.0.5-21.el5                //已安装
+
+
+手动挂载光驱         挂载成功后存放在/mnt下
+mount   -t iso9660  /dev/cdrom/mnt
+
+然后进入图形界面安装

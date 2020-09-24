@@ -1,0 +1,7 @@
+netsh wlan set hostednetwork mode=allow ssid=wift key=123456abc   开启网络模块和新建网络
+
+netsh wlan start hostednetwork 开启无线网络
+
+netsh wlan stop hostednetwork 关闭无线网络
+
+netsh wlan set hostednetwork mode=disallow   关闭网络模块

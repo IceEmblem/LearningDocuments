@@ -1,0 +1,18 @@
+基本流程           原流程先挂载boot.wim并编辑，卸载，再生成winpe映像
+1.挂载winpe镜像
+
+2.编辑
+
+3.卸载winpe镜像
+
+
+
+
+
+
+制作
+1.dism /mount-image /imagefile:H:\winpe\media\sources\boot.wim /index:1 /mountdir:h:\winpe\mount             挂载winpe下的boot.wim
+
+2.复制imagex到boot.wim的windows\system32下
+
+3.dism /unmount-image /mountdir:h:\winpe\mount /commit             卸载boot.wim并保存

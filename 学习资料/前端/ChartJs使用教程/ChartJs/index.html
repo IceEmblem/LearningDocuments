@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>图表示例</title>
+	<meta charset="utf-8">
+	<link href="bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+	   <div class="row">
+	      <div class="col-lg-10">
+	      	<div id="Table">
+				<canvas id="myChart"></canvas>
+			</div>
+	      </div>
+	      <div class="navbar-fixed-top">
+	      	<ul id="table_list_group" class="list-group col-lg-2 pull-right">
+
+			</ul>
+	      </div>      
+	   </div>
+	</div>
+
+
+	
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="Chart.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+	<!-- <script type="text/javascript">
+
+		var doughnutOptions = {
+		   //Boolean - Whether we should show a stroke on each segment
+		   segmentShowStroke : true,
+		   //String - The colour of each segment stroke
+		   segmentStrokeColor : "#fff",
+		   //Number - The width of each segment stroke
+		   segmentStrokeWidth : 2,
+		   //Number - The percentage of the chart that we cut out of the middle
+		   percentageInnerCutout : 50, // This is 0 for Pie charts
+		   //Number - Amount of animation steps
+		   animationSteps : 100,
+		   //String - Animation easing effect
+		   animationEasing : "easeOutBounce",
+		   //Boolean - Whether we animate the rotation of the Doughnut
+		   animateRotate : true,
+		   //Boolean - Whether we animate scaling the Doughnut from the centre
+		   animateScale : true,
+		   //Boolean - Re-draw chart on page resize
+		       responsive: false,
+		   };
+		var doughnutData = [
+		  	{
+		       value: 300,
+		       color: "rgba(220,220,220,0.8)",
+		       highlight: "rgba(220,220,220,0.7)",
+		       label: "Grey"
+		   },
+		   {
+		       value: 50,
+		       color: "rgba(151,187,205,1)",
+		       highlight: "rgba(151,187,205,0.8)",
+		       label: "Blue"
+		   },
+		   {
+		       value: 100,
+		       color: "rgba(169, 3, 41, 0.7)",
+		       highlight: "rgba(169, 3, 41, 0.7)",
+		       label: "Red"
+		   }
+		];
+		var data = {
+			labels : ["January","February","March","April","May","June","July"],
+			datasets : [
+				{
+					fillColor : "rgba(220,220,220,0.5)",
+					strokeColor : "rgba(220,220,220,1)",
+					pointColor : "rgba(220,220,220,1)",
+					pointStrokeColor : "#fff",
+					data : [65,59,90,81,56,55,40]
+				},
+				{
+					fillColor : "rgba(151,187,205,0.5)",
+					strokeColor : "rgba(151,187,205,1)",
+					pointColor : "rgba(151,187,205,1)",
+					pointStrokeColor : "#fff",
+					data : [28,48,40,19,96,27,100]
+				}
+			]
+		}
+
+		$(document).ready(function() {
+
+		 	var text = '[{"FirmName":"阿里云0","DateSales":[{"Date":"1997","Sales":"300"},{"Date":"1998","Sales":"400"},{"Date":"1996","Sales":"500"}]},{"FirmName":"阿里云1","DateSales":[{"Date":"1998","Sales":"300"},{"Date":"1999","Sales":"400"},{"Date":"2000","Sales":"400"},{"Date":"2002","Sales":"300"}]},{"FirmName":"阿里云2","DateSales":[{"Date":"1997","Sales":"400"},{"Date":"1996","Sales":"500"},{"Date":"2005","Sales":"100"}]},{"FirmName":"阿里云3","DateSales":[{"Date":"1997","Sales":"100"},{"Date":"1998","Sales":"500"},{"Date":"1999","Sales":"500"},{"Date":"2003","Sales":"300"},{"Date":"2004","Sales":"600"},{"Date":"2005","Sales":"200"}]}]';
+
+		 	
+
+
+		 	var obj = JSON.parse(text);
+
+		 	//Get context with jQuery - using jQuery's .get() method.
+			var ctx = document.getElementById("myChart").getContext("2d");
+			var myNewChart = new Chart(ctx).PolarArea(data);
+
+
+
+		 	// for(var n=0;n<obj.length;n++){
+		 	// 	CreateTable(obj[n]);
+		 	// 	CreateListItem(obj[n].FirmName);
+		 	// }
+		 	// $("#table_list_group>li").on("click",ListClick);
+		});
+
+		// function ListClick(){
+		// 	var state = $(this).attr("state");
+		// 	if(state=="0"){
+		// 		$(this).attr("state","1");
+		// 		$(this).addClass("active");
+		// 		ShowTable($(this).text());
+		// 	}
+		// 	if(state=="1"){
+		// 		$(this).attr("state","0");
+		// 		$(this).removeClass("active");
+		// 		HiddenTable($(this).text());
+		// 	}
+		// }
+
+		// function CreateListItem(name)
+		// {
+		// 	var li='<li state="1" class="list-group-item active" style="cursor:pointer">'+name+'</li>';
+		// 	$("#table_list_group").append(li);
+		// }
+
+		// function HiddenTable(Title){
+		// 	$("svg>text>tspan:contains('"+Title+"')").parent().parent().parent().hide(1000);
+		// }
+
+		// function ShowTable(Title){
+		// 	$("svg>text>tspan:contains('"+Title+"')").parent().parent().parent().show(1000);
+		// }
+
+		// function CreateTable(oneobj)
+		// {
+		// 	$("#firmhighchart").html(OldTable);
+
+		// 	var thead_tr=$("#firmhighchart_thead>tr").eq(0);
+		// 	var tbody=$("#firmhighchart_tbody");
+		// 	var tbody_trs=tbody.children("tr");
+		// 	// var tbody_tr_tdnum=1;
+
+			
+			
+		// 	$("#firmhighchart>caption").html(oneobj.FirmName);
+		// 	var firmname="<th>" + oneobj.FirmName + "</th>";
+		// 	thead_tr.append(firmname);
+		// 	// tbody_tr_tdnum++;
+
+		// 	var DateSales=oneobj.DateSales;
+		// 	for(var m=0;m<DateSales.length;m++){
+		// 		var date=DateSales[m].Date;
+					
+		// 		if(tbody_trs.length==0){
+		// 			tbody.append("<tr name='fcb_tr' datez='"+date+"'><td>"+date+"</td>"+"<td>"+DateSales[m].Sales+"</td>"+"</tr>");
+		// 			tbody_trs=tbody.children("tr");
+		// 			continue;
+		// 		}
+		// 		for(var q=0;q<tbody_trs.length;q++){
+		// 			var datez = tbody_trs.eq(q).attr("datez");
+
+		// 			if(date<datez || (q==tbody_trs.length-1 && date>datez)){
+		// 				var newtds="<td>"+date+"</td>";
+							
+		// 				newtds=newtds+"<td>"+DateSales[m].Sales+"</td>";
+		// 				if(date<datez){
+		// 					tbody_trs.eq(q).before("<tr name='fcb_tr' datez='"+date+"'>" + newtds + "</tr>");
+		// 				}
+		// 				else{
+		// 					tbody_trs.eq(q).after("<tr name='fcb_tr' datez='"+date+"'>" + newtds + "</tr>");
+		// 				}
+		// 				tbody_trs=tbody.children("tr");
+		// 				break;
+		// 			}
+		// 		}
+		// 	}
+			
+		// 	$('table.highchart').highchartTable();	
+		// }
+
+
+
+	</script> -->
+	<!-- <script>
+		//为data准备的数据
+		var arr2=new Array();  
+		arr2[0]="30";arr2[1]="52";arr2[2]="45";arr2[3]="78";
+		arr2[4]="27";arr2[5]="88";arr2[6]="65";
+
+		//用于存放图表上的数据
+		var lineChartData = {  
+		//表的X轴参数
+		labels : ["January","February","March","April","May","June","July"],
+		datasets : [
+		    {
+		        fillColor : "transparent",     //背景色，常用transparent透明
+		        strokeColor : "rgba(220,220,220,1)",  //线条颜色，也可用"#ffffff"
+		        pointColor : "rgba(220,220,220,1)",   //点的填充颜色
+		        pointStrokeColor : "#fff",            //点的外边框颜色
+		        data : [65,59,32,29,46,55,40]      //点的Y轴值
+		    },
+		    {
+		        fillColor : "transparent",
+		        strokeColor : "rgba(151,187,205,1)",
+		        pointColor : "rgba(151,187,205,1)",
+		        pointStrokeColor : "#fff",
+		        data : []    //data中的参数，通过下方for循环，获取arr2中的数据
+		    }
+		  ]
+		}
+
+		for(var i = 0; i < arr2.length;i++)
+		{ 
+		  	lineChartData.datasets[1].data.push(arr2[i]);//将数组arr2中的值写入data
+		}
+
+		//定义图表的参数   
+		var defaults = {    
+		    scaleStartValue :null,     // Y 轴的起始值
+		    scaleLineColor : "rgba(0,0,0,.1)",    // Y/X轴的颜色
+		    scaleLineWidth : 1,        // X,Y轴的宽度
+		    scaleShowLabels : true,    // 刻度是否显示标签, 即Y轴上是否显示文字   
+		    scaleLabel : "<%=value%>", // Y轴上的刻度,即文字  
+		    scaleFontFamily : "'Arial'",  // 字体  
+		    scaleFontSize : 20,        // 文字大小 
+		    scaleFontStyle : "normal",  // 文字样式  
+		    scaleFontColor : "#666",    // 文字颜色  
+		    scaleShowGridLines : true,   // 是否显示网格  
+		    scaleGridLineColor : "rgba(0,0,0,.05)",   // 网格颜色
+		    scaleGridLineWidth : 2,      // 网格宽度  
+		    bezierCurve : false,         // 是否使用贝塞尔曲线? 即:线条是否弯曲     
+		    pointDot : true,             // 是否显示点数  
+		    pointDotRadius : 8,          // 圆点的大小  
+		    pointDotStrokeWidth : 1,     // 圆点的笔触宽度, 即:圆点外层边框大小 
+		    datasetStroke : true,        // 数据集行程
+		    datasetStrokeWidth : 2,      // 线条的宽度, 即:数据集
+		    datasetFill : false,         // 是否填充数据集 
+		    animation : true,            // 是否执行动画  
+		    animationSteps : 60,          // 动画的时间   
+		    animationEasing : "easeOutQuart",    // 动画的特效   
+		    onAnimationComplete : null    // 动画完成时的执行函数   
+		}
+
+		window.onload = function(){
+	        var ctx = document.getElementById("myChart").getContext("2d");
+	        window.myLine = new Chart(ctx).Line(lineChartData,defaults); 
+		}
+
+</script> -->
+	<script type="text/javascript">
+			var ctx = document.getElementById("myChart");
+			var text = '[{"FirmName":"阿里云0","DateSales":[{"Date":"1997","Sales":"300"},{"Date":"1998","Sales":"400"},{"Date":"1996","Sales":"500"}]},{"FirmName":"阿里云1","DateSales":[{"Date":"1998","Sales":"300"},{"Date":"1999","Sales":"400"},{"Date":"2000","Sales":"400"},{"Date":"2002","Sales":"300"}]},{"FirmName":"阿里云2","DateSales":[{"Date":"1997","Sales":"400"},{"Date":"1996","Sales":"500"},{"Date":"2005","Sales":"100"}]},{"FirmName":"阿里云3","DateSales":[{"Date":"1997","Sales":"100"},{"Date":"1998","Sales":"500"},{"Date":"1999","Sales":"500"},{"Date":"2003","Sales":"300"},{"Date":"2004","Sales":"600"},{"Date":"2005","Sales":"200"}]}]';
+
+		 	
+
+
+		 	var obj = JSON.parse(text);
+		 	var labelsVar=new Array(); 
+		 	var datasetsVar=new Array(); 
+		 	var datasetVar={label:null,data:null,
+					 					backgroundColor:[
+							                'rgba(255, 99, 132, 0.2)',
+							                'rgba(54, 162, 235, 0.2)',
+							                'rgba(255, 206, 86, 0.2)',
+							                'rgba(75, 192, 192, 0.2)',
+							                'rgba(153, 102, 255, 0.2)',
+							                'rgba(255, 159, 64, 0.2)'
+							            ],
+							            borderColor: [
+							                'rgba(255,99,132,1)',
+							                'rgba(54, 162, 235, 1)',
+							                'rgba(255, 206, 86, 1)',
+							                'rgba(75, 192, 192, 1)',
+							                'rgba(153, 102, 255, 1)',
+							                'rgba(255, 159, 64, 1)'
+							            ],
+							            borderWidth: 1};
+		 	var dataVar;
+
+		 	for(var n=0;n<obj.length;n++)
+		 	{
+		 		var OneObj=obj[n];
+
+		 	}
+
+			var data1 = 
+				{
+			        labels: [0 , 5, 10, 15, 20, 25],
+			        datasets: 
+			        [
+				        {
+				            label: '# of Votes',
+				            data: [
+				            {
+						        x: 5,
+						        y: 0
+						    },{
+						        x: 10,
+						        y: 20
+						    }, {
+						        x: 15,
+						        y: 10
+						    },{
+						        x: 20,
+						        y: 10
+						    },{
+						    	x: 25,
+						        y: 50
+						    }
+						    ],
+				            backgroundColor: [
+				                'rgba(255, 99, 132, 0.2)',
+				                'rgba(54, 162, 235, 0.2)',
+				                'rgba(255, 206, 86, 0.2)',
+				                'rgba(75, 192, 192, 0.2)',
+				                'rgba(153, 102, 255, 0.2)',
+				                'rgba(255, 159, 64, 0.2)'
+				            ],
+				            borderColor: [
+				                'rgba(255,99,132,1)',
+				                'rgba(54, 162, 235, 1)',
+				                'rgba(255, 206, 86, 1)',
+				                'rgba(75, 192, 192, 1)',
+				                'rgba(153, 102, 255, 1)',
+				                'rgba(255, 159, 64, 1)'
+				            ],
+				            borderWidth: 1
+				        },
+				        {
+				            label: '# of Votes',
+				            data: [
+				            {
+						        x: 5,
+						        y: 20
+						    },{
+						        x: 10,
+						        y: 40
+						    }, {
+						        x: 15,
+						        y: 62
+						    },{
+						        x: 20,
+						        y: 76
+						    },{
+						    	x: 25,
+						        y: 23
+						    }],
+				            backgroundColor: [
+				                'rgba(255, 99, 132, 0.2)',
+				                'rgba(54, 162, 235, 0.2)',
+				                'rgba(255, 206, 86, 0.2)',
+				                'rgba(75, 192, 192, 0.2)',
+				                'rgba(153, 102, 255, 0.2)',
+				                'rgba(255, 159, 64, 0.2)'
+				            ],
+				            borderColor: [
+				                'rgba(255,99,132,1)',
+				                'rgba(54, 162, 235, 1)',
+				                'rgba(255, 206, 86, 1)',
+				                'rgba(75, 192, 192, 1)',
+				                'rgba(153, 102, 255, 1)',
+				                'rgba(255, 159, 64, 1)'
+				            ],
+				            borderWidth: 1
+						} 
+			        ]
+			    }
+
+			var myLineChart = new Chart(ctx, {
+			    type: 'line',
+			    data: data1,
+			    options: {
+			    	//showLines: false, // disable for all datasets
+
+			    	//禁止动画
+			    	animation: {
+			            duration: 0, // general animation time
+			        },
+			        hover: {
+			            animationDuration: 0, // duration of animations when hovering an item
+			        },
+			        responsiveAnimationDuration: 0, // animation duration after a resize
+
+			        //禁止贝线
+			        elements: {
+			            line: {
+			                tension: 0, // disables bezier curves
+			            }
+			        },
+
+
+			        scales: {
+		                xAxes: [{
+		                    display: true,
+		                    
+		                    ticks: {
+				                min:0,
+                				max:25,
+				                // OR //
+				            }
+		                }],
+		                yAxes: [{
+				            display: true,
+                			
+				            ticks: {
+				                min:0,
+                				max:100,
+				                // OR //
+				                beginAtZero: false   // minimum value will be 0.
+				            }
+				        }]
+		            }
+
+			        
+			        // scaleOverride :true ,   //是否用硬编码重写y轴网格线
+	                
+	                // pointDot : true,        //是否显示点
+	                // pointDotRadius : 5,     //点的半径
+	                // pointDotStrokeWidth : 1,//点的线宽
+	                // datasetStrokeWidth : 3, //数据线的线宽
+	                // animation : true,       //是否有动画效果
+	                // animationSteps : 60    //动画的步数
+			    }
+			});
+	</script>
+</body>
+</html>

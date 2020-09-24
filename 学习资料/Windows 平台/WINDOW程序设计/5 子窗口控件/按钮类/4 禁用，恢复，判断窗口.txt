@@ -1,0 +1,7 @@
+要使按钮不可用(文字变为灰色).用:
+EnableWindow (hwndChild, FALSE) ;
+恢复为可用:
+EnableWindow (hwndChild, TRUE) ;
+判断是否被启用:
+IsWindowEnabled (hwndChild) ;
+

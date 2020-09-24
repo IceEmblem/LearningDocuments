@@ -1,0 +1,3 @@
+struct servent FAR * PASCAL FAR getservbyname(const charFar * name,
+
+					 const char FAR *proto);

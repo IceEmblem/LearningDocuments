@@ -1,0 +1,6 @@
+Txt C:\WINDOWS\system32\notepad.exe
+Txt vim
+WordDoc E:\Users\Admin\AppData\Local\Kingsoft\WPS Office\ksolaunch.exe
+WordDoc C:\Program Files (x86)\WPS Office\ksolaunch.exe
+x 
+ò 

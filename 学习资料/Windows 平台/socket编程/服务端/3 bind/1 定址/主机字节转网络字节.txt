@@ -1,0 +1,16 @@
+uint32_t htonl(uint32_t hostlong);
+
+hostlong:主机字节顺序表达的32位数。
+
+
+
+
+u_long WSAAPI WSAHtonl ( SOCKET s, u_long
+
+hostlong );
+
+s:一个标识套接口的描述字。
+
+hostlong:一个用主机字节顺序表示的32位数。
+
+返回值:WSAHtonl()返回以网络字节顺序表示的值。

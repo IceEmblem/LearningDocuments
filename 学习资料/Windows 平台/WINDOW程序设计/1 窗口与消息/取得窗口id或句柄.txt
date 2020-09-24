@@ -1,0 +1,3 @@
+GetDlgCtrlID(hwnd)
+
+GetDlgItem(hwndparent,idchild)

@@ -1,0 +1,7 @@
+WM_MOUSEWHEEL
+
+wparam低位指明鼠标按钮，shift，ctrl的状态
+
+wparam高位wei 120到-120
+
+lparam屏幕坐标

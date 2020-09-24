@@ -1,0 +1,5 @@
+dism /image:h:\winpe\winpe /get-drivers         查看驱动
+
+dism /image:h:\winpe\winpe /add-driver /driver:h:\driver\wfcvsc.inf /forceunsigned     添加驱动
+
+dism /image:h:\winpe\winpe /remove-driver /driver:oem0.inf    移除驱动

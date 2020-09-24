@@ -1,0 +1,2 @@
+命令（使用当前目录makefile文件，全小写）
+mingw32-make

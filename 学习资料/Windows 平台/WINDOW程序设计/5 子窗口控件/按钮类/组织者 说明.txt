@@ -1,0 +1,6 @@
+SendMessage（hwndbutton,BM_SETSTATE,1,0）
+SendMessage（hwndbutton,BM_SETSTATE,0,0）
+模拟按钮被按住/松开的样子
+
+SendMessage（hwndbutton,BM_GETSTATE,0,0）
+取得按钮当前选不选中状态

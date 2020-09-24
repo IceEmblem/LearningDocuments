@@ -1,0 +1,3 @@
+wndclass.style=CS_OWNDC; //dc只初始化一次
+
+   位图    只能先选进内存环境 不能直接dc

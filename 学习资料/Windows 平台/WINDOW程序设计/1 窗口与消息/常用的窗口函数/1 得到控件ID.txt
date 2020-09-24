@@ -1,0 +1,1 @@
+GetDlgCtrlId(hwndChild);

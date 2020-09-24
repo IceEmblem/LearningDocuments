@@ -1,0 +1,11 @@
+头文件
+
+#include <Winsock2.h>
+
+引用库
+
+#pragma comment(lib, "ws2_32.lib")
+
+静态加入一个lib文件也就是库文件ws2_32.lib文件，提供相关API的支持，否则需要动态载入ws2_32.dll。
+
+bind 的目的是为了自定义程序使用的端口和地址，如不适用bind，windows将自动分配
