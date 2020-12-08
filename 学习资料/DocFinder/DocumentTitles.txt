@@ -346,6 +346,12 @@
 /Windows%20平台/NetCore/.net%20core/.net%20core%202.1%20升%203.0.docx 1589112674 
 /Windows%20平台/NetCore/.net%20core/.net%20core%202.1%20无法设置%20Cookie%20解决方案.docx 1574669712 1.设置该Cookie为必要的 
 /Windows%20平台/NetCore/.net%20core/.net%20core%20Json%20序列化.docx 1591169256 
+/Windows%20平台/NetCore/.net%20core/.net%20core%20框架设计原理/.net%20core%20依赖注入设计.docx 1606881243 IServiceProvider从何而来 ServiceProvider如何提供域功能 
+/Windows%20平台/NetCore/.net%20core/.net%20core%20框架设计原理/.net%20core%20启动和接收请求原理.docx 1606881543 站点启动示例 UseKestrel 指明内置服务器 UseUrls 方法指明站点地址 配置中间件 Build 生成WebHost run方法启动站点 KestrelServer接收和处理Http请求 将http请求封装成IFeatureCollection 创建上下文 调用处理中间件 销毁上下文 
+/Windows%20平台/NetCore/.net%20core/.net%20core%20框架设计原理/.net%20core%20文件系统设计.docx 1606881226 简单示例 IFileProvider设计图 类介绍 .netcore已提供的FileProvider 
+/Windows%20平台/NetCore/.net%20core/.net%20core%20框架设计原理/.net%20core%20日志模型设计.docx 1606881157 简单示例 ILogger日志 ILogger的生成 ILoggerFactory如何生成ILogger 设计图 log4net日志 
+/Windows%20平台/NetCore/.net%20core/.net%20core%20框架设计原理/.net%20core%20路由原理.docx 1606881184 路由示例 UseRouter RouterMiddleware如何运行 router（路由器）从何而来 关于UseMvc 
+/Windows%20平台/NetCore/.net%20core/.net%20core%20框架设计原理/.net%20core%20配置设计.docx 1606881193 简单示例 配置设计 IConfiguration配置 IConfigurationSource配置源 IConfigurationProvider 配置的设计图 .netcore提供的配置源 内存配置源 环境变量配置源 命令行参数 Json文件 Xml文件 ini文件 
 /Windows%20平台/NetCore/.net%20core/.net%20core%20解决循环引用.docx 1584928520 
 /Windows%20平台/NetCore/.net%20core/.net%20core%20跨域处理.docx 1584928528 
 /Windows%20平台/NetCore/.net%20core/10%20框架揭秘/1%20控制反转与依赖注入.docx 1573120116 控制反转（ioc） 依赖注入（DI） 
@@ -534,6 +540,18 @@
 /Windows%20平台/NetFramework/WebAPI/返回值/IHttpActionResult.docx 1521091912 1、Json<T>(Tcontent) 2、Ok()、 Ok<T>(Tcontent) 3、NotFound() 4、其他 4.2、BadRequest() 4.3、Redirect(stringlocation) 
 /Windows%20平台/NetFramework/WebAPI/返回值/void无返回值.docx 1521190460 
 /Windows%20平台/NetFramework/WebAPI/返回值/自定义类型.docx 1521190660 
+/Windows%20平台/NetFramework/asp.net%20wf/wf控件.docx 1499231144 ASP.NET-服务器控件 
+/Windows%20平台/NetFramework/asp.net%20wf/wf数据库链接.docx 1499347118 创建数据库连接 创建数据库命令 创建DataReader 绑定到Repeater控件 关闭数据库连接 
+/Windows%20平台/NetFramework/asp.net%20wf/wf数据控件.docx 1499264654 ASP.NETWebForms -数据绑定 数据绑定 
+/Windows%20平台/NetFramework/asp.net%20wf/wf母版页.docx 1499350590 母版页实例 内容页实例 
+/Windows%20平台/NetFramework/asp.net%20wf/wf窗体.docx 1499232334 提交表单 
+/Windows%20平台/NetFramework/asp.net%20wf/wf简介.docx 1499230276 ASP.NET如何工作？ 
+/Windows%20平台/NetFramework/asp.net%20wp/wpEmail.docx 1499179884 WebMail帮助器 第一：编辑您的AppStart页面 _AppStart.cshtml Email_Input.cshtml Email_Send.cshtml 
+/Windows%20平台/NetFramework/asp.net%20wp/wpWebGrid.docx 1499179004 使用WebGrid帮助器 
+/Windows%20平台/NetFramework/asp.net%20wp/wp全局页面.docx 1499175184 在Web启动之前：_AppStart 在每一个页面之前：_PageStart 
+/Windows%20平台/NetFramework/asp.net%20wp/wp图表.docx 1499179462 Chart帮助器 根据数组创建图表 根据数据库创建图表 
+/Windows%20平台/NetFramework/asp.net%20wp/wp对象.docx 1499177510 某些Page对象方法 某些Page对象属性 Page对象的Page属性 
+/Windows%20平台/NetFramework/asp.net%20wp/wp布局.docx 1499173976 LayoutPage（布局页） 防止文件被浏览 
 /Windows%20平台/NetFramework/asp.net%20wp/wp帮助器.docx 1499178660 ASP.NET帮助器 WebGrid帮助器 Chart帮助器 WebMail帮助器 WebImage帮助器 第三方帮助器 
 /Windows%20平台/NetFramework/asp.net%20wp/wp文件.docx 1499178304 手动添加一个文本文件 Persons.txt 
 /Windows%20平台/NetFramework/asp.net%20wp/wp文件夹.docx 1499174470 逻辑文件夹结构 物理文件夹结构 虚拟名称和物理名称 URL和路径 ~运算符 Server.MapPath方法 
@@ -891,6 +909,7 @@
 /Windows%20平台/数据库/SqlServer/4%20存储过程.docx 1575367232 创建存储过程 修改存储过程 删除存储过程 存储过程返回结果方式 使用return返回数值类型 使用输出参数返回数据 使用selete生成结果集 
 /Windows%20平台/数据库/SqlServer/5%20游标.docx 1575368118 声明游标 打开游标 读取游标 关闭游标 释放游标 
 /Windows%20平台/数据库/SqlServer/6%20事务.docx 1575368482 开始事物 提交事物 回滚事物 示例 
+/Windows%20平台/数据库/SqlServer/7%20函数.docx 1606996646 创建函数 调用函数 删除函数 
 /Windows%20平台/数据库/SqlServer/触发器/1%20DML触发器.docx 1584929154 创建触发器 修改触发器 禁用触发器 启用触发器 删除触发器 
 /Windows%20平台/数据库/SqlServer/触发器/2%20DDL触发器.docx 1584929158 创建触发器 修改触发器 禁用触发器 启用触发器 删除触发器 
 /Windows%20平台/数据库/mysql/mysql/mysql%20union.docx 1500383318 
@@ -906,9 +925,11 @@
 /Windows%20平台/数据库/mysql/mysql引擎.docx 1584929152 
 /Windows%20平台/数据库/mysql/ubuntn安装mysql.docx 1500217638 
 /Windows%20平台/数据库/sql基础教程/1%20查询语句.docx 1575366632 SELECT语句 SELECTTOP子句 SELECTDISTINCT语句 SELECTCASE WHERE子句 WHEREIN WHERESOME WHEREALL ORDERBY语句 INNERJOIN语法 LEFTJOIN语法 RIGHTJOIN语法 FULLOUTERJOIN语法 UNION语法 笛卡尔表 GROUPBY语句 
-/Windows%20平台/数据库/sql基础教程/2%20命令语句.docx 1575343740 CREATEDATABASE创建数据库语法 DROPDATABASE删除数据库语句 CREATETABLE创建表语法 ALTERTABLE修改表语法 DROPTABLE删除表语句 CREATEINDEX创建索引语法 DROPINDEX删除索引语句 CREATEVIEW创建视图语句 DROPVIEW删除视图语法 INSERTINTO插入数据语句 Update更新数据语句 DELETE删除数据语句 
+/Windows%20平台/数据库/sql基础教程/2%20命令语句.docx 1575343740 CREATEDATABASE创建数据库语法 DROPDATABASE删除数据库语句 CREATETABLE创建表语法 ALTERTABLE修改表语法 DROPTABLE删除表语句 CREATEINDEX创建索引语法 DROPINDEX删除索引语句 CREATEVIEW创建视图语句 DROPVIEW删除视图语法 INSERT插入数据语句 Update更新数据语句 DELETE删除数据语句 
 /Windows%20平台/数据库/sql基础教程/3%20sql%20数据类型.docx 1575369132 字符串： Unicode字符串： Binary类型： Number类型： Date类型： 其他数据类型： 
 /Windows%20平台/数据库/sql基础教程/4%20函数.docx 1587698922 聚合函数 Sum（求和） Avg（求平均） Max（取最大值） 数学函数 字符串函数 日期函数 Getdate Month Year Datediff 转换函数 
+/Windows%20平台/数据库/数据库性能优化.docx 1607079650 避免全表扫描 少用负向查询 And和Or Where的查询顺序 内嵌视图取代临时表 使用存储过程代替sql语句 分表 分库 
+/Windows%20平台/数据库/数据库范式.docx 1607226795 第一范式 第二范式 第三范式 数据库范式与领域建模 
 /Windows%20平台/数据库/数据库连接字符串.docx 1593519299 
 /Windows%20平台/数据库/数据库锁.docx 1593965055 乐观锁 悲观锁 共享锁 更新锁 排他锁 死锁的产生 何时使用悲观锁 
 /Windows%20平台/数据库/数据库隔离级别.docx 1593966509 脏读 不可重复读 虚读(幻读) 隔离基本与上述问题 
@@ -950,6 +971,7 @@
 /前端/ES6/prototype原型.docx 1584929198 理解原型 使用原型 原型链 ES6继承与原型 
 /前端/ES6/类的导出导入.docx 1521167178 
 /前端/ES6/设计模式.docx 1562565374 单例模式（Singleton） 工厂模式（Factory） 抽象工厂模式（AbstractFactory） 建造者模式（Builder） 
+/前端/Html/Web%20数据存储.docx 1605094476 localStorage示例 sessionStorage示例 
 /前端/Html/css.docx 1496302070 使用样式 
 /前端/Html/htmlurl编码.docx 1496309146 URL编码 URL编码示例 
 /前端/Html/html内联框架.docx 1496308102 添加iframe的语法 
@@ -973,58 +995,14 @@
 /前端/Html/功能/HTML元素的透明度.docx 1513585362 
 /前端/Html/功能/html%20空白汉字占位符.docx 1584929202 
 /前端/Html/样式.docx 1496299376 HTML样式实例-背景颜色 
-/前端/JavaScript/js%20html%20dom/1%20js%20html%20dom.docx 1549779900 HTMLDOM(文档对象模型) HTMLDOM树 查找HTML元素 通过id查找HTML元素 通过标签名查找HTML元素 通过类名找到HTML元素 
-/前端/JavaScript/js%20html%20dom/2%20js%20dom%20改变%20css.docx 1549779952 改变HTML样式 
-/前端/JavaScript/js%20html%20dom/3%20js%20dom%20事件.docx 1563854198 Js生成事件和分发 
-/前端/JavaScript/js%20html%20dom/4%20js%20dom%20eventlistener.docx 1549781372 addEventListener()方法 语法 向原元素添加事件句柄 向Window对象添加事件句柄 传递参数 事件冒泡或事件捕获？ removeEventListener()方法 
-/前端/JavaScript/js%20html%20dom/5%20js%20dom%20元素.docx 1549781668 创建新的HTML元素 例子解析：  删除已有的HTML元素 
-/前端/JavaScript/js%20html%20dom/6%20js%20dom%20改变%20htnl%20内容.docx 1549782420 改变HTML输出流 改变HTML内容 改变HTML属性 
-/前端/JavaScript/js%20window/js%20cookies.docx 1499595660 JavaScript Cookies 什么是Cookies？ 使用JavaScript创建Cookie 使用JavaScript读取Cookie 使用JavaScript修改Cookie 使用JavaScript删除Cookie JavaScriptCookie实例 设置cookie值的函数 获取cookie值的函数 检测cookie值的函数 
-/前端/JavaScript/js%20window/js%20window%20history.docx 1499593926 JavaScript WindowHistory WindowHistoryBack 实例 
-/前端/JavaScript/js%20window/js%20window%20location.docx 1499593548 JavaScript WindowLocation WindowLocation WindowLocationHref 实例 WindowLocationPathname 实例 WindowLocationAssign 实例 
-/前端/JavaScript/js%20window/js%20window%20navigator.docx 1499594026 JavaScript WindowNavigator WindowNavigator 实例 
-/前端/JavaScript/js%20window/js%20window%20screen.docx 1499593274 JavaScript WindowScreen WindowScreen WindowScreen可用宽度 实例 
-/前端/JavaScript/js%20window/js%20window.docx 1499592998 JavaScript Window-浏览器对象模型 Window对象 Window尺寸 实例 其他Window方法 
-/前端/JavaScript/js%20window/js%20弹窗.docx 1499594154 警告框 语法 确认框 语法 实例 提示框 语法 实例 
-/前端/JavaScript/js%20window/js%20计时事件.docx 1499594648 JavaScript计时事件 setInterval()方法 语法 实例 实例 如何停止执行? 语法 实例 setTimeout()方法 语法 如何停止执行? 语法 
-/前端/JavaScript/js函数/js函数参数.docx 1499576606 函数显式参数与隐藏参数(arguments) 默认参数 实例 Arguments对象 实例 通过值传递参数 通过对象传递参数 
-/前端/JavaScript/js函数/js函数定义.docx 1499576340 JavaScript 函数定义 函数声明 函数表达式 实例 实例 Function()构造函数 实例 实例 自调用函数 实例 函数是对象 实例 
-/前端/JavaScript/js函数/js函数调用.docx 1499576984 JavaScript 函数调用 this 关键字 作为一个函数调用 实例 实例 全局对象 实例 函数作为方法调用 实例 使用构造函数调用函数 
-/前端/JavaScript/js函数/js闭包.docx 1499577420 JavaScript 闭包 JavaScript闭包 实例 实例解析 
-/前端/JavaScript/js教程/1%20用法.docx 1588753492 JavaScript 用法 
-/前端/JavaScript/js教程/10%20运算符.docx 1588760365 一般运算 赋值运算符 比较运算符 逻辑运算符 条件运算符 
-/前端/JavaScript/js教程/11%20typeof%20undefined%20null.docx 1588760839 typeof操作符 Null与undefined 
-/前端/JavaScript/js教程/12%20类型转换.docx 1588761801 JavaScript 类型转换 JavaScript数据类型 将数字转换为字符串 将布尔值转换为字符串 将日期转换为字符串 将字符串转换为数字 将布尔值转换为数字 将日期转换为数字 自动转换为字符串 
-/前端/JavaScript/js教程/13%20正则表达式.docx 1588762771 正则表达式 使用字符串方法 正则表达式模式 RegExp对象 
-/前端/JavaScript/js教程/14%20错误处理.docx 1588763887 JavaScripttry和catch Throw语句 
-/前端/JavaScript/js教程/15%20调试.docx 1588764402 JavaScript调试工具 console.log()方法 设置断点 debugger关键字 
-/前端/JavaScript/js教程/16%20表单验证.docx 1588764777 JavaScript表单验证 必填（或必选）项目 E-mail验证 
-/前端/JavaScript/js教程/17%20json.docx 1588765261 JSON实例 JSON数据-一个名称对应一个值 JSON对象 JSON数组 JSON字符串转换为JavaScript对象 
-/前端/JavaScript/js教程/18%20void(0)含义.docx 1588765481 javascript:void(0) 含义 
-/前端/JavaScript/js教程/2%20输出.docx 1588753994 使用window.alert() 操作HTML元素 
-/前端/JavaScript/js教程/3%20变量.docx 1588755389 声明（创建）JavaScript变量 一条语句，多个变量 Value=undefined 重新声明JavaScript变量 
-/前端/JavaScript/js教程/4%20数据类型.docx 1588756294 JavaScript 数据类型 JavaScript拥有动态类型 JavaScript字符串 JavaScript数字 JavaScript布尔 JavaScript数组 JavaScript对象 Undefined和Null 声明变量类型 
-/前端/JavaScript/js教程/5%20对象.docx 1588758189 对象属性 对象方法 
-/前端/JavaScript/js教程/6%20函数.docx 1588758478 JavaScript函数语法 调用带参数的函数 局部JavaScript变量 
-/前端/JavaScript/js教程/7%20作用域.docx 1588758727 JavaScript局部作用域 JavaScript全局变量 函数参数 HTML中的全局变量 
-/前端/JavaScript/js教程/8%20事件.docx 1588759078 JavaScript 事件 HTML事件 常见的HTML事件 
-/前端/JavaScript/js教程/8%20流程控制.docx 1588742385 If...else语句 For循环 While循环 退出循环语句 
-/前端/JavaScript/js教程/9%20字符串.docx 1588759718 JavaScript 字符串 字符串长度 需使用转义字符转义的特殊字符 字符串可以是对象 字符串属性和方法 
-/前端/JavaScript/js教程/js代码规范.docx 1499572852 JavaScript代码规范 JavaScript代码规范 变量名 空格与运算符 实例: 代码缩进 函数: 语句规则 实例: 函数: 循环: 条件语句: 对象规则 实例: 实例: 每行代码字符小于80 实例: 实例: 命名规则 HTML载入外部JavaScript文件 使用JavaScript访问HTML元素 实例 文件扩展名 使用小写文件名 
-/前端/JavaScript/js教程/~$9%20字符串.docx 1589274487 
-/前端/JavaScript/js教程/原文地址.txt 1588760050 
-/前端/JavaScript/js高级教程/Js%20二进制与Base64与文件.docx 1591256968 从base64转文件 从文件转Base64 
-/前端/JavaScript/js高级教程/js%20array%20对象.docx 1525142780 创建一个数组 访问数组 数组方法和属性 删除 替换 
-/前端/JavaScript/js高级教程/js%20boolean%20对象.docx 1499591834 创建Boolean对象 
-/前端/JavaScript/js高级教程/js%20date对象.docx 1499591060 创建日期 设置日期 两个日期比较 
-/前端/JavaScript/js高级教程/js%20execcommand函数.docx 1499592714 execCommand函数命令 
-/前端/JavaScript/js高级教程/js%20math对象.docx 1499592054 Math对象 算数方法 
-/前端/JavaScript/js高级教程/js%20number%20对象.docx 1499590354 JavaScript数字 实例 实例 八进制和十六进制 实例 实例 无穷大（Infinity） NaN-非数字值 数字可以是数字或者对象 
-/前端/JavaScript/js高级教程/js%20regexp%20对象.docx 1499592338 什么是RegExp？ RegExp修饰符 
-/前端/JavaScript/js高级教程/js%20字符串.docx 1501227740 JavaScript字符串 字符串（String） 在字符串中查找字符串 内容匹配 替换内容 实例 字符串大小写转换 实例 字符串转为数组 实例 
-/前端/JavaScript/js高级教程/js%20对象.docx 1499589780 JavaScript对象 访问对象的属性 访问对象的方法 创建直接的实例 实例 使用对象构造器 实例 创建JavaScript对象实例 把属性添加到JavaScript对象 把方法添加到JavaScript对象 JavaScriptfor...in循环 语法 实例 实例 
-/前端/JavaScript/js高级教程/js%20属性功能扩展.docx 1525142960 
-/前端/JavaScript/js高级教程/~$js%20字符串.docx 1589274449 
+/前端/JavaScript/JS%20基础/1%20基本编程.docx 1607392621 JavaScript 的数据类型 函数 控制流程 事件处理 typeof操作符 类型转换 错误处理 正则 Json 
+/前端/JavaScript/JS%20基础/2%20常用对象的方法.docx 1607395751 数组 Math 数值操作 字符串 扩展原有对象的功能 
+/前端/JavaScript/JS%20基础/3%20函数.docx 1607397611 闭包 自我调用 This的指向 作为构造函数 
+/前端/JavaScript/JS%20基础/4%20dom.docx 1607404243 Dom树 查找元素element 改变元素样式 Dom事件 Js生成事件和分发 事件监听器EventListener 创建和删除元素 创建元素 删除元素 改变HTML属性 
+/前端/JavaScript/JS%20基础/5%20window%20对象属性.docx 1607417675 Cookie History Location 计时事件 setInterval setTimeout 弹窗 alert confirm Navigator Screen Window的其他属性 
+/前端/JavaScript/JS%20基础/Js%20二进制与Base64与文件.docx 1591256968 从base64转文件 从文件转Base64 
+/前端/JavaScript/JS%20基础/~$4%20dom.docx 1607417965 
+/前端/JavaScript/JS%20基础/~$window%20对象属性.docx 1607417675 
 /前端/JavaScript/this%20指向性.docx 1584929206 
 /前端/JavaScript/主动触发resize事件.docx 1584929208 
 /前端/JavaScript/停止冒泡.docx 1599653421 
@@ -1047,13 +1025,6 @@
 /前端/JavaScript/功能/js获得某年月日.docx 1510280432 
 /前端/JavaScript/功能/js键值对遍历.docx 1521169304 
 /前端/JavaScript/功能/动态载入脚本/动态载入脚本.docx 1506264852 
-/前端/JavaScript/对象/Browser对象/history对象.docx 1500129086 History对象 History对象属性 History对象方法 History对象描述 
-/前端/JavaScript/对象/Browser对象/location对象.docx 1500129198 Location对象 Location对象属性 Location对象方法 
-/前端/JavaScript/对象/Browser对象/navigator对象.docx 1500128844 Navigator对象 Navigator对象集合 Navigator对象属性 Navigator对象方法 Navigator对象描述 
-/前端/JavaScript/对象/Browser对象/screen对象.docx 1500129000 Screen对象 Screen对象属性 
-/前端/JavaScript/对象/Browser对象/window对象.docx 1561717582 
-/前端/JavaScript/对象/html%20dom对象/dom%20document.docx 1500129540 Document对象 Document对象集合 Document对象属性 Document对象方法 
-/前端/JavaScript/对象/html%20dom对象/dom%20event.docx 1500129888 Event对象 事件句柄　(EventHandlers) 鼠标/键盘属性 IE属性 标准Event属性 标准Event方法 
 /前端/JavaScript/按键监听.docx 1601007078 
 /前端/JavaScript/正则表达式/JS利用正则替换指定字符.docx 1514901198 
 /前端/JavaScript/正则表达式/JS最小匹配.docx 1525275874 
@@ -1183,10 +1154,12 @@
 /前端/ReactNative/6%20NativeBase/组件使用问题.docx 1598952795 Button 
 /前端/ReactNative/6%20NativeBase/自定义主题.docx 1600413497 执行如下命令导出主题文件 应用主题 
 /前端/ReactNative/ReactNative%20踩坑之旅.docx 1597756286 样式要从StyleSheet.create创建 样式没有px，rem等 字重fontWeight 宽高只能是数字或% 内边界外边界只能是数字 字重 按钮点击反应 背景颜色backgroundColor 关于百分比宽度的问题 
+/前端/ReactNative/ReactRouter%20页面切换动画.docx 1605092693 动画组件 使用实例 
 /前端/ReactNative/android%20打包.docx 1596521326 生成一个签名密钥 设置gradle变量 添加签名到项目的gradle配置文件 生成发行APK包 
 /前端/ReactNative/发布版本错误检查.docx 1598276161 发布前检查 查看输出日志 
 /前端/ReactNative/在浏览器上运行%20React%20Native.docx 1596972095 安装包 配置webpack 运行webpack打包即可 
 /前端/ReactNative/清理缓存.docx 1597726288 
+/前端/ReactNative/获取组件的宽高.docx 1605016216 
 /前端/ReactRedux/基础/0%20安装.docx 1584929372 
 /前端/ReactRedux/基础/0%20核心概念.docx 1594964000 State Action Reducer 
 /前端/ReactRedux/基础/1%20Action.docx 1584929378 Action Action创建函数 将action传给Reducer action示例 
@@ -1231,7 +1204,6 @@
 /前端/React教程/函数式组件.docx 1576818340 函数式组件： 临时变量函数式组件： 
 /前端/React教程/基于webpack的React项目搭建.docx 1584929414 修改package.json 引入Babel库进行转码 安装html-webpack-plugin插件 在src文件夹下创建App.jsx文件 运行如下命令 
 /前端/React教程/应用%20TypeScript.docx 1575518632 安装ts包 添加tsconfig.json文件 
-/前端/React教程/插件/~$插件%20react-motion.docx 1600924355 
 /前端/React教程/插件/动画插件%20react-motion.docx 1599108540 安装包 简单示例 联动动画StaggeredMotion组件 挂载卸载动画TransitionMotion 
 /前端/React教程/插件/视频%20video-react.docx 1600433029 安装包 基本使用 详细文档和Github 
 /前端/React教程/高级指南/1%20深入%20JSX.docx 1545729734 JSX中的props(属性) JSX中的Children 
@@ -1597,6 +1569,11 @@
 /平台无关/数据结构与算法/各种树.docx 1569398002 1.二叉树 2.二叉查找树 3.平衡二叉树 3.1平衡查找树之AVL树 3.2平衡二叉树之红黑树 4.B树 5.B+树 6.B*树 7.Trie树 
 /平台无关/百度语音/1%20介绍.docx 1591148146 
 /平台无关/百度语音/2%20语音识别与合成示例.docx 1591148435 
+/平台无关/线性代数/1%20行列式.docx 1605524910 n阶行列式 二阶行列式 三阶行列式 n阶行列式 逆序N(j1j2...jn) 三角行列式 行列式的性质 行列式展开 余子式 代数余子式 克莱姆法则 齐次线性方程组 
+/平台无关/线性代数/2%20矩阵.docx 1606474073 矩阵 矩阵运算 矩阵加法 矩阵与数的乘法 矩阵间的乘法 矩阵可交换 不满足消去律 只有一行或一列的矩阵 如上方程式表示为Ax=b 矩阵的性质 矩阵转置 方阵的幂 方阵的行列式 几种特殊的矩阵 对角矩阵 数量矩阵 单位矩阵 三角矩阵 对称矩阵 分块矩阵 逆矩阵 可逆矩阵 奇异与分奇异 伴随矩阵 逆矩阵的性质 矩阵的初等变换 初等变换 初等矩阵 初等变换求逆矩阵 矩阵的秩 k阶子式 矩阵的秩 
+/平台无关/线性代数/3%20线性方程组.docx 1606118887 线性方程组消元解法 消元解法 增广矩阵 阶梯形矩阵 增广矩阵与线性方程组 无解的增广矩阵 无穷多解的增广矩阵 向量与向量组的线性组合 向量 向量的线性组合 向量组等价 向量组的线性相关性 线性相关与线性无关 a1=(-k2/k1)a2+...(-kn/k1)an 向量中的秩 向量的极大无关组 向量组的秩 推论：矩阵的行秩与列秩相等 如何求向量组的极大无关组 线性方程组解的结构 基础解系 求解基础解系 导出组 非齐次线性方程组的全部解 
+/平台无关/线性代数/4%20矩阵的特征值.docx 1606382630 矩阵的特征值与特征向量 特征值与特征向量 特征多项式 (λI-A)α=0 示例：求解特征值和特征向量 多重特征值 相似矩阵与矩阵对角化 相似矩阵 约当块和约当形矩阵 实对称矩阵的特征值和特征向量 实对称矩阵 向量内积 向量内积性质 aTb=bTa 向量长度 向量长度的性质 单位向量 (1/||a||)a 正交向量 正交向量组 定理：正交向量组线性无关 向量组正交化 正交矩阵 正交矩阵的性质 
+/平台无关/线性代数/5%20二次型.docx 1606478448 二次型与对称矩阵 二元二次齐次多项式 n元二次齐次多项式 线性变换 y=C-1x 我们称这样的二次型为标准型 初等变换化二次型为标准型 
 /平台无关/网站技术/Nginx%20反向代理.docx 1584929818 Nginx安装 1.windows安装   启动nginx 访问nginx   停止nginx   2.ubuntu安装   查看nginx进程是否启动   启动nginx服务器命令   停止nginx服务命令   重新启动加载 nginx配置 event模块 http模块 server模块 location模块 upstream模块 
 /平台无关/网站技术/Wireshark基本使用教程.docx 1584929824 Wireshark基本用法 
 /平台无关/网站技术/redis和mongodb数据库对比.docx 1584929822 
@@ -1685,6 +1662,15 @@
 /平台无关/重构手法/7%20大型重构.docx 1584929902 
 /平台无关/重构手法/关于switch与枚举.docx 1560736158 
 /平台无关/面向对象原则.docx 1584929522 七种设计原则总结  先从整体认识这七种设计思想。 
+/平台无关/面向对象建模与设计/1%20系统构思.docx 1604567393 系统构思过程需要回答几个问题 应用程序为谁而做 应用程序解决了那些问题 应用程序的应用场景 应用程序如何工作 
+/平台无关/面向对象建模与设计/2%20领域分析.docx 1604663729 领域类模型 寻找类 准备数据词典 寻找关联 属性 使用继承细化 领域状态模型 确定具有状态的类 寻找状态 寻找事件 构建状态图 
+/平台无关/面向对象建模与设计/3%20应用分析.docx 1604891932 应用交互模型 确定系统边界 寻找参与者 寻找用例 准备普通场景 增加变化和异常场景 构建用例图 构建顺序图 构建活动图 应用类模型 绘制用户界面 确定边界类 确定控制器 应用状态模型 根据事件确定状态 
+/平台无关/面向对象建模与设计/4%20系统设计.docx 1604911199 估算性能 定制复用计划 将系统拆分 分配子系统 确定使用的数据存储 处理全局资源 处理边界条件 
+/平台无关/面向对象建模与设计/5%20类设计.docx 1604998999 实现用例 设计算法 向下递归设计操作 为高效访问而增加冗余 应用缓存 行为具体化 调整继承 
+/平台无关/面向对象建模与设计/6%20实现建模.docx 1605061622 微调类 拆分类 合并类 属性提升为类/类降低为属性 微调泛化 关联 单向关联 提升关联为类 测试 
+/平台无关/面向对象建模与设计/7%20建模实现为代码.docx 1605067504 
+/平台无关/面向对象建模与设计/8%20程序设计风格.docx 1605071377 可复用性 方法单一职责 方法要小 方法以一致性 策略和实现分离 规避全局信息 避免实现带有标志的方法 提取基类 使用组合而不是继承 可扩展性 封装类 避免遍历多项链接 避免使用Switch 健壮性 错误处理 检查参数 大规模程序设计 不要过早编码 有意义的方法名 
+/平台无关/面向对象建模与设计/9%20软件工程.docx 1605148726 迭代开发 迭代与模型 迭代周期 识别风险 遗留系统 
 /平台无关/领域驱动设计/实践/1%20聚合.docx 1584929908 1、项目分层 2、项目架构 3、代码示例 3.1首先来看看表结构 3.2聚合的划分 
 /平台无关/领域驱动设计/实践/2%20仓储Repository（上）.docx 1584929910 一、仓储的定义 二、使用仓储的意义 三、代码示例 1、解决方案结构图 5、工作单元实现类 
 /平台无关/领域驱动设计/实践/3%20仓储Repository（下）.docx 1584929914 
@@ -1711,7 +1697,7 @@
 /平台无关/领域驱动设计/教程/5%20模型完整性/1%20边界上下文.docx 1566978930 边界上下文不是module 持续集成 边界上线文与微服务 
 /平台无关/领域驱动设计/教程/5%20模型完整性/2%20上下文之间的关系.docx 1566987318 共享内核 客户/供应商 墨守成规 防腐层 各行其道 
 /平台无关/领域驱动设计/教程/分离领域层.docx 1571889172 表示层： 应用层： 领域层： 基础设施层： 
-/平台无关/领域驱动设计/教程/本教程有%20IceEmblem%20所写.txt 1587287382 � 
+/平台无关/领域驱动设计/教程/本教程有%20IceEmblem%20所写.txt 1587287382 � 
 /平台无关/领域驱动设计/是依赖于管理器还是仓库.docx 1584929906 
 /平台无关/领域驱动设计/聚合，Manager，领域服务，应用服务.docx 1600528276 放在应用服务还是领域层？ 放在领域服务还是其他两个中？ 放在聚合还是Manager中？ 
 /编程语言/C#/C#%20using%20三种使用方式.docx 1584929968 
