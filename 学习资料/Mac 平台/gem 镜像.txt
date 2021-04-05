@@ -1,0 +1,5 @@
+# 添加 TUNA 源并移除默认源
+gem sources --add https://mirrors.tuna.tsinghua.edu.cn/rubygems/ --remove https://rubygems.org/
+# 列出已有源
+gem sources -l
+# 应该只有 TUNA 一个

@@ -35,6 +35,7 @@
 /Linux%20平台/Linux%20教程/U盘挂载.docx 1584951546 虚拟机设置 挂载U盘 卸载u盘 
 /Linux%20平台/Linux%20教程/~$%20linux%20用户切换与root用户.docx 1567948564 
 /Linux%20平台/Linux%20教程/~$linux%20yum%20命令.docx 1567949162 
+/Linux%20平台/Linux%20教程/命令/awk%20文本字符串处理.docx 1617555135 示例1 示例2 
 /Linux%20平台/Linux%20教程/命令/find%20查找命令.docx 1579493316 实例 语法 
 /Linux%20平台/Linux%20教程/命令/grep%20过滤文本.docx 1569311084 grep命令使用方法 grep命令常用参数说明 grep正则参数说明 
 /Linux%20平台/Linux%20教程/命令/ln%20创建连接文件.docx 1568035186 语法 实例 
@@ -157,6 +158,7 @@
 /Linux%20平台/Nginx/开发教程/7%20Http%20框架概述.docx 1580466732 Http请求处理函数 请求处理函数 请求结构体 注册请求处理函数 处理阶段 特殊的NGX_HTTP_CONTENT_PHASE阶段 Http过滤函数 过滤函数原型 过滤模块实现 过滤函数链表头 config配置文件 
 /Linux%20平台/Nginx/开发教程/8%20请求结构体.docx 1580438896 结构 请求行 完整字符串保存 请求方法 协议版本号 Url 请求头 请求体 结构 操作 响应头 结构 操作 响应体 
 /Linux%20平台/Nginx/开发教程/9%20简单的内容处理模块.docx 1580439484 
+/Linux%20平台/Nginx/开发教程/~$安装与基本配置.docx 1617595971 
 /Linux%20平台/Nginx/开发教程/由%20IceEmblem%20编写.txt 1581990766 � 
 /Linux%20平台/Nginx/配置教程/1%20Http%20反向代理配置.docx 1581992718 
 /Linux%20平台/Nginx/配置教程/2%20Http%20均衡负载.docx 1581993106 
@@ -164,16 +166,15 @@
 /Linux%20平台/Nginx/配置教程/4%20Https%20配置.docx 1581994628 
 /Linux%20平台/Shell%20教程/1%20Shell%20介绍.docx 1578708042 运行Shell脚本有两种方法： 
 /Linux%20平台/Shell%20教程/10%20Shell%20函数.docx 1578712022 
-/Linux%20平台/Shell%20教程/11%20Shell%20输入输出重定向.docx 1578713466 实例 实例 重定向深入讲解 实例 
+/Linux%20平台/Shell%20教程/11%20Shell%20输入输出重定向.docx 1578713466 
 /Linux%20平台/Shell%20教程/12%20Shell%20文件包含.docx 1578713524 实例 
-/Linux%20平台/Shell%20教程/2%20Shell%20变量.docx 1578707838 定义变量 使用变量 只读变量 删除变量 变量类型 单引号 双引号 拼接字符串 获取字符串长度 提取子字符串 查找子字符串 定义数组 读取数组 获取数组的长度 多行注释 
+/Linux%20平台/Shell%20教程/2%20Shell%20变量.docx 1578707838 定义变量 使用变量 只读变量 删除变量 单引号 双引号 拼接字符串 获取字符串长度 提取子字符串 查找子字符串 定义数组 读取数组 获取数组中的所有元素 获取数组的长度 多行注释 
 /Linux%20平台/Shell%20教程/3%20Shell%20传递参数.docx 1578709008 实例 
-/Linux%20平台/Shell%20教程/4%20Shell%20数组.docx 1578709232 实例 读取数组 获取数组中的所有元素 获取数组的长度 
-/Linux%20平台/Shell%20教程/5%20Shell%20基本运算符.docx 1578710180 实例 
-/Linux%20平台/Shell%20教程/6%20Shell%20echo命令.docx 1578710566 1.显示普通字符串: 2.显示转义字符 3.显示变量 4.显示换行 5.显示不换行 6.显示结果定向至文件 8.显示命令执行结果 
+/Linux%20平台/Shell%20教程/5%20Shell%20基本运算符.docx 1578710180 
+/Linux%20平台/Shell%20教程/6%20Shell%20echo命令.docx 1578710566 1.显示普通字符串: 2.显示转义字符 3.显示变量 
 /Linux%20平台/Shell%20教程/7%20Shell%20printf%20命令.docx 1578710822 
 /Linux%20平台/Shell%20教程/8%20Shell%20test%20命令.docx 1578711080 
-/Linux%20平台/Shell%20教程/9%20Shell%20流程控制.docx 1578711764 if ifelse ifelse-ifelse 无限循环 break命令 continue 
+/Linux%20平台/Shell%20教程/9%20Shell%20流程控制.docx 1578711764 if ifelse ifelse-ifelse break命令 continue 
 /Linux%20平台/Shell%20教程/字符串操作.docx 1584952164 获取字符串长度 提前子串 子串替换 
 /Linux%20平台/Shell%20教程/遍历目录及子目录所有文件.docx 1584951898 
 /Linux%20平台/Spring%20mvc/Hello%20World示例.docx 1511147364 
@@ -246,6 +247,7 @@
 /Linux%20平台/wordpress/主题选项.docx 1523426320 
 /Linux%20平台/wordpress/元素.docx 1523426142 
 /Linux%20平台/wordpress/杂项.docx 1523426350 
+/Mac%20平台/gem%20镜像.txt 1612192147 
 /Windows%20平台/ADO.NET/1%20基本连接.docx 1584928378 
 /Windows%20平台/ADO.NET/2%20事务.docx 1584928382 
 /Windows%20平台/ADO.NET/3%20命令.docx 1584928386 执行sql命名使用SqlCommand类 执行类型 执行命令方法 
@@ -540,6 +542,16 @@
 /Windows%20平台/NetFramework/WebAPI/返回值/IHttpActionResult.docx 1521091912 1、Json<T>(Tcontent) 2、Ok()、 Ok<T>(Tcontent) 3、NotFound() 4、其他 4.2、BadRequest() 4.3、Redirect(stringlocation) 
 /Windows%20平台/NetFramework/WebAPI/返回值/void无返回值.docx 1521190460 
 /Windows%20平台/NetFramework/WebAPI/返回值/自定义类型.docx 1521190660 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20DataList%20控件.docx 1499335898 把DataSet绑定到DataList控件 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20Hashtable%20对象.docx 1499331834 创建Hashtable 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20Repeater%20控件.docx 1499334032 把DataSet绑定到Repeater控件 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20XML文件.docx 1499333270 一个XML文件 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20button控件.docx 1499264468 ASP.NETWebForms -Button控件 Button控件 添加脚本 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20from%20page.docx 1499230484 用ClassicASP编写的动态页面 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20textbox.docx 1499246700 添加脚本 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20viewstate.docx 1499233072 
+/Windows%20平台/NetFramework/asp.net%20wf/wf事件.docx 1499232056 ASP.NET-事件句柄 
+/Windows%20平台/NetFramework/asp.net%20wf/wf导航.docx 1499351246 网站导航 Sitemap文件 动态菜单 TreeView SiteMapPath 
 /Windows%20平台/NetFramework/asp.net%20wf/wf控件.docx 1499231144 ASP.NET-服务器控件 
 /Windows%20平台/NetFramework/asp.net%20wf/wf数据库链接.docx 1499347118 创建数据库连接 创建数据库命令 创建DataReader 绑定到Repeater控件 关闭数据库连接 
 /Windows%20平台/NetFramework/asp.net%20wf/wf数据控件.docx 1499264654 ASP.NETWebForms -数据绑定 数据绑定 
@@ -928,6 +940,7 @@
 /Windows%20平台/数据库/sql基础教程/2%20命令语句.docx 1575343740 CREATEDATABASE创建数据库语法 DROPDATABASE删除数据库语句 CREATETABLE创建表语法 ALTERTABLE修改表语法 DROPTABLE删除表语句 CREATEINDEX创建索引语法 DROPINDEX删除索引语句 CREATEVIEW创建视图语句 DROPVIEW删除视图语法 INSERT插入数据语句 Update更新数据语句 DELETE删除数据语句 
 /Windows%20平台/数据库/sql基础教程/3%20sql%20数据类型.docx 1575369132 字符串： Unicode字符串： Binary类型： Number类型： Date类型： 其他数据类型： 
 /Windows%20平台/数据库/sql基础教程/4%20函数.docx 1587698922 聚合函数 Sum（求和） Avg（求平均） Max（取最大值） 数学函数 字符串函数 日期函数 Getdate Month Year Datediff 转换函数 
+/Windows%20平台/数据库/分页查询优化.docx 1607685191 一般的分页sql 改进分页sql 不是那么严谨的分页优化 
 /Windows%20平台/数据库/数据库性能优化.docx 1607079650 避免全表扫描 少用负向查询 And和Or Where的查询顺序 内嵌视图取代临时表 使用存储过程代替sql语句 分表 分库 
 /Windows%20平台/数据库/数据库范式.docx 1607226795 第一范式 第二范式 第三范式 数据库范式与领域建模 
 /Windows%20平台/数据库/数据库连接字符串.docx 1593519299 
@@ -936,30 +949,16 @@
 /Windows%20平台/钩子/钩子.docx 1482928818 
 /Windows%20平台/钩子/钩子类型.docx 1483587150 
 /Windows%20平台/钩子/钩子类型与lparam.docx 1483419760 MOUSEHOOKSTRUCT 
+/前端/Css3/CSS%20基础/1%20基本样式.docx 1607502089 边框 圆角 阴影 图片边框 背景图片 基本 绘制区域 渐变 线性渐变 径向渐变 文本效果 文本阴影 盒子阴影 文本溢出 字体 使用自定义的字体文件 
+/前端/Css3/CSS%20基础/2%20转换.docx 1607505894 2D转换 Translate Rotate Scale Skew 更改转换的中心 3D转换 rotateX rotateY 观看距离 
+/前端/Css3/CSS%20基础/3%20动画.docx 1607508557 过度动画 语法 示例 动画 基本使用 动画执行完后的样式 动画的循环次数 动画执行方向 
+/前端/Css3/CSS%20基础/4%20其它样式.docx 1607513394 box-sizing 图片滤镜 多媒体查询 
+/前端/Css3/CSS%20基础/Flex布局.docx 1584929180 一、flex弹性盒模型 二、主轴 1.主轴的方向 2.沿主轴的排列处理 3.一个复合属性 三、元素如何弹性伸缩应对 1.flex-shrink:缩小比例 元素收缩的计算方法 2.flex-grow:放大比例 元素放大的计算方法 无多余宽度时，flex-grow无效 四、弹性处理与刚性尺寸 1.与width/height的区别 (1)两者都为0 (2)两者非0 (3)flex-basis为auto 2.常用的复合属性flex flex:1和flex:auto的区别 五、容器内如何对齐 1.主轴上的对齐方式 2.交叉轴上的对齐方式 交叉轴上的单行对齐 交叉轴上的多行对齐 align-content与align-items异同对比 能否更灵活地设置交叉轴对齐 六、其他 order：更优雅地调整元素顺序 七、总结 
+/前端/Css3/CSS%20基础/position%20位置.docx 1599129122 absolute绝对定位 relative相对位置 fixed固定定位 
 /前端/Css3/CSS%20样式优先级.docx 1524638708 
-/前端/Css3/Flex布局.docx 1584929180 一、flex弹性盒模型 二、主轴 1.主轴的方向 2.沿主轴的排列处理 3.一个复合属性 三、元素如何弹性伸缩应对 1.flex-shrink:缩小比例 元素收缩的计算方法 2.flex-grow:放大比例 元素放大的计算方法 无多余宽度时，flex-grow无效 四、弹性处理与刚性尺寸 1.与width/height的区别 (1)两者都为0 (2)两者非0 (3)flex-basis为auto 2.常用的复合属性flex flex:1和flex:auto的区别 五、容器内如何对齐 1.主轴上的对齐方式 2.交叉轴上的对齐方式 交叉轴上的单行对齐 交叉轴上的多行对齐 align-content与align-items异同对比 能否更灵活地设置交叉轴对齐 六、其他 order：更优雅地调整元素顺序 七、总结 
 /前端/Css3/Float%20浮动.docx 1597851286 
-/前端/Css3/css3%20从底部开始渲染.docx 1564537600 
-/前端/Css3/div区中.docx 1521277642 
-/前端/Css3/position%20位置.docx 1597049749 absolute绝对定位 relative相对位置 fixed固定定位 
 /前端/Css3/关于svg.docx 1584929184 SVG文件 svg文件的使用 svg可以直接内联html 
 /前端/Css3/关于高度域宽度百分比计算.docx 1584929188 
-/前端/Css3/教程/1%20CSS3%20边框.docx 1524383622 
-/前端/Css3/教程/10%20CSS3%20动画.docx 1524387418 自定义动画 过渡动画 
-/前端/Css3/教程/11%20CSS3%20多列.docx 1524387592 实例 实例 实例 实例 实例 
-/前端/Css3/教程/12%20CSS3%20用户界面.docx 1524387686 
-/前端/Css3/教程/13%20CSS%20图片.docx 1524388038 实例 
-/前端/Css3/教程/14%20CSS3%20框大小.docx 1524388540 
-/前端/Css3/教程/15%20CSS3%20弹性盒子(Flex%20Box).docx 1524389136 实例 完美的居中 实例 
-/前端/Css3/教程/2%20CSS3%20圆角.docx 1524383732 
-/前端/Css3/教程/3%20CSS3%20背景.docx 1524384132 
-/前端/Css3/教程/4%20CSS3%20渐变（Gradients）.docx 1524385240 语法 
-/前端/Css3/教程/5%20CSS3%20文本效果.docx 1524385958 
-/前端/Css3/教程/6%20CSS3%20字体.docx 1524386082 
-/前端/Css3/教程/7%20CSS3%202D%20转换.docx 1524386520 语法 
-/前端/Css3/教程/8%20CSS3%203D%20转换.docx 1524386624 
-/前端/Css3/教程/9%20CSS3%20过渡.docx 1524386848 
-/前端/Css3/等高效果.docx 1525401256 
 /前端/Css3/问题/transition%20无效果.txt 1568437270 
 /前端/ES6/CommonJS规范.docx 1584929190 
 /前端/ES6/ES7%20构造函数.docx 1596546344 
@@ -999,37 +998,11 @@
 /前端/JavaScript/JS%20基础/2%20常用对象的方法.docx 1607395751 数组 Math 数值操作 字符串 扩展原有对象的功能 
 /前端/JavaScript/JS%20基础/3%20函数.docx 1607397611 闭包 自我调用 This的指向 作为构造函数 
 /前端/JavaScript/JS%20基础/4%20dom.docx 1607404243 Dom树 查找元素element 改变元素样式 Dom事件 Js生成事件和分发 事件监听器EventListener 创建和删除元素 创建元素 删除元素 改变HTML属性 
-/前端/JavaScript/JS%20基础/5%20window%20对象属性.docx 1607417675 Cookie History Location 计时事件 setInterval setTimeout 弹窗 alert confirm Navigator Screen Window的其他属性 
-/前端/JavaScript/JS%20基础/Js%20二进制与Base64与文件.docx 1591256968 从base64转文件 从文件转Base64 
-/前端/JavaScript/JS%20基础/~$4%20dom.docx 1607417965 
-/前端/JavaScript/JS%20基础/~$window%20对象属性.docx 1607417675 
-/前端/JavaScript/this%20指向性.docx 1584929206 
-/前端/JavaScript/主动触发resize事件.docx 1584929208 
-/前端/JavaScript/停止冒泡.docx 1599653421 
-/前端/JavaScript/功能/js%20bind(this).docx 1519787668 
-/前端/JavaScript/功能/js%20cookie读写.docx 1593930866 
-/前端/JavaScript/功能/js%20format.docx 1510722948 
-/前端/JavaScript/功能/js%20刷新当前页面.docx 1521168058 
-/前端/JavaScript/功能/js%20字符串转换成数字的三种方法.docx 1513043540 
-/前端/JavaScript/功能/js%20获取元素位置.docx 1597060932 获取元素绝对的位置 
-/前端/JavaScript/功能/js图片转base64.docx 1584929212 
-/前端/JavaScript/功能/js字符串替换.docx 1511770618 
-/前端/JavaScript/功能/js导出%20json.docx 1590289695 
-/前端/JavaScript/功能/js延迟一秒后执行.docx 1516159812 
-/前端/JavaScript/功能/js数组排序函数sort()介绍.docx 1516694206 
-/前端/JavaScript/功能/js日期与时间戳互转.docx 1512372194 
-/前端/JavaScript/功能/js日期加减.docx 1514624810 
-/前端/JavaScript/功能/js日期格式化.docx 1510739756 
-/前端/JavaScript/功能/js每隔一段时间执行.docx 1513326174 
-/前端/JavaScript/功能/js生成日期.docx 1510285148 
-/前端/JavaScript/功能/js获得某年月日.docx 1510280432 
-/前端/JavaScript/功能/js键值对遍历.docx 1521169304 
-/前端/JavaScript/功能/动态载入脚本/动态载入脚本.docx 1506264852 
-/前端/JavaScript/按键监听.docx 1601007078 
-/前端/JavaScript/正则表达式/JS利用正则替换指定字符.docx 1514901198 
-/前端/JavaScript/正则表达式/JS最小匹配.docx 1525275874 
-/前端/JavaScript/正则表达式/JS正则语法.docx 1545727874 正则表达式基本语法 Js示例： 
-/前端/JavaScript/正则表达式/JS返回一个匹配数组.docx 1525275804 
+/前端/JavaScript/JS%20基础/5%20window%20对象属性.docx 1607417675 Cookie History Location 计时事件 setInterval setTimeout 弹窗 alert confirm Navigator Screen Window的其他属性 print() 
+/前端/JavaScript/其他/二进制与Base64与文件.docx 1591256968 从base64转文件 从文件转Base64 
+/前端/JavaScript/其他/停止冒泡.docx 1599653421 
+/前端/JavaScript/其他/元素位置.docx 1607418807 获取元素绝对的位置 
+/前端/JavaScript/其他/按键监听.docx 1601007078 
 /前端/Jquery%20EasyUI/EasyUI插件/Form%20表单/1%20EasyUI%20Form%20表单.docx 1584929224 
 /前端/Jquery%20EasyUI/EasyUI插件/Form%20表单/2%20EasyUI%20Validatebox%20验证框.docx 1584929226 
 /前端/Jquery%20EasyUI/EasyUI插件/Form%20表单/3%20Combobox%20组合框.docx 1584929228 
@@ -1150,6 +1123,7 @@
 /前端/ReactNative/5%20插件/H5%20页面显示%20react-native-webview.docx 1601958082 安装包 简单示例 高度自适应 
 /前端/ReactNative/5%20插件/摄像头%20react-native-camera.docx 1598974373 安装包 Link 添加权限声明（安卓） 简单示例 更多示例 一些错误 
 /前端/ReactNative/5%20插件/文件操作%20react-native-fs.docx 1598265627 安装包 Link 简单示例 可读写的文件目录 基本Api 
+/前端/ReactNative/5%20插件/视频音频%20react-native-video%20.docx 1610710210 
 /前端/ReactNative/6%20NativeBase/组件.docx 1598338562 布局Anatomy 手风琴Accordion 行动表ActionSheet（类似Select） 徽章Badge 按钮Button 卡片Card 卡片点击 卡片列表项 图片卡片 复选框CheckBox 日期选择器DatePicker 左滑右滑下一个DeckSwiper 按钮弹出FABs 指定不同位置不同方向 底部标签FooterTabs 表单Form Select框PickerInput 常规文本框 圆角文本框 有图标的文本框 Textarea 头部Header 图标Icon 布局Layout 列表List 分组列表 选中样式 选择框Picker 单选框RadioButton 搜索框SearchBar 分割Segment 加载中Spinner 标签 Thumbnail缩图 吐司Toast 文本组件Typography 抽屉Drawer 
 /前端/ReactNative/6%20NativeBase/组件使用问题.docx 1598952795 Button 
 /前端/ReactNative/6%20NativeBase/自定义主题.docx 1600413497 执行如下命令导出主题文件 应用主题 
@@ -1564,9 +1538,17 @@
 /平台无关/微服务/6%20微服务测试.docx 1581567130 测试流程 单元测试 集成测试 组件（服务）测试 契约测试 端到端测试 
 /平台无关/微服务/7%20微服务部署.docx 1581586776 持续继承（CI）和持续部署（CD） CI、CD工具 Docker 
 /平台无关/微服务/8%20监控与扩展.docx 1581653138 监控原则 通过日志记录帮助监控 监控工具 微服务系统扩展原则 
+/平台无关/微服务/由%20IceEmblem%20编写.txt 1608946378 � 
 /平台无关/微服务/说明.txt 1581493240 
 /平台无关/数据结构与算法/byte与各种编码.docx 1574837998 Byte 编码 ASCII编码 Unicode字符集 Unicode编码（UTF-16） UTF-8编码 UTF-32编码 Base64 image/jpeg 
 /平台无关/数据结构与算法/各种树.docx 1569398002 1.二叉树 2.二叉查找树 3.平衡二叉树 3.1平衡查找树之AVL树 3.2平衡二叉树之红黑树 4.B树 5.B+树 6.B*树 7.Trie树 
+/平台无关/数据结构与算法/基本教程/图.docx 1608713888 图的基本概念 图的定义 连通图 生成树 有权图 图的存储 数组表示法 邻接表表示法 深度优先遍历 广度优先遍历 无向图最小生成树 普里姆（Prim）算法 克鲁斯卡（Kruskal）算法 无向图关节点和双连通图 关节点 双连通图 寻找关节点 有向图AOV网和拓扑排序 拓扑排序 有向图AOE网和关键路径 AOE网 关键路径 求解关键路径算法 迪杰斯特拉（Dijkstra）算法 弗洛伊德（Floyd）算法 
+/平台无关/数据结构与算法/基本教程/排序算法.docx 1608885933 各个算法的时间复杂度 冒泡排序 选择排序 插入排序 希尔排序 归并排序 快速排序 堆排序 基数排序 
+/平台无关/数据结构与算法/基本教程/时间复杂度%20O.docx 1607943221 
+/平台无关/数据结构与算法/基本教程/查找算法.docx 1608523219 平均查找长度ASL 顺序查找 二分查找 哈希表 哈希函数 冲突处理方法 闭哈希法 开哈希法 二叉查找树 查找 插入 删除 平衡二叉查找树（AVL树） 平衡操作 B树 B树定义 查找 插入 删除 
+/平台无关/数据结构与算法/基本教程/树.docx 1608713964 二叉树 二叉树的遍历 Huffman（哈夫曼）树 集合 集合的定义 子集 集合的一般操作 位向量实现集合 MFSet（并查集） 并查集得实现 
+/平台无关/数据结构与算法/基本教程/由%20IceEmblem%20编写.txt 1608946407 � 
+/平台无关/数据结构与算法/基本教程/线性表.docx 1608714039 数组 数据结构 时间复杂度 各个语言的实现 链表 数据结构 时间复杂度 二维数组（矩阵） 数据结构 时间复杂度 各个语言实现 稀疏矩阵 数据结构 各个语言的实现 栈 数据结构 各个语言的实现 队列 数据结构 各个语言的实现 
 /平台无关/百度语音/1%20介绍.docx 1591148146 
 /平台无关/百度语音/2%20语音识别与合成示例.docx 1591148435 
 /平台无关/线性代数/1%20行列式.docx 1605524910 n阶行列式 二阶行列式 三阶行列式 n阶行列式 逆序N(j1j2...jn) 三角行列式 行列式的性质 行列式展开 余子式 代数余子式 克莱姆法则 齐次线性方程组 
@@ -1574,6 +1556,7 @@
 /平台无关/线性代数/3%20线性方程组.docx 1606118887 线性方程组消元解法 消元解法 增广矩阵 阶梯形矩阵 增广矩阵与线性方程组 无解的增广矩阵 无穷多解的增广矩阵 向量与向量组的线性组合 向量 向量的线性组合 向量组等价 向量组的线性相关性 线性相关与线性无关 a1=(-k2/k1)a2+...(-kn/k1)an 向量中的秩 向量的极大无关组 向量组的秩 推论：矩阵的行秩与列秩相等 如何求向量组的极大无关组 线性方程组解的结构 基础解系 求解基础解系 导出组 非齐次线性方程组的全部解 
 /平台无关/线性代数/4%20矩阵的特征值.docx 1606382630 矩阵的特征值与特征向量 特征值与特征向量 特征多项式 (λI-A)α=0 示例：求解特征值和特征向量 多重特征值 相似矩阵与矩阵对角化 相似矩阵 约当块和约当形矩阵 实对称矩阵的特征值和特征向量 实对称矩阵 向量内积 向量内积性质 aTb=bTa 向量长度 向量长度的性质 单位向量 (1/||a||)a 正交向量 正交向量组 定理：正交向量组线性无关 向量组正交化 正交矩阵 正交矩阵的性质 
 /平台无关/线性代数/5%20二次型.docx 1606478448 二次型与对称矩阵 二元二次齐次多项式 n元二次齐次多项式 线性变换 y=C-1x 我们称这样的二次型为标准型 初等变换化二次型为标准型 
+/平台无关/线性代数/由%20IceEmblem%20编写.txt 1608946315 � 
 /平台无关/网站技术/Nginx%20反向代理.docx 1584929818 Nginx安装 1.windows安装   启动nginx 访问nginx   停止nginx   2.ubuntu安装   查看nginx进程是否启动   启动nginx服务器命令   停止nginx服务命令   重新启动加载 nginx配置 event模块 http模块 server模块 location模块 upstream模块 
 /平台无关/网站技术/Wireshark基本使用教程.docx 1584929824 Wireshark基本用法 
 /平台无关/网站技术/redis和mongodb数据库对比.docx 1584929822 
@@ -1653,6 +1636,7 @@
 /平台无关/软件架构设计/Enterprise%20Architect%20绘制鲁棒图.docx 1583313904 
 /平台无关/软件架构设计/四色原型.docx 1600594013 什么是四色原型 moment-intervalarchetype（MI，时刻） rolearchetype（角色） descriptionarchetype（描述） 如下四色原型的关系 
 /平台无关/软件架构设计/概念区分.docx 1573007048 模块与组件 
+/平台无关/软件架构设计/由%20IceEmblem%20编写.txt 1608946435 � 
 /平台无关/重构手法/1%20函数.docx 1584929888 
 /平台无关/重构手法/2%20类间.docx 1584929890 
 /平台无关/重构手法/3%20类.docx 1584929894 
@@ -1661,6 +1645,7 @@
 /平台无关/重构手法/6%20继承.docx 1584929898 
 /平台无关/重构手法/7%20大型重构.docx 1584929902 
 /平台无关/重构手法/关于switch与枚举.docx 1560736158 
+/平台无关/重构手法/由%20IceEmblem%20编写.txt 1608946274 � 
 /平台无关/面向对象原则.docx 1584929522 七种设计原则总结  先从整体认识这七种设计思想。 
 /平台无关/面向对象建模与设计/1%20系统构思.docx 1604567393 系统构思过程需要回答几个问题 应用程序为谁而做 应用程序解决了那些问题 应用程序的应用场景 应用程序如何工作 
 /平台无关/面向对象建模与设计/2%20领域分析.docx 1604663729 领域类模型 寻找类 准备数据词典 寻找关联 属性 使用继承细化 领域状态模型 确定具有状态的类 寻找状态 寻找事件 构建状态图 
@@ -1671,6 +1656,7 @@
 /平台无关/面向对象建模与设计/7%20建模实现为代码.docx 1605067504 
 /平台无关/面向对象建模与设计/8%20程序设计风格.docx 1605071377 可复用性 方法单一职责 方法要小 方法以一致性 策略和实现分离 规避全局信息 避免实现带有标志的方法 提取基类 使用组合而不是继承 可扩展性 封装类 避免遍历多项链接 避免使用Switch 健壮性 错误处理 检查参数 大规模程序设计 不要过早编码 有意义的方法名 
 /平台无关/面向对象建模与设计/9%20软件工程.docx 1605148726 迭代开发 迭代与模型 迭代周期 识别风险 遗留系统 
+/平台无关/面向对象建模与设计/由%20IceEmblem%20编写.txt 1608946497 � 
 /平台无关/领域驱动设计/实践/1%20聚合.docx 1584929908 1、项目分层 2、项目架构 3、代码示例 3.1首先来看看表结构 3.2聚合的划分 
 /平台无关/领域驱动设计/实践/2%20仓储Repository（上）.docx 1584929910 一、仓储的定义 二、使用仓储的意义 三、代码示例 1、解决方案结构图 5、工作单元实现类 
 /平台无关/领域驱动设计/实践/3%20仓储Repository（下）.docx 1584929914 
@@ -1697,7 +1683,7 @@
 /平台无关/领域驱动设计/教程/5%20模型完整性/1%20边界上下文.docx 1566978930 边界上下文不是module 持续集成 边界上线文与微服务 
 /平台无关/领域驱动设计/教程/5%20模型完整性/2%20上下文之间的关系.docx 1566987318 共享内核 客户/供应商 墨守成规 防腐层 各行其道 
 /平台无关/领域驱动设计/教程/分离领域层.docx 1571889172 表示层： 应用层： 领域层： 基础设施层： 
-/平台无关/领域驱动设计/教程/本教程有%20IceEmblem%20所写.txt 1587287382 � 
+/平台无关/领域驱动设计/教程/本教程有%20IceEmblem%20所写.txt 1587287382 � 
 /平台无关/领域驱动设计/是依赖于管理器还是仓库.docx 1584929906 
 /平台无关/领域驱动设计/聚合，Manager，领域服务，应用服务.docx 1600528276 放在应用服务还是领域层？ 放在领域服务还是其他两个中？ 放在聚合还是Manager中？ 
 /编程语言/C#/C#%20using%20三种使用方式.docx 1584929968 
@@ -1763,7 +1749,7 @@
 /编程语言/C#/c#%20重要的类/反射/FieldInfo.docx 1584930068 
 /编程语言/C#/c#%20重要的类/反射/MethodInfo.docx 1584930072 
 /编程语言/C#/c#%20重要的类/反射/Type.docx 1502502210 
-/编程语言/C#/c#%20高级教程/GC%20垃圾回收%20详解.docx 1589185239 什么是GC GC回收算法 Mark-Compact标记压缩算法 Generational分代算法 FinalizationQueue和FreachableQueue 值类型与引用类型 托管资源与非托管资源 托管资源 非托管资源 非托管资源释放 GC.Collect()方法 
+/编程语言/C#/c#%20高级教程/GC%20垃圾回收%20详解.docx 1589185239 什么是GC GC回收算法 Generational分代算法 FinalizationQueue和FreachableQueue 值类型与引用类型 托管资源与非托管资源 托管资源 非托管资源 非托管资源释放 GC.Collect()方法 
 /编程语言/C#/c#%20高级教程/c#%20HttpClient.docx 1584930074 
 /编程语言/C#/c#%20高级教程/c#%20字符编码与转换.docx 1574840248 
 /编程语言/C#/c#%20高级教程/c#Assert.docx 1584930078 
