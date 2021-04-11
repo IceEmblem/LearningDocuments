@@ -145,7 +145,7 @@
 /Linux%20平台/MyBatis/功能/Mybatis%20一对多结果映射.docx 1512615166 
 /Linux%20平台/MyBatis/功能/Mybatis%20非自定义传参.docx 1514450682 
 /Linux%20平台/MyBatis/功能/~$batis%20非自定义传参.docx 1514450190 
-/Linux%20平台/Nginx/开发教程/1%20安装与基本配置.docx 1579573530 安装依赖库 安装nginx 运行命令 启动 查看是否启动 停止 编译配置 添加模块 安装路径 Nginx配置 全局域（根）配置 http配置 events配置 变量 一个反向代理配置示例 
+/Linux%20平台/Nginx/开发教程/1%20安装与基本配置.docx 1579573530 安装依赖库（ubtunu安装） 安装nginx 运行命令 启动 查看是否启动 停止 编译配置 添加模块 安装路径 Nginx配置 全局域（根）配置 http配置 events配置 变量 一个反向代理配置示例 
 /Linux%20平台/Nginx/开发教程/10%20Http%20请求转发.docx 1580719510 上游结构 上游结构 上游配置 开发upstream模块 必须配置的字段 配置结构 创建配置结构函数 指令数组 自定义的指令解析函数 请求处理函数 
 /Linux%20平台/Nginx/开发教程/11%20简单的请求转发模块.docx 1580719804 Cpp MyNginx.conf 
 /Linux%20平台/Nginx/开发教程/12%20Nginx%20变量.docx 1580887444 概念 添加变量 变量 获取变量值函数 变量值 根据变量名获取变量值 应用 模块配置解析前函数 在请求处理函数中使用变量 完整示例 
@@ -158,8 +158,8 @@
 /Linux%20平台/Nginx/开发教程/7%20Http%20框架概述.docx 1580466732 Http请求处理函数 请求处理函数 请求结构体 注册请求处理函数 处理阶段 特殊的NGX_HTTP_CONTENT_PHASE阶段 Http过滤函数 过滤函数原型 过滤模块实现 过滤函数链表头 config配置文件 
 /Linux%20平台/Nginx/开发教程/8%20请求结构体.docx 1580438896 结构 请求行 完整字符串保存 请求方法 协议版本号 Url 请求头 请求体 结构 操作 响应头 结构 操作 响应体 
 /Linux%20平台/Nginx/开发教程/9%20简单的内容处理模块.docx 1580439484 
-/Linux%20平台/Nginx/开发教程/~$安装与基本配置.docx 1617595971 
 /Linux%20平台/Nginx/开发教程/由%20IceEmblem%20编写.txt 1581990766 � 
+/Linux%20平台/Nginx/配置教程/0%20nginx%20安装.docx 1617600471 安装nginx 
 /Linux%20平台/Nginx/配置教程/1%20Http%20反向代理配置.docx 1581992718 
 /Linux%20平台/Nginx/配置教程/2%20Http%20均衡负载.docx 1581993106 
 /Linux%20平台/Nginx/配置教程/3%20分布式系统配置.docx 1581993800 
@@ -542,6 +542,7 @@
 /Windows%20平台/NetFramework/WebAPI/返回值/IHttpActionResult.docx 1521091912 1、Json<T>(Tcontent) 2、Ok()、 Ok<T>(Tcontent) 3、NotFound() 4、其他 4.2、BadRequest() 4.3、Redirect(stringlocation) 
 /Windows%20平台/NetFramework/WebAPI/返回值/void无返回值.docx 1521190460 
 /Windows%20平台/NetFramework/WebAPI/返回值/自定义类型.docx 1521190660 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20ArrayList.docx 1499264984 ASP.NETWebForms -ArrayList对象 创建ArrayList 绑定数据到ArrayList 
 /Windows%20平台/NetFramework/asp.net%20wf/wf%20DataList%20控件.docx 1499335898 把DataSet绑定到DataList控件 
 /Windows%20平台/NetFramework/asp.net%20wf/wf%20Hashtable%20对象.docx 1499331834 创建Hashtable 
 /Windows%20平台/NetFramework/asp.net%20wf/wf%20Repeater%20控件.docx 1499334032 把DataSet绑定到Repeater控件 
@@ -1557,6 +1558,7 @@
 /平台无关/线性代数/4%20矩阵的特征值.docx 1606382630 矩阵的特征值与特征向量 特征值与特征向量 特征多项式 (λI-A)α=0 示例：求解特征值和特征向量 多重特征值 相似矩阵与矩阵对角化 相似矩阵 约当块和约当形矩阵 实对称矩阵的特征值和特征向量 实对称矩阵 向量内积 向量内积性质 aTb=bTa 向量长度 向量长度的性质 单位向量 (1/||a||)a 正交向量 正交向量组 定理：正交向量组线性无关 向量组正交化 正交矩阵 正交矩阵的性质 
 /平台无关/线性代数/5%20二次型.docx 1606478448 二次型与对称矩阵 二元二次齐次多项式 n元二次齐次多项式 线性变换 y=C-1x 我们称这样的二次型为标准型 初等变换化二次型为标准型 
 /平台无关/线性代数/由%20IceEmblem%20编写.txt 1608946315 � 
+/平台无关/网站技术/Jenkins%20持续集成%20持续部署.docx 1617633630 安装Jenkins（ubuntu） 运行 
 /平台无关/网站技术/Nginx%20反向代理.docx 1584929818 Nginx安装 1.windows安装   启动nginx 访问nginx   停止nginx   2.ubuntu安装   查看nginx进程是否启动   启动nginx服务器命令   停止nginx服务命令   重新启动加载 nginx配置 event模块 http模块 server模块 location模块 upstream模块 
 /平台无关/网站技术/Wireshark基本使用教程.docx 1584929824 Wireshark基本用法 
 /平台无关/网站技术/redis和mongodb数据库对比.docx 1584929822 
