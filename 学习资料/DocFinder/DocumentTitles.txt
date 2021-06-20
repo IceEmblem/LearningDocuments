@@ -39,6 +39,7 @@
 /Linux%20平台/Linux%20教程/命令/find%20查找命令.docx 1579493316 实例 语法 
 /Linux%20平台/Linux%20教程/命令/grep%20过滤文本.docx 1569311084 grep命令使用方法 grep命令常用参数说明 grep正则参数说明 
 /Linux%20平台/Linux%20教程/命令/ln%20创建连接文件.docx 1568035186 语法 实例 
+/Linux%20平台/Linux%20教程/命令/nohup%20后台执行.docx 1618135127 
 /Linux%20平台/Linux%20教程/命令/tar%20压缩解压命令.docx 1569204024 
 /Linux%20平台/Linux%20教程/命令/tr%20字符串替换操作.docx 1584952818 示例（替换b为d） 示例（将小写替换为大写） 语法 
 /Linux%20平台/Linux%20教程/命令/trans%20google翻译.docx 1568036484 安装Translate-Shell 安装gawk 使用Translate-Shell 
@@ -380,6 +381,7 @@
 /Windows%20平台/NetCore/.net%20core/10%20框架揭秘/8%20配置模型设计.docx 1573456832 ConfigurationBuilder Configuration ConfigurationSource ConfigurationProvider UML关系图 
 /Windows%20平台/NetCore/.net%20core/10%20框架揭秘/9%20内存，环境变量，命令行配置源.docx 1573460448 内存配置源 环境变量配置源 命令行参数 
 /Windows%20平台/NetCore/.net%20core/10%20框架揭秘/原文地址.txt 1574325202 
+/Windows%20平台/NetCore/.net%20core/11%20部署/jenkins%20自动化部署.docx 1618134552 
 /Windows%20平台/NetCore/.net%20core/3%20基础知识/0%20快速搭建MVC应用程序.docx 1574320976 安装环境 VisualStudio .NETCore 控制器 添加控制器 添加控制器方法 添加视图 应用EntityFramewordCore 新建数据库 新建一个实体 新建数据库上下文DBContext 利用包控制台初始化数据数据库 修改我们的MyController文件 
 /Windows%20平台/NetCore/.net%20core/3%20基础知识/1%20应用程序启动.docx 1584928538 Startup类 ConfigureServices方法 ASP.NETCoreMVC的SetCompatibilityVersion Configure方法 Startup筛选器 
 /Windows%20平台/NetCore/.net%20core/3%20基础知识/10%20Web%20主机.docx 1584928540 WebHost 应用程序名称 捕获启动错误 内容根 环境 承载启动程序集 HTTPS端口 服务器URL 关闭超时 启动程序集 Web根路径 管理主机 IHostingEnvironment接口 
@@ -542,34 +544,32 @@
 /Windows%20平台/NetFramework/WebAPI/返回值/IHttpActionResult.docx 1521091912 1、Json<T>(Tcontent) 2、Ok()、 Ok<T>(Tcontent) 3、NotFound() 4、其他 4.2、BadRequest() 4.3、Redirect(stringlocation) 
 /Windows%20平台/NetFramework/WebAPI/返回值/void无返回值.docx 1521190460 
 /Windows%20平台/NetFramework/WebAPI/返回值/自定义类型.docx 1521190660 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20ArrayList.docx 1499264984 ASP.NETWebForms -ArrayList对象 创建ArrayList 绑定数据到ArrayList 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20DataList%20控件.docx 1499335898 把DataSet绑定到DataList控件 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20Hashtable%20对象.docx 1499331834 创建Hashtable 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20Repeater%20控件.docx 1499334032 把DataSet绑定到Repeater控件 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20XML文件.docx 1499333270 一个XML文件 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20button控件.docx 1499264468 ASP.NETWebForms -Button控件 Button控件 添加脚本 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20from%20page.docx 1499230484 用ClassicASP编写的动态页面 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20textbox.docx 1499246700 添加脚本 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20viewstate.docx 1499233072 
-/Windows%20平台/NetFramework/asp.net%20wf/wf事件.docx 1499232056 ASP.NET-事件句柄 
-/Windows%20平台/NetFramework/asp.net%20wf/wf导航.docx 1499351246 网站导航 Sitemap文件 动态菜单 TreeView SiteMapPath 
-/Windows%20平台/NetFramework/asp.net%20wf/wf控件.docx 1499231144 ASP.NET-服务器控件 
-/Windows%20平台/NetFramework/asp.net%20wf/wf数据库链接.docx 1499347118 创建数据库连接 创建数据库命令 创建DataReader 绑定到Repeater控件 关闭数据库连接 
-/Windows%20平台/NetFramework/asp.net%20wf/wf数据控件.docx 1499264654 ASP.NETWebForms -数据绑定 数据绑定 
-/Windows%20平台/NetFramework/asp.net%20wf/wf母版页.docx 1499350590 母版页实例 内容页实例 
-/Windows%20平台/NetFramework/asp.net%20wf/wf窗体.docx 1499232334 提交表单 
-/Windows%20平台/NetFramework/asp.net%20wf/wf简介.docx 1499230276 ASP.NET如何工作？ 
-/Windows%20平台/NetFramework/asp.net%20wp/wpEmail.docx 1499179884 WebMail帮助器 第一：编辑您的AppStart页面 _AppStart.cshtml Email_Input.cshtml Email_Send.cshtml 
-/Windows%20平台/NetFramework/asp.net%20wp/wpWebGrid.docx 1499179004 使用WebGrid帮助器 
-/Windows%20平台/NetFramework/asp.net%20wp/wp全局页面.docx 1499175184 在Web启动之前：_AppStart 在每一个页面之前：_PageStart 
-/Windows%20平台/NetFramework/asp.net%20wp/wp图表.docx 1499179462 Chart帮助器 根据数组创建图表 根据数据库创建图表 
-/Windows%20平台/NetFramework/asp.net%20wp/wp对象.docx 1499177510 某些Page对象方法 某些Page对象属性 Page对象的Page属性 
-/Windows%20平台/NetFramework/asp.net%20wp/wp布局.docx 1499173976 LayoutPage（布局页） 防止文件被浏览 
-/Windows%20平台/NetFramework/asp.net%20wp/wp帮助器.docx 1499178660 ASP.NET帮助器 WebGrid帮助器 Chart帮助器 WebMail帮助器 WebImage帮助器 第三方帮助器 
-/Windows%20平台/NetFramework/asp.net%20wp/wp文件.docx 1499178304 手动添加一个文本文件 Persons.txt 
-/Windows%20平台/NetFramework/asp.net%20wp/wp文件夹.docx 1499174470 逻辑文件夹结构 物理文件夹结构 虚拟名称和物理名称 URL和路径 ~运算符 Server.MapPath方法 
-/Windows%20平台/NetFramework/asp.net%20wp/wp表单.docx 1499177124 
-/Windows%20平台/NetFramework/asp.net%20wp/基本的c#语句.docx 1499180412 
+/Windows%20平台/NetFramework/asp.net/asp.net%20ado.net.docx 1499492960 ADO.NET DataSet类 DataTable类 DataRow类 DataAdapter对象 DataReader对象 DbCommand和DbConnection对象 例子 
+/Windows%20平台/NetFramework/asp.net/asp.net%20ajax控制.docx 1499519612 Ajax控制 ScriptManager控件 UpdatePanel控件 UpdatePanelControl的属性 UpdatePanelControl的方法 UpdateProgress控件 UpdateProgress控件的属性 UpdateProgress控件的方法 
+/Windows%20平台/NetFramework/asp.net/asp.net%20html%20服务器.docx 1499500214 HTML服务器 使用HTML服务器控件的优点 实例 
+/Windows%20平台/NetFramework/asp.net/asp.net%20panel控件.docx 1499514416 Panel控件 
+/Windows%20平台/NetFramework/asp.net/asp.net%20web服务.docx 1499527634 Web服务 创建web服务 使用Web服务 创建代理服务器 
+/Windows%20平台/NetFramework/asp.net/asp.net%20客户端.docx 1499502094 客户端 客户端脚本 客户端源代码 
+/Windows%20平台/NetFramework/asp.net/asp.net个性化.docx 1499525478 理解特征文件 例子 
+/Windows%20平台/NetFramework/asp.net/asp.net事件处理.docx 1499484468 事件参数 应用程序和会话事件 页面和控件事件 使用控件处理事件 默认事件 
+/Windows%20平台/NetFramework/asp.net/asp.net基础控件.docx 1499504270 按钮控件 文本框和标签 单选按钮列表和复选框列表 复选框和单选按钮 列表控件 ListItemCollection 项目符号列表和编号列表 超链接控件 图像控件 
+/Windows%20平台/NetFramework/asp.net/asp.net多视图.docx 1499505500 多视图 View和MultiView控件的属性 例子 
+/Windows%20平台/NetFramework/asp.net/asp.net安全性.docx 1499526768 安全性 基于表单的认证 基于表单的安全性的实现 IIS认证：SSL 
+/Windows%20平台/NetFramework/asp.net/asp.net实例.docx 1499349976 页面指令 编码区段 页面布局 
+/Windows%20平台/NetFramework/asp.net/asp.net指令.docx 1499506482 应用程序指令 集合指令 控制指令 工具指令 导入指令 主要指令 MasterType指令 输出缓存指令 页面指令 前页型指令 参考指令 注册指令 
+/Windows%20平台/NetFramework/asp.net/asp.net数据库存取.docx 1499521192 数据库存取 检索和显示数据 
+/Windows%20平台/NetFramework/asp.net/asp.net数据源.docx 1499520928 数据源 DataSource视图 SqlDataSource控件 
+/Windows%20平台/NetFramework/asp.net/asp.net数据绑定.docx 1499524676 ASP.NET-数据绑定 绑定流程： 例子 
+/Windows%20平台/NetFramework/asp.net/asp.net数据缓存.docx 1499527176 什么是缓存？ ASP.NET中的缓存 输出缓存 数据缓存 对象缓存 
+/Windows%20平台/NetFramework/asp.net/asp.net文件上传.docx 1499498872 文件上传 例子 
+/Windows%20平台/NetFramework/asp.net/asp.net日历.docx 1499502454 日历 日历控件的属性和事件 例子 
+/Windows%20平台/NetFramework/asp.net/asp.net服务器控件.docx 1499497140 服务器控件 服务器控件的方法 实例 
+/Windows%20平台/NetFramework/asp.net/asp.net服务器端.docx 1499489692 Server对象 Server对象的属性和方法 Request对象 Request对象的属性和方法 Response对象 Response对象的属性和方法 示例 
+/Windows%20平台/NetFramework/asp.net/asp.net生命周期.docx 1499349058 ASP.NET应用程序生命周期 ASP.NET页面生命周期 ASP.NET页面生命周期事件 
+/Windows%20平台/NetFramework/asp.net/asp.net简介.docx 1499348690 
+/Windows%20平台/NetFramework/asp.net/asp.net管理状态.docx 1499518386 管理状态 视图状态 控制状态 会话状态 应用程序状态 
+/Windows%20平台/NetFramework/asp.net/asp.net语言集成查询.docx 1499526456 LINQ运算符 join子句 where子句 正序倒序排序子句 Let子句 
+/Windows%20平台/NetFramework/asp.net/asp.net部署.docx 1499528002 部署 XCOPY部署 复制一个网站 创建一个设置项目 
 /Windows%20平台/NetFramework/mvc/ASP.NET%20应用程序生命周期概述.docx 1504058268 
 /Windows%20平台/NetFramework/mvc/Asp.net%20Mvc%20请求/Asp.net%20Mvc%20请求/Asp.net%20Mvc%20请求流程.docx 1504192858 
 /Windows%20平台/NetFramework/mvc/Asp.net%20Mvc%20请求/Asp.net%20Mvc%20请求/IHttpHandler/IHttpHandler.docx 1504192574 
@@ -1558,6 +1558,7 @@
 /平台无关/线性代数/4%20矩阵的特征值.docx 1606382630 矩阵的特征值与特征向量 特征值与特征向量 特征多项式 (λI-A)α=0 示例：求解特征值和特征向量 多重特征值 相似矩阵与矩阵对角化 相似矩阵 约当块和约当形矩阵 实对称矩阵的特征值和特征向量 实对称矩阵 向量内积 向量内积性质 aTb=bTa 向量长度 向量长度的性质 单位向量 (1/||a||)a 正交向量 正交向量组 定理：正交向量组线性无关 向量组正交化 正交矩阵 正交矩阵的性质 
 /平台无关/线性代数/5%20二次型.docx 1606478448 二次型与对称矩阵 二元二次齐次多项式 n元二次齐次多项式 线性变换 y=C-1x 我们称这样的二次型为标准型 初等变换化二次型为标准型 
 /平台无关/线性代数/由%20IceEmblem%20编写.txt 1608946315 � 
+/平台无关/网站技术/Jenkins%20sudo%20输入密码.docx 1618135463 
 /平台无关/网站技术/Jenkins%20持续集成%20持续部署.docx 1617633630 安装Jenkins（ubuntu） 运行 
 /平台无关/网站技术/Nginx%20反向代理.docx 1584929818 Nginx安装 1.windows安装   启动nginx 访问nginx   停止nginx   2.ubuntu安装   查看nginx进程是否启动   启动nginx服务器命令   停止nginx服务命令   重新启动加载 nginx配置 event模块 http模块 server模块 location模块 upstream模块 
 /平台无关/网站技术/Wireshark基本使用教程.docx 1584929824 Wireshark基本用法 
@@ -1685,7 +1686,7 @@
 /平台无关/领域驱动设计/教程/5%20模型完整性/1%20边界上下文.docx 1566978930 边界上下文不是module 持续集成 边界上线文与微服务 
 /平台无关/领域驱动设计/教程/5%20模型完整性/2%20上下文之间的关系.docx 1566987318 共享内核 客户/供应商 墨守成规 防腐层 各行其道 
 /平台无关/领域驱动设计/教程/分离领域层.docx 1571889172 表示层： 应用层： 领域层： 基础设施层： 
-/平台无关/领域驱动设计/教程/本教程有%20IceEmblem%20所写.txt 1587287382 � 
+/平台无关/领域驱动设计/教程/本教程有%20IceEmblem%20所写.txt 1587287382 � 
 /平台无关/领域驱动设计/是依赖于管理器还是仓库.docx 1584929906 
 /平台无关/领域驱动设计/聚合，Manager，领域服务，应用服务.docx 1600528276 放在应用服务还是领域层？ 放在领域服务还是其他两个中？ 放在聚合还是Manager中？ 
 /编程语言/C#/C#%20using%20三种使用方式.docx 1584929968 
