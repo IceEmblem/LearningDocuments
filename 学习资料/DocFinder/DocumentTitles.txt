@@ -62,6 +62,7 @@
 /Linux%20平台/Linux%20教程/教程/8%20Linux%20vivim.docx 1567928996 命令模式： 输入模式 底线命令模式 使用vi/vim进入一般模式 按下ESC按钮回到一般模式 
 /Linux%20平台/Linux%20教程/教程/9%20linux%20yum%20命令.docx 1567949162 yum语法 实例1 实例2 实例3 安装步骤 
 /Linux%20平台/Linux%20教程/教程/本文档出自%20菜鸟教程.txt 1582080602 � 
+/Linux%20平台/Linux%20教程/网络命令/curl%20http请求.docx 1628002646 不带参数 -b -c -d -L -s 
 /Linux%20平台/Linux%20教程/网络命令/ftp%20搭建.docx 1593421833 
 /Linux%20平台/Linux%20教程/网络命令/ssh%20远程会话.docx 1583122084 安装ssh 启动ssh 重启ssh 
 /Linux%20平台/Linux%20教程/网络命令/ubuntu%20软件更新.docx 1583121694 使用阿里云服务器 
@@ -290,6 +291,7 @@
 /Windows%20平台/EF/EF%20Api%20生成数据库.docx 1600668736 删除数据库 创建数据库 获取EnsureCreated使用的SQL 迁移数据库 
 /Windows%20平台/EF/EF%20代码迁移.docx 1584928402 基本流程 其他用法 一些问题 
 /Windows%20平台/EF/EF%20实体追踪.docx 1584928406 
+/Windows%20平台/EF/EF%20数据库事务锁.docx 1626797800 模板代码 ReadCommitted（读已提交）级别输出 
 /Windows%20平台/EF/EF%20默认外键.docx 1584928410 
 /Windows%20平台/EF/EF安装.txt 1529930630 entityframework ����� 
 /Windows%20平台/EF/FE%20Core/1%20快速搭建%20EFCore/1%20安装%20EFCore.docx 1584928418 安装EntityFrameworkCore 安装EntityFrameworkCore工具 获取.NETCoreCLI工具 获取包管理器控制台工具 
@@ -303,6 +305,7 @@
 /Windows%20平台/EF/FE%20Core/3%20实体配置/1%20迁移表自定义.docx 1584928454 
 /Windows%20平台/EF/FE%20Core/3%20实体配置/10%20继承与索引.docx 1590568668 索引配置 继承配置 
 /Windows%20平台/EF/FE%20Core/3%20实体配置/11%20默认值.docx 1596965940 
+/Windows%20平台/EF/FE%20Core/3%20实体配置/12%20非主键依赖的关系配置.docx 1620540216 废话（可以不看） 配置 示例1 示例2 
 /Windows%20平台/EF/FE%20Core/3%20实体配置/2%20映射配置.docx 1584928460 
 /Windows%20平台/EF/FE%20Core/3%20实体配置/3%20多态保存.docx 1584928464 
 /Windows%20平台/EF/FE%20Core/3%20实体配置/4%20实体包含值对象.docx 1584928468 单个值对象 多个值对象 神级大坑 
@@ -958,6 +961,8 @@
 /前端/Css3/CSS%20基础/position%20位置.docx 1599129122 absolute绝对定位 relative相对位置 fixed固定定位 
 /前端/Css3/CSS%20样式优先级.docx 1524638708 
 /前端/Css3/Float%20浮动.docx 1597851286 
+/前端/Css3/Less.docx 1627480949 变量（Variables） 混合（Mixins） 嵌套（Nesting） @规则嵌套和冒泡 运算（Operations） calc()特例 转义（Escaping） 
+/前端/Css3/viewport%20视口与布局.docx 1627480942 浏览器显示区域有2个概念 布局视口宽度获取 可视视口宽度获取 PC上的布局视口和可视视口 如何让可视视口等于布局视口 viewport标签参数 
 /前端/Css3/关于svg.docx 1584929184 SVG文件 svg文件的使用 svg可以直接内联html 
 /前端/Css3/关于高度域宽度百分比计算.docx 1584929188 
 /前端/Css3/问题/transition%20无效果.txt 1568437270 
@@ -1080,14 +1085,13 @@
 /前端/Layui/3%20内置模块/3%20分页.docx 1584929348 
 /前端/Layui/3%20内置模块/4%20数据表格.docx 1584929350 
 /前端/Layui/3%20内置模块/5%20表单.docx 1584929350 
-/前端/NodeJs/1%20Node.js%20安装配置.docx 1584929352 1、Windows安装包(.msi) 
 /前端/NodeJs/10%20Node.js%20全局对象.docx 1584929356 实例 实例 实例 
-/前端/NodeJs/11%20文件系统.docx 1574823320 异步和同步 实例 打开文件 语法 参数 实例 获取文件信息 语法 参数 实例 写入文件 语法 参数 实例 二进制写入 读取文件 语法 参数 实例 关闭文件 语法 参数 实例 删除文件 语法 参数 实例 创建目录 语法 参数 实例 读取目录 语法 参数 实例 删除目录 语法 参数 实例 
-/前端/NodeJs/2%20Node.js%20创建第一个应用.docx 1584929360 步骤一、引入required模块 步骤二、创建服务器 
-/前端/NodeJs/3%20NPM%20使用介绍.docx 1584929362 查看安装信息 
+/前端/NodeJs/11%20文件系统.docx 1574823320 导入文件系统模块 异步和同步 实例 打开文件 语法 参数 实例 获取文件信息 语法 参数 实例 写入文件 语法 参数 实例 二进制写入 读取文件 语法 参数 实例 关闭文件 语法 参数 实例 删除文件 语法 参数 实例 创建目录 语法 参数 实例 读取目录 语法 参数 实例 删除目录 语法 参数 实例 创建快捷方式 语法 
+/前端/NodeJs/2%20Node.js%20创建第一个应用.docx 1584929360 步骤一、引入required模块 步骤二、创建服务器 步骤三、运行服务器 
+/前端/NodeJs/3%20NPM%20使用介绍.docx 1584929362 安装npm 查看安装信息 
 /前端/NodeJs/4%20事件.docx 1558342906 
 /前端/NodeJs/5%20EventEmitter.docx 1558344050 EventEmitter类 方法 error事件 继承EventEmitter 
-/前端/NodeJs/6%20Buffer.docx 1558344956 Buffer与字符编码 创建Buffer类 写入缓冲区 语法 参数 返回值 实例 从缓冲区读取数据 语法 参数 返回值 实例 将Buffer转换为JSON对象 语法 返回值 实例 缓冲区合并 语法 参数 返回值 实例 缓冲区比较 语法 参数 返回值 实例 拷贝缓冲区 语法 参数 返回值 实例 缓冲区裁剪 参数 返回值 实例 缓冲区长度 语法 返回值 实例 
+/前端/NodeJs/6%20Buffer.docx 1558344956 Buffer与字符编码 创建Buffer类 写入缓冲区 从缓冲区读取数据 将Buffer转换为JSON对象 
 /前端/NodeJs/7%20Stream.docx 1558345928 从流中读取数据 写入流 管道流 链式流 
 /前端/NodeJs/8%20Node.js模块系统.docx 1584929364 
 /前端/NodeJs/9%20函数.docx 1558346688 Node.js函数 
@@ -1128,6 +1132,7 @@
 /前端/ReactNative/6%20NativeBase/组件.docx 1598338562 布局Anatomy 手风琴Accordion 行动表ActionSheet（类似Select） 徽章Badge 按钮Button 卡片Card 卡片点击 卡片列表项 图片卡片 复选框CheckBox 日期选择器DatePicker 左滑右滑下一个DeckSwiper 按钮弹出FABs 指定不同位置不同方向 底部标签FooterTabs 表单Form Select框PickerInput 常规文本框 圆角文本框 有图标的文本框 Textarea 头部Header 图标Icon 布局Layout 列表List 分组列表 选中样式 选择框Picker 单选框RadioButton 搜索框SearchBar 分割Segment 加载中Spinner 标签 Thumbnail缩图 吐司Toast 文本组件Typography 抽屉Drawer 
 /前端/ReactNative/6%20NativeBase/组件使用问题.docx 1598952795 Button 
 /前端/ReactNative/6%20NativeBase/自定义主题.docx 1600413497 执行如下命令导出主题文件 应用主题 
+/前端/ReactNative/7%20性能优化/1%20延迟渲染.docx 1630553468 
 /前端/ReactNative/ReactNative%20踩坑之旅.docx 1597756286 样式要从StyleSheet.create创建 样式没有px，rem等 字重fontWeight 宽高只能是数字或% 内边界外边界只能是数字 字重 按钮点击反应 背景颜色backgroundColor 关于百分比宽度的问题 
 /前端/ReactNative/ReactRouter%20页面切换动画.docx 1605092693 动画组件 使用实例 
 /前端/ReactNative/android%20打包.docx 1596521326 生成一个签名密钥 设置gradle变量 添加签名到项目的gradle配置文件 生成发行APK包 
@@ -1155,30 +1160,29 @@
 /前端/ReactRedux/高级/监听器（渲染）什么时候调用.docx 1596104617 
 /前端/React教程/Antd/Ant%20半动态主题.docx 1600335813 前言 安装包less和less-loader 配置webpack的rule 添加主题文件mytheme.less 动态引入主题文件 
 /前端/React教程/Create-React-App/1%20脚手架搭建%20React.docx 1589706814 构建项目 CSSModules支持 配合TypeScript 使用路由 安装bootstrap4 
-/前端/React教程/Create-React-App/2%20脚手架webpack更改.docx 1589706040 安装包 替换package.json中scripts执行部分 
+/前端/React教程/Create-React-App/2%20脚手架webpack更改%20craco.docx 1620231074 安装包 示例 文档地址 
+/前端/React教程/Create-React-App/2%20脚手架webpack更改%20react-app-rewired.docx 1589706040 安装包 替换package.json中scripts执行部分 
 /前端/React教程/Create-React-App/3%20使用环境变量.docx 1590646334 环境变量文件 在命令行添加环境变量 
+/前端/React教程/FAQ/React%20防抖.docx 1625982923 节流 防抖 
+/前端/React教程/FAQ/ReactJs%20style.docx 1521081676 
+/前端/React教程/FAQ/Reactjs%20子组件重新实例.docx 1584929404 
+/前端/React教程/FAQ/Reactjs%20字符串转义为html.docx 1584929408 
+/前端/React教程/FAQ/函数式组件.docx 1576818340 函数式组件： 临时变量函数式组件： 
+/前端/React教程/FAQ/基于webpack的React项目搭建.docx 1595131325 修改package.json 引入Babel库进行转码 安装html-webpack-plugin插件 在src文件夹下创建App.jsx文件 运行如下命令 
+/前端/React教程/FAQ/应用%20TypeScript.docx 1575518632 安装ts包 添加tsconfig.json文件 
 /前端/React教程/React%20Move/教程.docx 1584929420 入门 <NodeGroup/> 组件道具 
-/前端/React教程/ReactJs%20style.docx 1521081676 
 /前端/React教程/ReactRouter/ReactRouter%204.0文档.docx 1584929454 reactrouter4.0以上的路由应用 4.0有HashRouter和BrowserRouter improt 示例 一个完整的嵌套路由的例子如下 说明及注意事项 理解和使用Route URL/Path/Route的参数 理解并使用Link <Link>和<NavLink> 理解排他路由 使用<Redirect>组件实现重定向 关于默认路由 控制路由跳转 
-/前端/React教程/Reactjs%20class.docx 1521077638 
-/前端/React教程/Reactjs%20关于input.docx 1521085948 
-/前端/React教程/Reactjs%20子组件重新实例.docx 1584929404 
-/前端/React教程/Reactjs%20字符串转义为html.docx 1584929408 
-/前端/React教程/Sublime%20Text%203%20配置.docx 1584929412 SublimeText3React.js开发常用插件 babel 安装 配置 Emmet 安装 配置 jsformat 安装 配置 
 /前端/React教程/中文文档/1%20JSX%20介绍.docx 1556115408 JSX中嵌入表达式 用JSX指定属性值 用JSX指定子元素 JSX表示对象 
 /前端/React教程/中文文档/10%20组合%20VS%20继承（Composition%20vs%20Inheritance）.docx 1545377422 包含 如何看待继？ 
 /前端/React教程/中文文档/11%20React%20的编程思想.docx 1545728844 
-/前端/React教程/中文文档/2%20元素渲染.docx 1545363806 
-/前端/React教程/中文文档/3%20组件%20和%20属性.docx 1545364344 函数式组件和类组件 警告： 
-/前端/React教程/中文文档/4%20状态(State)%20和%20生命周期.docx 1576817262 把函数式组件转化为类组件 在类组件中添加本地状态(state) 在类中添加生命周期方法 
+/前端/React教程/中文文档/2%20元素渲染.docx 1545363806 渲染一个元素到DOM 更新已渲染的元素 React只更新必需要更新的部分 
+/前端/React教程/中文文档/3%20组件%20和%20属性.docx 1545364344 函数式组件和类组件 Props的只读性 渲染一个组件 警告： 构成组件 提取组件 
+/前端/React教程/中文文档/4%20状态(State)%20和%20生命周期.docx 1576817262 把函数式组件转化为类组件 在类组件中添加本地状态(state) State的更新可能是异步的 在类中添加生命周期方法 
 /前端/React教程/中文文档/5%20处理事件.docx 1545373452 
 /前端/React教程/中文文档/6%20条件渲染.docx 1545374060 
 /前端/React教程/中文文档/7%20列表(Lists)%20和%20键(Keys).docx 1545374860 
 /前端/React教程/中文文档/8%20表单(Forms).docx 1545376154 受控组件 fileinput标签 受控Input组件的null值 受控组件的替代方案 
 /前端/React教程/中文文档/9%20状态提升(Lifting%20State%20Up).docx 1545376936 
-/前端/React教程/函数式组件.docx 1576818340 函数式组件： 临时变量函数式组件： 
-/前端/React教程/基于webpack的React项目搭建.docx 1584929414 修改package.json 引入Babel库进行转码 安装html-webpack-plugin插件 在src文件夹下创建App.jsx文件 运行如下命令 
-/前端/React教程/应用%20TypeScript.docx 1575518632 安装ts包 添加tsconfig.json文件 
 /前端/React教程/插件/动画插件%20react-motion.docx 1599108540 安装包 简单示例 联动动画StaggeredMotion组件 挂载卸载动画TransitionMotion 
 /前端/React教程/插件/视频%20video-react.docx 1600433029 安装包 基本使用 详细文档和Github 
 /前端/React教程/高级指南/1%20深入%20JSX.docx 1545729734 JSX中的props(属性) JSX中的Children 
@@ -1187,6 +1191,8 @@
 /前端/React教程/高级指南/12%20与其他库整合(Integrating%20with%20Other%20Libraries).docx 1520488828 
 /前端/React教程/高级指南/13%20代码拆分(Code-Splitting).docx 1520489566 代码拆分 import() React.lazy 基于路由的代码分割 
 /前端/React教程/高级指南/14%20Context%20上下文.docx 1599632799 
+/前端/React教程/高级指南/15%20高级组件.docx 1626006727 高级组件示例 高阶组件解决什么问题 
+/前端/React教程/高级指南/16%20Hook.docx 1626008233 StateHook EffectHook 自定义Hook 
 /前端/React教程/高级指南/2%20使用%20PropTypes%20进行类型检查.docx 1556455246 详细的PropTypes类型 
 /前端/React教程/高级指南/3%20静态类型检查.docx 1556455108 
 /前端/React教程/高级指南/4%20Refs%20和%20DOM.docx 1545639510 Ref 
@@ -1195,8 +1201,7 @@
 /前端/React教程/高级指南/7%20不使用%20ES6.docx 1520479822 声明默认Props 设置初始化State(状态) 自动绑定 
 /前端/React教程/高级指南/8%20不使用%20JSX.docx 1520480012 
 /前端/React教程/高级指南/9%20片段(fragments).docx 1520481094 
-/前端/React教程/高级指南/useEffect.docx 1591944349 
-/前端/React教程/高级指南/useState.docx 1591841009 
+/前端/React教程/高级指南/延迟改变渲染.docx 1632457555 
 /前端/React教程/高级指南/错误边界.docx 1597747309 
 /前端/TypeScript/1%20TypeScript%20安装.docx 1563153884 安装typescript 查看安装版本号 新建ts文件 编译ts为js代码 使用node命令来执行test.js文件 
 /前端/TypeScript/10%20TypeScript%20联合类型.docx 1563157626 实例 联合类型数组 
@@ -1215,6 +1220,7 @@
 /前端/TypeScript/8%20TypeScript%20Array(数组).docx 1563157246 实例 数组解构 数组迭代 多维数组 数组方法 
 /前端/TypeScript/9%20TypeScript%20元组.docx 1563157458 TypeScript元组 实例 
 /前端/TypeScript/Webpack中使用TS.docx 1563159920 
+/前端/TypeScript/ts%20编译命令.docx 1621777941 tsc tsc--project目录 
 /前端/TypeScript/tsconfig.json.docx 1590229097 tsconfig.json 
 /前端/VueJS/1%20安装.docx 1567662126 Vue依赖 Js编码库 样式编码 图片等文件 开发环境服务器 webpack配置 Package.json 
 /前端/VueJS/10%20表单.docx 1567741052 复选框 单选按钮 select列表 修饰符 
@@ -1282,6 +1288,7 @@
 /前端/babel/插件/语法检查%20eslint-loader.docx 1596439633 
 /前端/babel/插件/语法转换%20babel-loader.docx 1596439926 
 /前端/babel/插件/配置模块搜索路径.docx 1596380110 
+/前端/babel/编译%20js.docx 1622380104 安装包 babel.config.js配置（根目录下） 编译 
 /前端/bootstrap/Bootstrap4/1%20Bootstrap4%20安装使用.docx 1524397728 Bootstrap4CDN 下载Bootstrap4 
 /前端/bootstrap/Bootstrap4/10%20Bootstrap4%20徽章（Badges）.docx 1524402856 
 /前端/bootstrap/Bootstrap4/11%20Bootstrap4%20进度条.docx 1524403192 
@@ -1410,10 +1417,16 @@
 /前端/json/json简介.docx 1499780180 JSON实例 为什么使用JSON？ 使用XML 使用JSON 
 /前端/json/json语法.docx 1499780928 JSON语法规则 JSON名称/值对 JSON值 Null JSON对象 JSON数组 JSON使用JavaScript语法 JSON文件 
 /前端/vscode%20智能路径提示.docx 1584929162 
+/前端/yarn/yarn1%20基本使用.docx 1621776449 
+/前端/yarn/yarn2%20文档.docx 1621777672 从yarn1升级yarn2 Yarn2工作区 
 /前端/单元测试/Jest/1%20基本使用Jest.docx 1576898150 安装 添加jest.config.js package.json添加命令 添加测试文件 基本断言语句 
 /前端/单元测试/Jest/2%20vscode+TypeScript.docx 1576898138 安装ts-test 配置jest.config.js 配置vscode的launch.json 到测试文件按F5调试 
 /前端/单元测试/Jest/3%20jest.config.js%20配置.docx 1576901976 过滤资源文件： 测试前运行： 
 /前端/单元测试/React%20测试%20Enzyme.docx 1576902912 安装 基本示例（搭配Jest） Shallow方法 mount方法 wrapper对象 
+/前端/小程序开发/1%20整体结构.docx 1624184453 目录结构 根目录文件 app.js app.json app.wxss 页面目录文件 index.js index.json index.wxml index.wxss 
+/前端/小程序开发/2%20Js%20框架.docx 1624187196 小程序生命周期 页面路由 微信Api调用 事件监听API 同步API 异步API 异步API返回Promise 网络请求 
+/前端/小程序开发/3%20WXML.docx 1624190675 简单绑定 其他绑定 列表渲染 条件渲染 模板 定义模板 使用模板 
+/前端/小程序开发/4%20自定义组件.docx 1624196253 自定义组件 .WXML文件 .js文件 .json文件 使用自定义组件 在页面的.json文件中声明 在.WXML中使用 组件生命周期 组件的通信 页面绑定事件函数 组件触发事件 组件wxml的slot 启用多slot wxml定义slot 组件使用者传入slot 
 /平台无关/Antlr/0%20词典.docx 1554876160 注释 文字 操作 关键词 
 /平台无关/Antlr/1%20语法结构.docx 1554875604 语法结构 语法层面的行动 
 /平台无关/Antlr/2%20解析器规则.docx 1554884228 解析器规则 替代标签 规则上下文对象 规则元素标签 规则元素 子规则 捕捉异常 规则属性定义 开始规则和EOF 
@@ -1539,6 +1552,7 @@
 /平台无关/微服务/6%20微服务测试.docx 1581567130 测试流程 单元测试 集成测试 组件（服务）测试 契约测试 端到端测试 
 /平台无关/微服务/7%20微服务部署.docx 1581586776 持续继承（CI）和持续部署（CD） CI、CD工具 Docker 
 /平台无关/微服务/8%20监控与扩展.docx 1581653138 监控原则 通过日志记录帮助监控 监控工具 微服务系统扩展原则 
+/平台无关/微服务/微服务笔记.docx 1623075758 微服务数据库 分布式数据管理的挑战 识别微服务的领域模型边界 数据模型拆分成多个领域模型 客户端与微服务通信 微服务间的通信 使用HTTP和REST的请求/响应通信 异步消息通信 
 /平台无关/微服务/由%20IceEmblem%20编写.txt 1608946378 � 
 /平台无关/微服务/说明.txt 1581493240 
 /平台无关/数据结构与算法/byte与各种编码.docx 1574837998 Byte 编码 ASCII编码 Unicode字符集 Unicode编码（UTF-16） UTF-8编码 UTF-32编码 Base64 image/jpeg 
@@ -1558,6 +1572,7 @@
 /平台无关/线性代数/4%20矩阵的特征值.docx 1606382630 矩阵的特征值与特征向量 特征值与特征向量 特征多项式 (λI-A)α=0 示例：求解特征值和特征向量 多重特征值 相似矩阵与矩阵对角化 相似矩阵 约当块和约当形矩阵 实对称矩阵的特征值和特征向量 实对称矩阵 向量内积 向量内积性质 aTb=bTa 向量长度 向量长度的性质 单位向量 (1/||a||)a 正交向量 正交向量组 定理：正交向量组线性无关 向量组正交化 正交矩阵 正交矩阵的性质 
 /平台无关/线性代数/5%20二次型.docx 1606478448 二次型与对称矩阵 二元二次齐次多项式 n元二次齐次多项式 线性变换 y=C-1x 我们称这样的二次型为标准型 初等变换化二次型为标准型 
 /平台无关/线性代数/由%20IceEmblem%20编写.txt 1608946315 � 
+/平台无关/网站技术/Http%20请求缓存.docx 1626275986 设置流量器缓存 过期后请求 
 /平台无关/网站技术/Jenkins%20sudo%20输入密码.docx 1618135463 
 /平台无关/网站技术/Jenkins%20持续集成%20持续部署.docx 1617633630 安装Jenkins（ubuntu） 运行 
 /平台无关/网站技术/Nginx%20反向代理.docx 1584929818 Nginx安装 1.windows安装   启动nginx 访问nginx   停止nginx   2.ubuntu安装   查看nginx进程是否启动   启动nginx服务器命令   停止nginx服务命令   重新启动加载 nginx配置 event模块 http模块 server模块 location模块 upstream模块 
@@ -1660,18 +1675,12 @@
 /平台无关/面向对象建模与设计/8%20程序设计风格.docx 1605071377 可复用性 方法单一职责 方法要小 方法以一致性 策略和实现分离 规避全局信息 避免实现带有标志的方法 提取基类 使用组合而不是继承 可扩展性 封装类 避免遍历多项链接 避免使用Switch 健壮性 错误处理 检查参数 大规模程序设计 不要过早编码 有意义的方法名 
 /平台无关/面向对象建模与设计/9%20软件工程.docx 1605148726 迭代开发 迭代与模型 迭代周期 识别风险 遗留系统 
 /平台无关/面向对象建模与设计/由%20IceEmblem%20编写.txt 1608946497 � 
-/平台无关/领域驱动设计/实践/1%20聚合.docx 1584929908 1、项目分层 2、项目架构 3、代码示例 3.1首先来看看表结构 3.2聚合的划分 
-/平台无关/领域驱动设计/实践/2%20仓储Repository（上）.docx 1584929910 一、仓储的定义 二、使用仓储的意义 三、代码示例 1、解决方案结构图 5、工作单元实现类 
-/平台无关/领域驱动设计/实践/3%20仓储Repository（下）.docx 1584929914 
-/平台无关/领域驱动设计/实践/4%20WCF搭建.docx 1584929918 一、WCF简介 二、WCF代码示例 1、代码结构图  三、DTO说明 
-/平台无关/领域驱动设计/实践/5%20领域服务.docx 1584929920 一、领域服务的引入 二、领域服务的使用 1、聚合划分的修改 2、领域服务代码的搭建 3、调用测试 
-/平台无关/领域驱动设计/导航属性在哪加载.docx 1584929902 
-/平台无关/领域驱动设计/接口与%20Dto%20设计.docx 1589557980 Dto与查询接口设计 命令接口设计 以下废话： 
-/平台无关/领域驱动设计/教程/1%20领域概念/1%20关联.docx 1584929924 
-/平台无关/领域驱动设计/教程/1%20领域概念/2%20实体.docx 1584929926 
-/平台无关/领域驱动设计/教程/1%20领域概念/3%20值对象.docx 1584929930 
-/平台无关/领域驱动设计/教程/1%20领域概念/4%20Service.docx 1595157147 
-/平台无关/领域驱动设计/教程/1%20领域概念/5%20Module.docx 1584929936 
+/平台无关/领域驱动设计/Abp%20领域驱动设计.docx 1622964115 项目依赖关系 领域层 应用层 展现层 远程服务层 基础设施层 虚线依赖 DDD模式的应用程序执行顺序 
+/平台无关/领域驱动设计/实践/导航属性在哪加载.docx 1622968921 
+/平台无关/领域驱动设计/实践/接口与%20Dto%20设计.docx 1597207183 Dto与查询接口设计 命令接口设计 以下废话： 
+/平台无关/领域驱动设计/实践/是依赖于管理器还是仓库.docx 1622963040 
+/平台无关/领域驱动设计/实践/聚合，Manager，领域服务，应用服务.docx 1600528276 放在应用服务还是领域层？ 放在领域服务还是其他两个中？ 放在聚合还是Manager中？ 
+/平台无关/领域驱动设计/教程/1%20领域概念/概念.docx 1622962130 关联 实体 值对象 领域服务 仓储(Repository)(接口) 规约(Specification) 领域事件(DomainEvent) 应用服务(ApplicationService) 数据传输对象(DTO) 工作单元(UOW) 
 /平台无关/领域驱动设计/教程/2%20领域对象生命周期/1%20聚合.docx 1584929940 聚合根 聚合内部 聚合根与服务的依赖关系 聚合示例 
 /平台无关/领域驱动设计/教程/2%20领域对象生命周期/2%20工厂.docx 1584929944 工厂类创建原则 
 /平台无关/领域驱动设计/教程/2%20领域对象生命周期/3%20仓库.docx 1584929948 
@@ -1685,10 +1694,9 @@
 /平台无关/领域驱动设计/教程/4%20柔性设计/6%20声明式设计.docx 1565754792 
 /平台无关/领域驱动设计/教程/5%20模型完整性/1%20边界上下文.docx 1566978930 边界上下文不是module 持续集成 边界上线文与微服务 
 /平台无关/领域驱动设计/教程/5%20模型完整性/2%20上下文之间的关系.docx 1566987318 共享内核 客户/供应商 墨守成规 防腐层 各行其道 
+/平台无关/领域驱动设计/教程/DDD%20原则.docx 1622983329 ORM独立原则 展现层技术无关原则 关注状态的变化,而不是报表/查询 序列化 聚合间只通过ID相互引用 保持聚合尽量的小 聚合根/实体的主键 聚合根/实体的构造函数 实体属性访问器和方法 业务逻辑与实体异常 实体中业务逻辑依赖外部服务时 仓储 规约（规则，规格） 领域服务 应用服务 DTO通用原则和最佳实践 不要重用输入DTO 输出DTO最佳实践 对象映射到对象 应用服务示例 在创建实体时执行领域规则 领域逻辑示例 应用服务逻辑示例 
 /平台无关/领域驱动设计/教程/分离领域层.docx 1571889172 表示层： 应用层： 领域层： 基础设施层： 
-/平台无关/领域驱动设计/教程/本教程有%20IceEmblem%20所写.txt 1587287382 � 
-/平台无关/领域驱动设计/是依赖于管理器还是仓库.docx 1584929906 
-/平台无关/领域驱动设计/聚合，Manager，领域服务，应用服务.docx 1600528276 放在应用服务还是领域层？ 放在领域服务还是其他两个中？ 放在聚合还是Manager中？ 
+/平台无关/领域驱动设计/教程/本教程有%20IceEmblem%20所写.txt 1587287382 � 
 /编程语言/C#/C#%20using%20三种使用方式.docx 1584929968 
 /编程语言/C#/C#%20获取当前dll路径.docx 1554343734 
 /编程语言/C#/C#调试dll.docx 1554343764 
