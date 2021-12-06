@@ -573,6 +573,7 @@
 /Windows%20平台/NetFramework/asp.net/asp.net管理状态.docx 1499518386 管理状态 视图状态 控制状态 会话状态 应用程序状态 
 /Windows%20平台/NetFramework/asp.net/asp.net语言集成查询.docx 1499526456 LINQ运算符 join子句 where子句 正序倒序排序子句 Let子句 
 /Windows%20平台/NetFramework/asp.net/asp.net部署.docx 1499528002 部署 XCOPY部署 复制一个网站 创建一个设置项目 
+/Windows%20平台/NetFramework/asp.net/asp.net配置.docx 1499527894 配置 ConfigurationSectionHandler声明 应用程序设置 连接字符串 系统的网络元素 AnonymousIdentification Authentication Caching CustomErrors Deployment HostingEnvironment Identity MachineKey Membership Pages Profile RoleManager SecurityPolicy UrlMappings WebControls WebServices 
 /Windows%20平台/NetFramework/mvc/ASP.NET%20应用程序生命周期概述.docx 1504058268 
 /Windows%20平台/NetFramework/mvc/Asp.net%20Mvc%20请求/Asp.net%20Mvc%20请求/Asp.net%20Mvc%20请求流程.docx 1504192858 
 /Windows%20平台/NetFramework/mvc/Asp.net%20Mvc%20请求/Asp.net%20Mvc%20请求/IHttpHandler/IHttpHandler.docx 1504192574 
@@ -1005,6 +1006,7 @@
 /前端/JavaScript/JS%20基础/3%20函数.docx 1607397611 闭包 自我调用 This的指向 作为构造函数 
 /前端/JavaScript/JS%20基础/4%20dom.docx 1607404243 Dom树 查找元素element 改变元素样式 Dom事件 Js生成事件和分发 事件监听器EventListener 创建和删除元素 创建元素 删除元素 改变HTML属性 
 /前端/JavaScript/JS%20基础/5%20window%20对象属性.docx 1607417675 Cookie History Location 计时事件 setInterval setTimeout 弹窗 alert confirm Navigator Screen Window的其他属性 print() 
+/前端/JavaScript/其他/css%20页面缩放.docx 1635994030 
 /前端/JavaScript/其他/二进制与Base64与文件.docx 1591256968 从base64转文件 从文件转Base64 
 /前端/JavaScript/其他/停止冒泡.docx 1599653421 
 /前端/JavaScript/其他/元素位置.docx 1607418807 获取元素绝对的位置 
@@ -1162,7 +1164,8 @@
 /前端/React教程/Create-React-App/1%20脚手架搭建%20React.docx 1589706814 构建项目 CSSModules支持 配合TypeScript 使用路由 安装bootstrap4 
 /前端/React教程/Create-React-App/2%20脚手架webpack更改%20craco.docx 1620231074 安装包 示例 文档地址 
 /前端/React教程/Create-React-App/2%20脚手架webpack更改%20react-app-rewired.docx 1589706040 安装包 替换package.json中scripts执行部分 
-/前端/React教程/Create-React-App/3%20使用环境变量.docx 1590646334 环境变量文件 在命令行添加环境变量 
+/前端/React教程/Create-React-App/3%20使用环境和node变量.docx 1634893074 环境变量文件 在命令行添加环境变量 配置node变量 
+/前端/React教程/Create-React-App/4%20构建相对路径.docx 1634544747 
 /前端/React教程/FAQ/React%20防抖.docx 1625982923 节流 防抖 
 /前端/React教程/FAQ/ReactJs%20style.docx 1521081676 
 /前端/React教程/FAQ/Reactjs%20子组件重新实例.docx 1584929404 
@@ -1183,6 +1186,7 @@
 /前端/React教程/中文文档/7%20列表(Lists)%20和%20键(Keys).docx 1545374860 
 /前端/React教程/中文文档/8%20表单(Forms).docx 1545376154 受控组件 fileinput标签 受控Input组件的null值 受控组件的替代方案 
 /前端/React教程/中文文档/9%20状态提升(Lifting%20State%20Up).docx 1545376936 
+/前端/React教程/插件/excel%20文件读取.docx 1635921084 
 /前端/React教程/插件/动画插件%20react-motion.docx 1599108540 安装包 简单示例 联动动画StaggeredMotion组件 挂载卸载动画TransitionMotion 
 /前端/React教程/插件/视频%20video-react.docx 1600433029 安装包 基本使用 详细文档和Github 
 /前端/React教程/高级指南/1%20深入%20JSX.docx 1545729734 JSX中的props(属性) JSX中的Children 
@@ -1205,12 +1209,13 @@
 /前端/React教程/高级指南/错误边界.docx 1597747309 
 /前端/TypeScript/1%20TypeScript%20安装.docx 1563153884 安装typescript 查看安装版本号 新建ts文件 编译ts为js代码 使用node命令来执行test.js文件 
 /前端/TypeScript/10%20TypeScript%20联合类型.docx 1563157626 实例 联合类型数组 
-/前端/TypeScript/11%20TypeScript%20接口.docx 1563158154 实例 接口和数组 接口继承 
+/前端/TypeScript/11%20TypeScript%20接口.docx 1563158154 实例 可选属性 接口和数组 接口继承 
 /前端/TypeScript/12%20TypeScript%20类.docx 1563158580 类的数据成员 创建实例化对象 类的继承 static关键字 instanceof运算符 访问控制修饰符 类和接口 
 /前端/TypeScript/13%20TypeScript%20对象.docx 1563158964 鸭子类型(DuckTyping) 
 /前端/TypeScript/14%20TypeScript%20命名空间.docx 1563159072 TypeScript命名空间 嵌套命名空间 
 /前端/TypeScript/15%20TypeScript%20模块.docx 1563159164 TypeScript模块 
 /前端/TypeScript/16%20TypeScript%20声明文件.docx 1563159674 TypeScript声明文件 声明文件 实例 
+/前端/TypeScript/17%20泛型.docx 1634805302 泛型参数 指定泛型类型 
 /前端/TypeScript/2%20TypeScript%20基础语法.docx 1563154298 HelloWorld 
 /前端/TypeScript/3%20TypeScript%20基础类型.docx 1563154852 TypeScript基础类型 Any类型 Null和Undefined null undefined never类型 
 /前端/TypeScript/4%20TypeScript%20变量声明.docx 1563155380 类型断言（TypeAssertion） 类型推断 变量作用域 
@@ -1696,7 +1701,7 @@
 /平台无关/领域驱动设计/教程/5%20模型完整性/2%20上下文之间的关系.docx 1566987318 共享内核 客户/供应商 墨守成规 防腐层 各行其道 
 /平台无关/领域驱动设计/教程/DDD%20原则.docx 1622983329 ORM独立原则 展现层技术无关原则 关注状态的变化,而不是报表/查询 序列化 聚合间只通过ID相互引用 保持聚合尽量的小 聚合根/实体的主键 聚合根/实体的构造函数 实体属性访问器和方法 业务逻辑与实体异常 实体中业务逻辑依赖外部服务时 仓储 规约（规则，规格） 领域服务 应用服务 DTO通用原则和最佳实践 不要重用输入DTO 输出DTO最佳实践 对象映射到对象 应用服务示例 在创建实体时执行领域规则 领域逻辑示例 应用服务逻辑示例 
 /平台无关/领域驱动设计/教程/分离领域层.docx 1571889172 表示层： 应用层： 领域层： 基础设施层： 
-/平台无关/领域驱动设计/教程/本教程有%20IceEmblem%20所写.txt 1587287382 � 
+/平台无关/领域驱动设计/教程/本教程有%20IceEmblem%20所写.txt 1587287382 � 
 /编程语言/C#/C#%20using%20三种使用方式.docx 1584929968 
 /编程语言/C#/C#%20获取当前dll路径.docx 1554343734 
 /编程语言/C#/C#调试dll.docx 1554343764 
