@@ -33,8 +33,6 @@
 /Linux%20平台/Libevent/9%20停止%20event_base.docx 1588418346 停止event_base 判断event_base释放正常退出 
 /Linux%20平台/Libevent/原文地址.txt 1588305172 
 /Linux%20平台/Linux%20教程/U盘挂载.docx 1584951546 虚拟机设置 挂载U盘 卸载u盘 
-/Linux%20平台/Linux%20教程/~$%20linux%20用户切换与root用户.docx 1567948564 
-/Linux%20平台/Linux%20教程/~$linux%20yum%20命令.docx 1567949162 
 /Linux%20平台/Linux%20教程/命令/awk%20文本字符串处理.docx 1617555135 示例1 示例2 
 /Linux%20平台/Linux%20教程/命令/find%20查找命令.docx 1579493316 实例 语法 
 /Linux%20平台/Linux%20教程/命令/grep%20过滤文本.docx 1569311084 grep命令使用方法 grep命令常用参数说明 grep正则参数说明 
@@ -50,16 +48,15 @@
 /Linux%20平台/Linux%20教程/命令/whereis%20查找程序安装路径.docx 1579485510 
 /Linux%20平台/Linux%20教程/命令/xargs%20接收多行结果，每一行作为参数传给新命令.docx 1579496580 格式： 示例： 
 /Linux%20平台/Linux%20教程/命令/zip%20压缩命令.docx 1568106196 实例 zip-dvcp.zipa.c 语法 
-/Linux%20平台/Linux%20教程/教程/1%20Linux%20系统启动过程.docx 1567666672 内核引导 运行init 运行级别 系统初始化 建立终端 用户登录系统 图形模式与文字模式的切换方式 Linux关机 
+/Linux%20平台/Linux%20教程/教程/1%20Linux%20系统启动过程.docx 1567666672 内核引导 运行init 运行级别 系统初始化 建立终端 Linux关机 
 /Linux%20平台/Linux%20教程/教程/10%20linux%20用户切换与root用户.docx 1567948564 
 /Linux%20平台/Linux%20教程/教程/11%20Ubuntu%20仓库.docx 1582081662 添加仓库 从仓库更新软件源 
 /Linux%20平台/Linux%20教程/教程/2%20Linux%20系统目录结构.docx 1582080314 
-/Linux%20平台/Linux%20教程/教程/3%20Linux%20忘记密码解决方法.docx 1567667476 重启linux系统 
-/Linux%20平台/Linux%20教程/教程/4%20Linux%20文件基本属性.docx 1567668992 Linux文件属主和属组 更改文件属性 1、chgrp：更改文件属组 3、chmod：更改文件9个属性 符号类型改变文件权限 
-/Linux%20平台/Linux%20教程/教程/5%20Linux%20文件与目录管理.docx 1567671000 绝对路径： 相对路径： 处理目录的常用命令 ls(列出目录) cd(切换目录) pwd(显示目前所在的目录) mkdir(创建新目录) rmdir(删除空的目录) cp(复制文件或目录) rm(移除文件或目录) mv(移动文件与目录，或修改名称) Linux文件内容查看 cat tac nl more less head tail 
-/Linux%20平台/Linux%20教程/教程/6%20Linux%20用户和用户组管理.docx 1567912698 2、删除帐号 3、修改帐号 4、用户口令的管理 四、添加批量用户 （1）先编辑一个文本用户文件。 （3）执行命令/usr/sbin/pwunconv。 
-/Linux%20平台/Linux%20教程/教程/7%20Linux%20磁盘管理.docx 1567915464 实例1 实例1 实例2 实例1 实例2 磁盘格式化 实例1 实例2 实例1 实例2 实例1 
-/Linux%20平台/Linux%20教程/教程/8%20Linux%20vivim.docx 1567928996 命令模式： 输入模式 底线命令模式 使用vi/vim进入一般模式 按下ESC按钮回到一般模式 
+/Linux%20平台/Linux%20教程/教程/4%20Linux%20文件基本属性.docx 1567668992 drwxrwxrwx解释 更改文件属性 
+/Linux%20平台/Linux%20教程/教程/5%20Linux%20文件与目录管理.docx 1567671000 处理目录的常用命令 ls(列出目录) cd(切换目录) pwd(显示目前所在的目录) mkdir(创建新目录) rmdir(删除空的目录) cp(复制文件或目录) rm(移除文件或目录) mv(移动文件与目录，或修改名称) cat显示文本 less 
+/Linux%20平台/Linux%20教程/教程/6%20Linux%20用户和用户组管理.docx 1567912698 添加新的用户账号 删除帐号 修改帐号 用户口令的管理 增加一个新的用户组 删除一个已有的用户组 修改用户组 用户切换组 1、/etc/passwd文件 2、/etc/group文件 
+/Linux%20平台/Linux%20教程/教程/7%20Linux%20磁盘管理.docx 1567915464 df磁盘空间占用情况 磁盘挂载 磁盘卸载 
+/Linux%20平台/Linux%20教程/教程/8%20Linux%20vivim.docx 1567928996 命令模式： 输入模式 底线命令模式 总结 
 /Linux%20平台/Linux%20教程/教程/9%20linux%20yum%20命令.docx 1567949162 yum语法 实例1 实例2 实例3 安装步骤 
 /Linux%20平台/Linux%20教程/教程/本文档出自%20菜鸟教程.txt 1582080602 � 
 /Linux%20平台/Linux%20教程/网络命令/curl%20http请求.docx 1628002646 不带参数 -b -c -d -L -s 
@@ -170,12 +167,10 @@
 /Linux%20平台/Shell%20教程/10%20Shell%20函数.docx 1578712022 
 /Linux%20平台/Shell%20教程/11%20Shell%20输入输出重定向.docx 1578713466 
 /Linux%20平台/Shell%20教程/12%20Shell%20文件包含.docx 1578713524 实例 
-/Linux%20平台/Shell%20教程/2%20Shell%20变量.docx 1578707838 定义变量 使用变量 只读变量 删除变量 单引号 双引号 拼接字符串 获取字符串长度 提取子字符串 查找子字符串 定义数组 读取数组 获取数组中的所有元素 获取数组的长度 多行注释 
+/Linux%20平台/Shell%20教程/2%20Shell%20变量.docx 1578707838 定义变量 使用变量 单引号 双引号 拼接字符串 获取字符串长度 提取子字符串 查找子字符串 定义数组 读取数组 获取数组中的所有元素 获取数组的长度 多行注释 
 /Linux%20平台/Shell%20教程/3%20Shell%20传递参数.docx 1578709008 实例 
 /Linux%20平台/Shell%20教程/5%20Shell%20基本运算符.docx 1578710180 
 /Linux%20平台/Shell%20教程/6%20Shell%20echo命令.docx 1578710566 1.显示普通字符串: 2.显示转义字符 3.显示变量 
-/Linux%20平台/Shell%20教程/7%20Shell%20printf%20命令.docx 1578710822 
-/Linux%20平台/Shell%20教程/8%20Shell%20test%20命令.docx 1578711080 
 /Linux%20平台/Shell%20教程/9%20Shell%20流程控制.docx 1578711764 if ifelse ifelse-ifelse break命令 continue 
 /Linux%20平台/Shell%20教程/字符串操作.docx 1584952164 获取字符串长度 提前子串 子串替换 
 /Linux%20平台/Shell%20教程/遍历目录及子目录所有文件.docx 1584951898 
@@ -343,6 +338,14 @@
 /Windows%20平台/MassTransit%20消息总线/高级教程/2%20Saga%20模式.docx 1585294344 定义事件和命令 定义Saga 将Saga添加到队列 
 /Windows%20平台/MassTransit%20消息总线/高级教程/3%20基于%20EF%20的%20Saga%20模式.docx 1585357922 安装包 Saga指定主键 新建数据库上下文 添加Saga到总线 
 /Windows%20平台/MassTransit%20消息总线/高级教程/本教程由%20IceEmblem%20所做.txt 1585357946 � 
+/Windows%20平台/Net/1%20目标框架、项目、包.docx 1639564762 .NET的框架体系 .NETStandard与其他框架的关系 Nuget包与框架 Nuget包依赖项分析 包版本冲突 
+/Windows%20平台/Net/2%20CLI%20命令和项目结构.docx 1640768371 vscode扩展 解决方案 项目 发布项目/解决方案 类库 单元测试 Nuget包使用 ***.csproj项目文件 vscode配置 
+/Windows%20平台/Net/3%20byte，字符，编码.docx 1640244638 理论：byte与各种编码 Byte 编码 ASCII编码 Unicode字符集 Unicode编码（UTF-16） UTF-8编码 UTF-32编码 Base64 image/jpeg byte，Rune，char，string的关系 char Rune string 编码转换 
+/Windows%20平台/Net/4%20JSON%20序列化.docx 1640166053 基本序列化和反序列化 UTF8序列化和反序列化 行为控制 
+/Windows%20平台/Net/5%20文件和流.docx 1640250557 概念：流（Stream）与byte 流（Stream） 文件操作File 目录操作Directory 路径Path 具体实现流 Zip压缩和解压 Gzip压缩和解压 
+/Windows%20平台/Net/6%20依赖注入.docx 1643359725 涉及概念 .NET官方提供的依赖注入 服务生命周期 ASP.NETCore 
+/Windows%20平台/Net/7%20配置.docx 1643359426 涉及概念 基本示例 配置源 Asp.netcore 
+/Windows%20平台/Net/本教程需要有%20Net%20开发经验才能阅读.txt 1639728533 � 
 /Windows%20平台/NetCore/.net%20core/.net%20Core%20ReactJs%20解决方案.docx 1584928506 
 /Windows%20平台/NetCore/.net%20core/.net%20Core%20使用SSL证书.docx 1584928510 
 /Windows%20平台/NetCore/.net%20core/.net%20Core%20使用静态文件、目录游览与MIME类型管理.docx 1584928514 
@@ -547,33 +550,34 @@
 /Windows%20平台/NetFramework/WebAPI/返回值/IHttpActionResult.docx 1521091912 1、Json<T>(Tcontent) 2、Ok()、 Ok<T>(Tcontent) 3、NotFound() 4、其他 4.2、BadRequest() 4.3、Redirect(stringlocation) 
 /Windows%20平台/NetFramework/WebAPI/返回值/void无返回值.docx 1521190460 
 /Windows%20平台/NetFramework/WebAPI/返回值/自定义类型.docx 1521190660 
-/Windows%20平台/NetFramework/asp.net/asp.net%20ado.net.docx 1499492960 ADO.NET DataSet类 DataTable类 DataRow类 DataAdapter对象 DataReader对象 DbCommand和DbConnection对象 例子 
-/Windows%20平台/NetFramework/asp.net/asp.net%20ajax控制.docx 1499519612 Ajax控制 ScriptManager控件 UpdatePanel控件 UpdatePanelControl的属性 UpdatePanelControl的方法 UpdateProgress控件 UpdateProgress控件的属性 UpdateProgress控件的方法 
-/Windows%20平台/NetFramework/asp.net/asp.net%20html%20服务器.docx 1499500214 HTML服务器 使用HTML服务器控件的优点 实例 
-/Windows%20平台/NetFramework/asp.net/asp.net%20panel控件.docx 1499514416 Panel控件 
-/Windows%20平台/NetFramework/asp.net/asp.net%20web服务.docx 1499527634 Web服务 创建web服务 使用Web服务 创建代理服务器 
-/Windows%20平台/NetFramework/asp.net/asp.net%20客户端.docx 1499502094 客户端 客户端脚本 客户端源代码 
-/Windows%20平台/NetFramework/asp.net/asp.net个性化.docx 1499525478 理解特征文件 例子 
-/Windows%20平台/NetFramework/asp.net/asp.net事件处理.docx 1499484468 事件参数 应用程序和会话事件 页面和控件事件 使用控件处理事件 默认事件 
-/Windows%20平台/NetFramework/asp.net/asp.net基础控件.docx 1499504270 按钮控件 文本框和标签 单选按钮列表和复选框列表 复选框和单选按钮 列表控件 ListItemCollection 项目符号列表和编号列表 超链接控件 图像控件 
-/Windows%20平台/NetFramework/asp.net/asp.net多视图.docx 1499505500 多视图 View和MultiView控件的属性 例子 
-/Windows%20平台/NetFramework/asp.net/asp.net安全性.docx 1499526768 安全性 基于表单的认证 基于表单的安全性的实现 IIS认证：SSL 
-/Windows%20平台/NetFramework/asp.net/asp.net实例.docx 1499349976 页面指令 编码区段 页面布局 
-/Windows%20平台/NetFramework/asp.net/asp.net指令.docx 1499506482 应用程序指令 集合指令 控制指令 工具指令 导入指令 主要指令 MasterType指令 输出缓存指令 页面指令 前页型指令 参考指令 注册指令 
-/Windows%20平台/NetFramework/asp.net/asp.net数据库存取.docx 1499521192 数据库存取 检索和显示数据 
-/Windows%20平台/NetFramework/asp.net/asp.net数据源.docx 1499520928 数据源 DataSource视图 SqlDataSource控件 
-/Windows%20平台/NetFramework/asp.net/asp.net数据绑定.docx 1499524676 ASP.NET-数据绑定 绑定流程： 例子 
-/Windows%20平台/NetFramework/asp.net/asp.net数据缓存.docx 1499527176 什么是缓存？ ASP.NET中的缓存 输出缓存 数据缓存 对象缓存 
-/Windows%20平台/NetFramework/asp.net/asp.net文件上传.docx 1499498872 文件上传 例子 
-/Windows%20平台/NetFramework/asp.net/asp.net日历.docx 1499502454 日历 日历控件的属性和事件 例子 
-/Windows%20平台/NetFramework/asp.net/asp.net服务器控件.docx 1499497140 服务器控件 服务器控件的方法 实例 
-/Windows%20平台/NetFramework/asp.net/asp.net服务器端.docx 1499489692 Server对象 Server对象的属性和方法 Request对象 Request对象的属性和方法 Response对象 Response对象的属性和方法 示例 
-/Windows%20平台/NetFramework/asp.net/asp.net生命周期.docx 1499349058 ASP.NET应用程序生命周期 ASP.NET页面生命周期 ASP.NET页面生命周期事件 
-/Windows%20平台/NetFramework/asp.net/asp.net简介.docx 1499348690 
-/Windows%20平台/NetFramework/asp.net/asp.net管理状态.docx 1499518386 管理状态 视图状态 控制状态 会话状态 应用程序状态 
-/Windows%20平台/NetFramework/asp.net/asp.net语言集成查询.docx 1499526456 LINQ运算符 join子句 where子句 正序倒序排序子句 Let子句 
-/Windows%20平台/NetFramework/asp.net/asp.net部署.docx 1499528002 部署 XCOPY部署 复制一个网站 创建一个设置项目 
-/Windows%20平台/NetFramework/asp.net/asp.net配置.docx 1499527894 配置 ConfigurationSectionHandler声明 应用程序设置 连接字符串 系统的网络元素 AnonymousIdentification Authentication Caching CustomErrors Deployment HostingEnvironment Identity MachineKey Membership Pages Profile RoleManager SecurityPolicy UrlMappings WebControls WebServices 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20ArrayList.docx 1499264984 ASP.NETWebForms -ArrayList对象 创建ArrayList 绑定数据到ArrayList 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20DataList%20控件.docx 1499335898 把DataSet绑定到DataList控件 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20Hashtable%20对象.docx 1499331834 创建Hashtable 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20Repeater%20控件.docx 1499334032 把DataSet绑定到Repeater控件 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20XML文件.docx 1499333270 一个XML文件 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20button控件.docx 1499264468 ASP.NETWebForms -Button控件 Button控件 添加脚本 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20from%20page.docx 1499230484 用ClassicASP编写的动态页面 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20textbox.docx 1499246700 添加脚本 
+/Windows%20平台/NetFramework/asp.net%20wf/wf%20viewstate.docx 1499233072 
+/Windows%20平台/NetFramework/asp.net%20wf/wf事件.docx 1499232056 ASP.NET-事件句柄 
+/Windows%20平台/NetFramework/asp.net%20wf/wf导航.docx 1499351246 网站导航 Sitemap文件 动态菜单 TreeView SiteMapPath 
+/Windows%20平台/NetFramework/asp.net%20wf/wf控件.docx 1499231144 ASP.NET-服务器控件 
+/Windows%20平台/NetFramework/asp.net%20wf/wf数据库链接.docx 1499347118 创建数据库连接 创建数据库命令 创建DataReader 绑定到Repeater控件 关闭数据库连接 
+/Windows%20平台/NetFramework/asp.net%20wf/wf数据控件.docx 1499264654 ASP.NETWebForms -数据绑定 数据绑定 
+/Windows%20平台/NetFramework/asp.net%20wf/wf母版页.docx 1499350590 母版页实例 内容页实例 
+/Windows%20平台/NetFramework/asp.net%20wf/wf窗体.docx 1499232334 提交表单 
+/Windows%20平台/NetFramework/asp.net%20wf/wf简介.docx 1499230276 ASP.NET如何工作？ 
+/Windows%20平台/NetFramework/asp.net%20wp/wpEmail.docx 1499179884 WebMail帮助器 第一：编辑您的AppStart页面 _AppStart.cshtml Email_Input.cshtml Email_Send.cshtml 
+/Windows%20平台/NetFramework/asp.net%20wp/wpWebGrid.docx 1499179004 使用WebGrid帮助器 
+/Windows%20平台/NetFramework/asp.net%20wp/wp全局页面.docx 1499175184 在Web启动之前：_AppStart 在每一个页面之前：_PageStart 
+/Windows%20平台/NetFramework/asp.net%20wp/wp图表.docx 1499179462 Chart帮助器 根据数组创建图表 根据数据库创建图表 
+/Windows%20平台/NetFramework/asp.net%20wp/wp对象.docx 1499177510 某些Page对象方法 某些Page对象属性 Page对象的Page属性 
+/Windows%20平台/NetFramework/asp.net%20wp/wp布局.docx 1499173976 LayoutPage（布局页） 防止文件被浏览 
+/Windows%20平台/NetFramework/asp.net%20wp/wp帮助器.docx 1499178660 ASP.NET帮助器 WebGrid帮助器 Chart帮助器 WebMail帮助器 WebImage帮助器 第三方帮助器 
+/Windows%20平台/NetFramework/asp.net%20wp/wp文件.docx 1499178304 手动添加一个文本文件 Persons.txt 
+/Windows%20平台/NetFramework/asp.net%20wp/wp文件夹.docx 1499174470 逻辑文件夹结构 物理文件夹结构 虚拟名称和物理名称 URL和路径 ~运算符 Server.MapPath方法 
+/Windows%20平台/NetFramework/asp.net%20wp/wp表单.docx 1499177124 
+/Windows%20平台/NetFramework/asp.net%20wp/基本的c#语句.docx 1499180412 
 /Windows%20平台/NetFramework/mvc/ASP.NET%20应用程序生命周期概述.docx 1504058268 
 /Windows%20平台/NetFramework/mvc/Asp.net%20Mvc%20请求/Asp.net%20Mvc%20请求/Asp.net%20Mvc%20请求流程.docx 1504192858 
 /Windows%20平台/NetFramework/mvc/Asp.net%20Mvc%20请求/Asp.net%20Mvc%20请求/IHttpHandler/IHttpHandler.docx 1504192574 
@@ -921,6 +925,7 @@
 /Windows%20平台/windows内核操作/进程与现程/获得线程id.docx 1483013408 
 /Windows%20平台/windows内核操作/进程与现程/获得进程id.docx 1483011528 
 /Windows%20平台/winform/两个panel的显示隐藏.docx 1521533264 
+/Windows%20平台/数据库/PostgreSQL/常用命令.docx 1639389774 连接数据库服务器 创建用户 删除用户 查看数据库列表 创建数据库 删除数据库 
 /Windows%20平台/数据库/SqlServer/1%20编程基础.docx 1575360182 常量 字符串常量 时间常量 符号常量 变量 运算符 通配符 
 /Windows%20平台/数据库/SqlServer/2%20流程控制.docx 1575361344 Begin...end if...else Case（Sql版switch） While循环 Waitfor（等待一段时间） 
 /Windows%20平台/数据库/SqlServer/4%20存储过程.docx 1575367232 创建存储过程 修改存储过程 删除存储过程 存储过程返回结果方式 使用return返回数值类型 使用输出参数返回数据 使用selete生成结果集 
@@ -1195,7 +1200,7 @@
 /前端/React教程/高级指南/12%20与其他库整合(Integrating%20with%20Other%20Libraries).docx 1520488828 
 /前端/React教程/高级指南/13%20代码拆分(Code-Splitting).docx 1520489566 代码拆分 import() React.lazy 基于路由的代码分割 
 /前端/React教程/高级指南/14%20Context%20上下文.docx 1599632799 
-/前端/React教程/高级指南/15%20高级组件.docx 1626006727 高级组件示例 高阶组件解决什么问题 
+/前端/React教程/高级指南/15%20高级组件.docx 1626006727 高级组件示例 高阶组件解决什么问题 使用原则 
 /前端/React教程/高级指南/16%20Hook.docx 1626008233 StateHook EffectHook 自定义Hook 
 /前端/React教程/高级指南/2%20使用%20PropTypes%20进行类型检查.docx 1556455246 详细的PropTypes类型 
 /前端/React教程/高级指南/3%20静态类型检查.docx 1556455108 
@@ -1447,11 +1452,12 @@
 /平台无关/CQRS/3%20CQRS%20Saga%20模式.docx 1585123378 概念 什么是Saga Saga与处理器 代码示例 
 /平台无关/Docker/1%20ubuntu%20安装%20Docker.docx 1582082458 添加Docker仓库 
 /平台无关/Docker/2%20Hello%20World.docx 1582085068 简单示例 运行交互式的容器 示例： 各个参数解析： 退出容器： 后台模式启动 示例： 参数解析： 查看后台运行的容器： 查看容器标准输出： 停止容器 
-/平台无关/Docker/3%20Docker%20容器使用.docx 1582172320 帮助命令 容器使用 获取镜像 查看运行的容器 启动容器 后台启动容器 进入后台启动的容器 退出容器 停止容器 启动以停止的容器 导出容器 导入容器 删除容器 
+/平台无关/Docker/3%20Docker%20容器使用.docx 1582172320 帮助命令 获取镜像 查看运行的容器 启动容器 进入后台启动的容器 查看容器元数据 退出容器 停止容器 启动以停止的容器 导出容器 导入容器 删除容器 
 /平台无关/Docker/4%20镜像使用.docx 1582255314 列出镜像列表 获取一个新的镜像 查找镜像 删除镜像 从容器中创建镜像 设置镜像标签 
-/平台无关/Docker/5%20容器连接.docx 1582258334 容器端口映射到主机端口 Docker网络互联 新建网络 连接容器 配置DNS 
+/平台无关/Docker/5%20容器连接.docx 1582258334 容器端口映射到主机端口 Docker网络互联 创建网络 显示所有网络 创建容器时指定网络 查看网络的元数据 手动将某个容器加入网络 配置DNS 
 /平台无关/Docker/6%20仓库管理.docx 1582510946 登录 退出 搜索镜像 拉取镜像 推送镜像 
-/平台无关/Docker/7%20Dockerfile%20定制镜像.docx 1582516478 使用Dockerfile定制镜像 Dockerfile 生成镜像 指令详解 FROM RUN COPY CMD ENTRYPOINT ENV 
+/平台无关/Docker/7%20Dockerfile%20定制镜像.docx 1582516478 使用Dockerfile定制镜像 Dockerfile 生成镜像 指令详解 FROM RUN COPY CMD ENTRYPOINT ENV VOLUME EXPOSE WORKDIR 镜像发布 登录hub 发布镜像 
+/平台无关/Docker/8%20docker-compose.yml%20文件.docx 1639391134 Compose安装 容器文件示例 
 /平台无关/Event%20Sourcing/1%20简介.docx 1585642496 EventSourcing（ES，事件溯源） 
 /平台无关/Event%20Sourcing/2%20架构.docx 1585642498 架构图 基本流程 
 /平台无关/Git%20教程/1%20安装Git.docx 1584929526 
@@ -1473,6 +1479,17 @@
 /平台无关/Git%20教程/Github%20记住用户名密码.docx 1584324984 
 /平台无关/Git%20教程/Github%20退回到某个版本.docx 1575453706 2. 恢复到历史版本 3. 把修改推到远程服务器 
 /平台无关/Git%20教程/本地库与远程库关联.docx 1584347440 
+/平台无关/Jenkins/1%20Jenkins%20安装.docx 1617633630 安装Jenkins（ubuntu） 运行 
+/平台无关/Jenkins/Jenkins%20sudo%20输入密码.docx 1618135463 
+/平台无关/Kong%20学习笔记/1%20Kong%20的安装和基本概念.docx 1639564847 前置知识 基本环境 Docker安装Kong 创建Docker网络 Kong数据库安装部署 选择PostgreSQL 选择Cassandra 选择DB-less 创建数据库 运行Kong 初始化数据库 运行Kong 停止Kong Kong配置 配置文件 端口 概念 Kong基础对象 路由 服务 上游 目标 消费者 插件 证书 SNI 对象之间的关系 踩坑日志（不看白不看） 
+/平台无关/Kong%20学习笔记/2%20Kong%20管理运维.docx 1639564847 准备 Konga 创建数据库 安装konga 将konga连接到kong konga仪表盘说明 INFO配置信息 服务 路由 消费者 插件 上游 目标节点 证书 用户 快照管理 
+/平台无关/Kong%20学习笔记/3%20Kong%20的基本功能.docx 1640768371 准备工作 功能：路由转发 功能：均衡负载 灰度发布 蓝绿部署 正则路由 https重定向 混合模式 踩坑（看了也没用） 
+/平台无关/Kong%20学习笔记/4%20Kong%20的配置详解.docx 1642759651 配置文件 基于配置文件的Docker启动 Kong的配置 指令注入 
+/平台无关/Kong%20学习笔记/5%20Kong%20日志搜集与分析.docx 1642759651 准备工作 日志相关的配置 查看日志 日志格式 分布式日志 Filebeat Logstash Elasticsearch Kibana 
+/平台无关/Kong%20学习笔记/6%20Kong%20指标监控与报警.docx 1642759651 Kongprometheus插件 服务器监测 安装prometheus 安装grafana 踩坑 
+/平台无关/Kong%20学习笔记/7%20Kong%20高级.docx 1642988703 基于DNS的负载均衡 基于环形均衡器的负载均衡 健康监测 Kong集群 Kong参数优化 
+/平台无关/Kong%20学习笔记/8%20Kong%20LVS%20均衡负载.docx 1642988703 LVS介绍 LVS负载模式 LVS虚拟IP（VIP） 准备工作 安装keepalived 配置后端服务器健康监测 
+/平台无关/Kong%20学习笔记/本教程基于《Kong%20入门与实战》数据.txt 1639389774 � 
 /平台无关/MongoDB%20教程/1%20NoSQL%20简介.docx 1584929564 
 /平台无关/MongoDB%20教程/10%20MongoDB%20插入文档.docx 1584929568 实例 
 /平台无关/MongoDB%20教程/11%20MongoDB%20更新文档.docx 1584929572 实例 实例 
@@ -1578,8 +1595,6 @@
 /平台无关/线性代数/5%20二次型.docx 1606478448 二次型与对称矩阵 二元二次齐次多项式 n元二次齐次多项式 线性变换 y=C-1x 我们称这样的二次型为标准型 初等变换化二次型为标准型 
 /平台无关/线性代数/由%20IceEmblem%20编写.txt 1608946315 � 
 /平台无关/网站技术/Http%20请求缓存.docx 1626275986 设置流量器缓存 过期后请求 
-/平台无关/网站技术/Jenkins%20sudo%20输入密码.docx 1618135463 
-/平台无关/网站技术/Jenkins%20持续集成%20持续部署.docx 1617633630 安装Jenkins（ubuntu） 运行 
 /平台无关/网站技术/Nginx%20反向代理.docx 1584929818 Nginx安装 1.windows安装   启动nginx 访问nginx   停止nginx   2.ubuntu安装   查看nginx进程是否启动   启动nginx服务器命令   停止nginx服务命令   重新启动加载 nginx配置 event模块 http模块 server模块 location模块 upstream模块 
 /平台无关/网站技术/Wireshark基本使用教程.docx 1584929824 Wireshark基本用法 
 /平台无关/网站技术/redis和mongodb数据库对比.docx 1584929822 
@@ -1657,7 +1672,7 @@
 /平台无关/软件架构设计/9%20领域建模.docx 1572518622 什么是领域模型 需求人员视角 开放人员视角 领域模型构建过程示例 
 /平台无关/软件架构设计/CAP%20定理的含义.docx 1600587517 
 /平台无关/软件架构设计/Enterprise%20Architect%20绘制鲁棒图.docx 1583313904 
-/平台无关/软件架构设计/四色原型.docx 1600594013 什么是四色原型 moment-intervalarchetype（MI，时刻） rolearchetype（角色） descriptionarchetype（描述） 如下四色原型的关系 
+/平台无关/软件架构设计/四色原型.docx 1600594013 什么是四色原型 rolearchetype（角色原型） descriptionarchetype（描述） 如下四色原型的关系 必须的原型 示例 测试 
 /平台无关/软件架构设计/概念区分.docx 1573007048 模块与组件 
 /平台无关/软件架构设计/由%20IceEmblem%20编写.txt 1608946435 � 
 /平台无关/重构手法/1%20函数.docx 1584929888 
@@ -1701,7 +1716,7 @@
 /平台无关/领域驱动设计/教程/5%20模型完整性/2%20上下文之间的关系.docx 1566987318 共享内核 客户/供应商 墨守成规 防腐层 各行其道 
 /平台无关/领域驱动设计/教程/DDD%20原则.docx 1622983329 ORM独立原则 展现层技术无关原则 关注状态的变化,而不是报表/查询 序列化 聚合间只通过ID相互引用 保持聚合尽量的小 聚合根/实体的主键 聚合根/实体的构造函数 实体属性访问器和方法 业务逻辑与实体异常 实体中业务逻辑依赖外部服务时 仓储 规约（规则，规格） 领域服务 应用服务 DTO通用原则和最佳实践 不要重用输入DTO 输出DTO最佳实践 对象映射到对象 应用服务示例 在创建实体时执行领域规则 领域逻辑示例 应用服务逻辑示例 
 /平台无关/领域驱动设计/教程/分离领域层.docx 1571889172 表示层： 应用层： 领域层： 基础设施层： 
-/平台无关/领域驱动设计/教程/本教程有%20IceEmblem%20所写.txt 1587287382 � 
+/平台无关/领域驱动设计/教程/本教程有%20IceEmblem%20所写.txt 1587287382 � 
 /编程语言/C#/C#%20using%20三种使用方式.docx 1584929968 
 /编程语言/C#/C#%20获取当前dll路径.docx 1554343734 
 /编程语言/C#/C#调试dll.docx 1554343764 
