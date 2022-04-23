@@ -38,6 +38,8 @@
 /Linux%20平台/Linux%20教程/命令/grep%20过滤文本.docx 1569311084 grep命令使用方法 grep命令常用参数说明 grep正则参数说明 
 /Linux%20平台/Linux%20教程/命令/ln%20创建连接文件.docx 1568035186 语法 实例 
 /Linux%20平台/Linux%20教程/命令/nohup%20后台执行.docx 1618135127 
+/Linux%20平台/Linux%20教程/命令/swap%20分区.docx 1649318459 查看swap开启状态 关闭swap 
+/Linux%20平台/Linux%20教程/命令/systemctl%20启动管理.docx 1649409924 查看启动日志 设置开机自启动 启动nginx服务 停止开机自启动 查看服务当前状态 重新启动服务 查看所有已启动的服务 
 /Linux%20平台/Linux%20教程/命令/tar%20压缩解压命令.docx 1569204024 
 /Linux%20平台/Linux%20教程/命令/tr%20字符串替换操作.docx 1584952818 示例（替换b为d） 示例（将小写替换为大写） 语法 
 /Linux%20平台/Linux%20教程/命令/trans%20google翻译.docx 1568036484 安装Translate-Shell 安装gawk 使用Translate-Shell 
@@ -50,7 +52,7 @@
 /Linux%20平台/Linux%20教程/命令/zip%20压缩命令.docx 1568106196 实例 zip-dvcp.zipa.c 语法 
 /Linux%20平台/Linux%20教程/教程/1%20Linux%20系统启动过程.docx 1567666672 内核引导 运行init 运行级别 系统初始化 建立终端 Linux关机 
 /Linux%20平台/Linux%20教程/教程/10%20linux%20用户切换与root用户.docx 1567948564 
-/Linux%20平台/Linux%20教程/教程/11%20Ubuntu%20仓库.docx 1582081662 添加仓库 从仓库更新软件源 
+/Linux%20平台/Linux%20教程/教程/11%20Ubuntu%20仓库和软件管理.docx 1649668326 添加仓库 更新软件 查看软件可用版本 安装软件 安装指定版本的软件 搜索可安装的软件 
 /Linux%20平台/Linux%20教程/教程/2%20Linux%20系统目录结构.docx 1582080314 
 /Linux%20平台/Linux%20教程/教程/4%20Linux%20文件基本属性.docx 1567668992 drwxrwxrwx解释 更改文件属性 
 /Linux%20平台/Linux%20教程/教程/5%20Linux%20文件与目录管理.docx 1567671000 处理目录的常用命令 ls(列出目录) cd(切换目录) pwd(显示目前所在的目录) mkdir(创建新目录) rmdir(删除空的目录) cp(复制文件或目录) rm(移除文件或目录) mv(移动文件与目录，或修改名称) cat显示文本 less 
@@ -59,11 +61,12 @@
 /Linux%20平台/Linux%20教程/教程/8%20Linux%20vivim.docx 1567928996 命令模式： 输入模式 底线命令模式 总结 
 /Linux%20平台/Linux%20教程/教程/9%20linux%20yum%20命令.docx 1567949162 yum语法 实例1 实例2 实例3 安装步骤 
 /Linux%20平台/Linux%20教程/教程/本文档出自%20菜鸟教程.txt 1582080602 � 
+/Linux%20平台/Linux%20教程/网络命令/SELinux.docx 1649317400 永久关闭SElinux 
 /Linux%20平台/Linux%20教程/网络命令/curl%20http请求.docx 1628002646 不带参数 -b -c -d -L -s 
 /Linux%20平台/Linux%20教程/网络命令/ftp%20搭建.docx 1593421833 
 /Linux%20平台/Linux%20教程/网络命令/ssh%20远程会话.docx 1583122084 安装ssh 启动ssh 重启ssh 
-/Linux%20平台/Linux%20教程/网络命令/ubuntu%20软件更新.docx 1583121694 使用阿里云服务器 
 /Linux%20平台/Linux%20教程/网络命令/ubuntu%20运行%20asp.net%20core.docx 1583151182 注册Microsoft密钥和源 发布web到linux上 运行web应用 直接运行 指定端口 后台运行 
+/Linux%20平台/Linux%20教程/网络命令/ubuntu%20防火墙.docx 1649316321 查看防火墙状态 开启防火墙 关闭防火墙 
 /Linux%20平台/Linux%20教程/网络命令/xshell%20访问linux服务器工具.docx 1583124240 Windows访问linux 安装xshell 连接linux 文件传输 运行xshell，连接至linux Linux安装lrzsz 上传文件至linux 从linux下载文件 
 /Linux%20平台/Linux%20教程/网络命令/常用网络命令.docx 1568122396 
 /Linux%20平台/Linux内核设计与实现/1%20内核简介.docx 1569242124 1.单内核和微内核 2.内核版本号 
@@ -339,13 +342,24 @@
 /Windows%20平台/MassTransit%20消息总线/高级教程/3%20基于%20EF%20的%20Saga%20模式.docx 1585357922 安装包 Saga指定主键 新建数据库上下文 添加Saga到总线 
 /Windows%20平台/MassTransit%20消息总线/高级教程/本教程由%20IceEmblem%20所做.txt 1585357946 � 
 /Windows%20平台/Net/1%20目标框架、项目、包.docx 1639564762 .NET的框架体系 .NETStandard与其他框架的关系 Nuget包与框架 Nuget包依赖项分析 包版本冲突 
+/Windows%20平台/Net/10%20Http%20请求.docx 1648193725 基本使用 命名客户端 POST请求示例 PUT请求示例 DELETE请求示例 
+/Windows%20平台/Net/11%20IHosedtService%20后台服务.docx 1648200888 注册IHostedService IHostedService BackgroundService 依赖注入域与IHostedService Windows服务 
+/Windows%20平台/Net/12%20缓存.docx 1648202484 内存缓存 分布式缓存 
 /Windows%20平台/Net/2%20CLI%20命令和项目结构.docx 1640768371 vscode扩展 解决方案 项目 发布项目/解决方案 类库 单元测试 Nuget包使用 ***.csproj项目文件 vscode配置 
 /Windows%20平台/Net/3%20byte，字符，编码.docx 1640244638 理论：byte与各种编码 Byte 编码 ASCII编码 Unicode字符集 Unicode编码（UTF-16） UTF-8编码 UTF-32编码 Base64 image/jpeg byte，Rune，char，string的关系 char Rune string 编码转换 
 /Windows%20平台/Net/4%20JSON%20序列化.docx 1640166053 基本序列化和反序列化 UTF8序列化和反序列化 行为控制 
 /Windows%20平台/Net/5%20文件和流.docx 1640250557 概念：流（Stream）与byte 流（Stream） 文件操作File 目录操作Directory 路径Path 具体实现流 Zip压缩和解压 Gzip压缩和解压 
 /Windows%20平台/Net/6%20依赖注入.docx 1643359725 涉及概念 .NET官方提供的依赖注入 服务生命周期 ASP.NETCore 
 /Windows%20平台/Net/7%20配置.docx 1643359426 涉及概念 基本示例 配置源 Asp.netcore 
+/Windows%20平台/Net/8%20日志.docx 1648171274 包 涉及概念 记录日志 Log4net与Asp.netcore 
+/Windows%20平台/Net/9%20HostBuilder.docx 1648197133 示例 HostBuilder提供的功能 依赖关系注入容器 Logging注册 Configuration配置注册 IHostedService注册 HostBuilder注册的服务 Asp.netcore站点与HostBuilder HostBuilder不局限于站点 
 /Windows%20平台/Net/本教程需要有%20Net%20开发经验才能阅读.txt 1639728533 � 
+/Windows%20平台/Net/知识点/ASP.NET%20Core%20OIDC%20服务器.docx 1648171274 前置知识 框架 新建API项目 API资源，Identity资源，客户端代码 Startup配置 登录与退出登录方法 Postman测试 
+/Windows%20平台/Net/知识点/ASP.NET%20Core%20XML%20支持.docx 1648171274 
+/Windows%20平台/Net/知识点/ASP.NET%20Core%20小知识点.docx 1648721782 浏览器GET缓存 
+/Windows%20平台/Net/知识点/CancellationToken%20取消令牌.docx 1648187949 CancellationToken取消令牌 CancellationToken改变通知 
+/Windows%20平台/Net/知识点/Kestrel%20Https%20证书配置.docx 1648171274 申请证书 配置证书 启动端口监听 
+/Windows%20平台/Net/知识点/Linux%20部署.docx 1648171274 安装运行时 详细文档地址 
 /Windows%20平台/NetCore/.net%20core/.net%20Core%20ReactJs%20解决方案.docx 1584928506 
 /Windows%20平台/NetCore/.net%20core/.net%20Core%20使用SSL证书.docx 1584928510 
 /Windows%20平台/NetCore/.net%20core/.net%20Core%20使用静态文件、目录游览与MIME类型管理.docx 1584928514 
@@ -353,7 +367,7 @@
 /Windows%20平台/NetCore/.net%20core/.net%20Core%20视图引擎选项.docx 1584928518 
 /Windows%20平台/NetCore/.net%20core/.net%20Core%20读取appsettings.json.docx 1584928524 
 /Windows%20平台/NetCore/.net%20core/.net%20core%202.1%20升%203.0.docx 1589112674 
-/Windows%20平台/NetCore/.net%20core/.net%20core%202.1%20无法设置%20Cookie%20解决方案.docx 1574669712 1.设置该Cookie为必要的 
+/Windows%20平台/NetCore/.net%20core/.net%20core%202.1%20无法设置%20Cookie%20解决方案.docx 1574669712 1.设置该Cookie为必要的 最新.net5.0方案 
 /Windows%20平台/NetCore/.net%20core/.net%20core%20Json%20序列化.docx 1591169256 
 /Windows%20平台/NetCore/.net%20core/.net%20core%20框架设计原理/.net%20core%20依赖注入设计.docx 1606881243 IServiceProvider从何而来 ServiceProvider如何提供域功能 
 /Windows%20平台/NetCore/.net%20core/.net%20core%20框架设计原理/.net%20core%20启动和接收请求原理.docx 1606881543 站点启动示例 UseKestrel 指明内置服务器 UseUrls 方法指明站点地址 配置中间件 Build 生成WebHost run方法启动站点 KestrelServer接收和处理Http请求 将http请求封装成IFeatureCollection 创建上下文 调用处理中间件 销毁上下文 
@@ -430,11 +444,11 @@
 /Windows%20平台/NetCore/.net%20core/6%20IdentityServer4/基础教程/1%20特性一览.docx 1584928616 
 /Windows%20平台/NetCore/.net%20core/6%20IdentityServer4/基础教程/10%20认证服务器使用%20EF.docx 1584928620 IdentityServer4.EntityFramework组件 使用SqlServer 数据库Schema更改和使用EF迁移 使用EF工具进行迁移 配置store 初始化数据库 运行程序 
 /Windows%20平台/NetCore/.net%20core/6%20IdentityServer4/基础教程/2%20术语的解释.docx 1584928624 IdentityServer4术语 身份认证服务器（IdentityServer） 用户（User） 客户端（Client） 资源（Resources） 身份令牌（IdentityToken） 访问令牌（AccessToken） 
-/Windows%20平台/NetCore/.net%20core/6%20IdentityServer4/基础教程/3%20开始.docx 1584928628 本教程中 MVC客户端地址：http://localhost:5002 认证服务器安装IdentityServer 基本安装 
-/Windows%20平台/NetCore/.net%20core/6%20IdentityServer4/基础教程/4%20客户端认证.docx 1584928628 认证服务器配置 定义API 定义客户端 配置IdentityServer Api资源站点配置 添加API 配置 访问Api资源站点的客户端配置 创建客户端 
-/Windows%20平台/NetCore/.net%20core/6%20IdentityServer4/基础教程/5%20用户名密码认证.docx 1584928630 认证服务器配置 配置 客户端定义 客户端配置 
-/Windows%20平台/NetCore/.net%20core/6%20IdentityServer4/基础教程/6%20OpenID%20Connect%20认证.docx 1584928634 OpenIDConnect 认证服务器配置 客户端配置 创建一个MVC客户端 1.配置OpenIDConnect认证 测试客户端 添加注销 
-/Windows%20平台/NetCore/.net%20core/6%20IdentityServer4/基础教程/7%20OIDC%20混合认证.docx 1584928636 认证服务器配置 修改客户端配置 AllowOfflineAccess=true 客户端配置 修改MVC客户端 使用访问令牌 
+/Windows%20平台/NetCore/.net%20core/6%20IdentityServer4/基础教程/3%20开始.docx 1584928628 服务器部署 认证服务器安装IdentityServer publicclassStartup{   {   //添加IdentityServer     services.AddIdentityServer()   }   {     if(env.IsDevelopment())     {     }     //使用IdentityServer     app.UseIdentityServer();   } 
+/Windows%20平台/NetCore/.net%20core/6%20IdentityServer4/基础教程/4%20客户端认证.docx 1584928628 认证服务器配置 资源服务器配置 客户端配置 
+/Windows%20平台/NetCore/.net%20core/6%20IdentityServer4/基础教程/5%20用户名密码认证.docx 1584928630 认证服务器配置 客户端配置 
+/Windows%20平台/NetCore/.net%20core/6%20IdentityServer4/基础教程/6%20OIDC%20隐式认证.docx 1644810107 OpenIDConnect 认证服务器配置 客户端配置 添加注销 
+/Windows%20平台/NetCore/.net%20core/6%20IdentityServer4/基础教程/7%20OIDC%20混合认证.docx 1584928636 认证服务器配置 客户端配置 
 /Windows%20平台/NetCore/.net%20core/6%20IdentityServer4/基础教程/8%20ASP.NET%20Core%20Identity%20方式.docx 1584928636 新建认证服务器 建立ASP.NETIdentity新项目 修改hosting 添加IdentityServer组件 Scopes和Clients配置 AllowOfflineAccess=true 配置IdentityServer 创建用户数据库 创建用户 客户端配置 在MVC客户端登录 
 /Windows%20平台/NetCore/.net%20core/6%20IdentityServer4/基础教程/9%20JavaScript%20客户端认证.docx 1584928640 认证服务器配置 Api资源服务器配置 新建客户端 创建一个JavaScript客户端新项目 修改端口 添加静态文件中间件 引用oidc客户端 添加HTML和JavaScript文件 
 /Windows%20平台/NetCore/.net%20core/6%20IdentityServer4/示例/外部认证的支持之QQ登录.docx 1584928644 申请QQ登录 添加QQ登录 
@@ -550,34 +564,19 @@
 /Windows%20平台/NetFramework/WebAPI/返回值/IHttpActionResult.docx 1521091912 1、Json<T>(Tcontent) 2、Ok()、 Ok<T>(Tcontent) 3、NotFound() 4、其他 4.2、BadRequest() 4.3、Redirect(stringlocation) 
 /Windows%20平台/NetFramework/WebAPI/返回值/void无返回值.docx 1521190460 
 /Windows%20平台/NetFramework/WebAPI/返回值/自定义类型.docx 1521190660 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20ArrayList.docx 1499264984 ASP.NETWebForms -ArrayList对象 创建ArrayList 绑定数据到ArrayList 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20DataList%20控件.docx 1499335898 把DataSet绑定到DataList控件 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20Hashtable%20对象.docx 1499331834 创建Hashtable 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20Repeater%20控件.docx 1499334032 把DataSet绑定到Repeater控件 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20XML文件.docx 1499333270 一个XML文件 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20button控件.docx 1499264468 ASP.NETWebForms -Button控件 Button控件 添加脚本 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20from%20page.docx 1499230484 用ClassicASP编写的动态页面 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20textbox.docx 1499246700 添加脚本 
-/Windows%20平台/NetFramework/asp.net%20wf/wf%20viewstate.docx 1499233072 
-/Windows%20平台/NetFramework/asp.net%20wf/wf事件.docx 1499232056 ASP.NET-事件句柄 
-/Windows%20平台/NetFramework/asp.net%20wf/wf导航.docx 1499351246 网站导航 Sitemap文件 动态菜单 TreeView SiteMapPath 
-/Windows%20平台/NetFramework/asp.net%20wf/wf控件.docx 1499231144 ASP.NET-服务器控件 
-/Windows%20平台/NetFramework/asp.net%20wf/wf数据库链接.docx 1499347118 创建数据库连接 创建数据库命令 创建DataReader 绑定到Repeater控件 关闭数据库连接 
-/Windows%20平台/NetFramework/asp.net%20wf/wf数据控件.docx 1499264654 ASP.NETWebForms -数据绑定 数据绑定 
-/Windows%20平台/NetFramework/asp.net%20wf/wf母版页.docx 1499350590 母版页实例 内容页实例 
-/Windows%20平台/NetFramework/asp.net%20wf/wf窗体.docx 1499232334 提交表单 
-/Windows%20平台/NetFramework/asp.net%20wf/wf简介.docx 1499230276 ASP.NET如何工作？ 
-/Windows%20平台/NetFramework/asp.net%20wp/wpEmail.docx 1499179884 WebMail帮助器 第一：编辑您的AppStart页面 _AppStart.cshtml Email_Input.cshtml Email_Send.cshtml 
-/Windows%20平台/NetFramework/asp.net%20wp/wpWebGrid.docx 1499179004 使用WebGrid帮助器 
-/Windows%20平台/NetFramework/asp.net%20wp/wp全局页面.docx 1499175184 在Web启动之前：_AppStart 在每一个页面之前：_PageStart 
-/Windows%20平台/NetFramework/asp.net%20wp/wp图表.docx 1499179462 Chart帮助器 根据数组创建图表 根据数据库创建图表 
-/Windows%20平台/NetFramework/asp.net%20wp/wp对象.docx 1499177510 某些Page对象方法 某些Page对象属性 Page对象的Page属性 
-/Windows%20平台/NetFramework/asp.net%20wp/wp布局.docx 1499173976 LayoutPage（布局页） 防止文件被浏览 
-/Windows%20平台/NetFramework/asp.net%20wp/wp帮助器.docx 1499178660 ASP.NET帮助器 WebGrid帮助器 Chart帮助器 WebMail帮助器 WebImage帮助器 第三方帮助器 
-/Windows%20平台/NetFramework/asp.net%20wp/wp文件.docx 1499178304 手动添加一个文本文件 Persons.txt 
-/Windows%20平台/NetFramework/asp.net%20wp/wp文件夹.docx 1499174470 逻辑文件夹结构 物理文件夹结构 虚拟名称和物理名称 URL和路径 ~运算符 Server.MapPath方法 
-/Windows%20平台/NetFramework/asp.net%20wp/wp表单.docx 1499177124 
-/Windows%20平台/NetFramework/asp.net%20wp/基本的c#语句.docx 1499180412 
+/Windows%20平台/NetFramework/asp.net/asp.net%20ado.net.docx 1499492960 ADO.NET DataSet类 DataTable类 DataRow类 DataAdapter对象 DataReader对象 DbCommand和DbConnection对象 例子 
+/Windows%20平台/NetFramework/asp.net/asp.net%20ajax控制.docx 1499519612 Ajax控制 ScriptManager控件 UpdatePanel控件 UpdatePanelControl的属性 UpdatePanelControl的方法 UpdateProgress控件 UpdateProgress控件的属性 UpdateProgress控件的方法 
+/Windows%20平台/NetFramework/asp.net/asp.net%20html%20服务器.docx 1499500214 HTML服务器 使用HTML服务器控件的优点 实例 
+/Windows%20平台/NetFramework/asp.net/asp.net%20panel控件.docx 1499514416 Panel控件 
+/Windows%20平台/NetFramework/asp.net/asp.net%20web服务.docx 1499527634 Web服务 创建web服务 使用Web服务 创建代理服务器 
+/Windows%20平台/NetFramework/asp.net/asp.net%20客户端.docx 1499502094 客户端 客户端脚本 客户端源代码 
+/Windows%20平台/NetFramework/asp.net/asp.net个性化.docx 1499525478 理解特征文件 例子 
+/Windows%20平台/NetFramework/asp.net/asp.net事件处理.docx 1499484468 事件参数 应用程序和会话事件 页面和控件事件 使用控件处理事件 默认事件 
+/Windows%20平台/NetFramework/asp.net/asp.net基础控件.docx 1499504270 按钮控件 文本框和标签 单选按钮列表和复选框列表 复选框和单选按钮 列表控件 ListItemCollection 项目符号列表和编号列表 超链接控件 图像控件 
+/Windows%20平台/NetFramework/asp.net/asp.net多视图.docx 1499505500 多视图 View和MultiView控件的属性 例子 
+/Windows%20平台/NetFramework/asp.net/asp.net安全性.docx 1499526768 安全性 基于表单的认证 基于表单的安全性的实现 IIS认证：SSL 
+/Windows%20平台/NetFramework/asp.net/asp.net实例.docx 1499349976 页面指令 编码区段 页面布局 
+/Windows%20平台/NetFramework/asp.net/asp.net指令.docx 1499506482 应用程序指令 集合指令 控制指令 工具指令 导入指令 主要指令 MasterType指令 输出缓存指令 页面指令 前页型指令 参考指令 注册指令 
 /Windows%20平台/NetFramework/mvc/ASP.NET%20应用程序生命周期概述.docx 1504058268 
 /Windows%20平台/NetFramework/mvc/Asp.net%20Mvc%20请求/Asp.net%20Mvc%20请求/Asp.net%20Mvc%20请求流程.docx 1504192858 
 /Windows%20平台/NetFramework/mvc/Asp.net%20Mvc%20请求/Asp.net%20Mvc%20请求/IHttpHandler/IHttpHandler.docx 1504192574 
@@ -1146,6 +1145,7 @@
 /前端/ReactNative/发布版本错误检查.docx 1598276161 发布前检查 查看输出日志 
 /前端/ReactNative/在浏览器上运行%20React%20Native.docx 1596972095 安装包 配置webpack 运行webpack打包即可 
 /前端/ReactNative/清理缓存.docx 1597726288 
+/前端/ReactNative/知识点/Https%20network%20request%20failed.docx 1648455084 安卓 IOS 
 /前端/ReactNative/获取组件的宽高.docx 1605016216 
 /前端/ReactRedux/基础/0%20安装.docx 1584929372 
 /前端/ReactRedux/基础/0%20核心概念.docx 1594964000 State Action Reducer 
@@ -1180,6 +1180,7 @@
 /前端/React教程/FAQ/应用%20TypeScript.docx 1575518632 安装ts包 添加tsconfig.json文件 
 /前端/React教程/React%20Move/教程.docx 1584929420 入门 <NodeGroup/> 组件道具 
 /前端/React教程/ReactRouter/ReactRouter%204.0文档.docx 1584929454 reactrouter4.0以上的路由应用 4.0有HashRouter和BrowserRouter improt 示例 一个完整的嵌套路由的例子如下 说明及注意事项 理解和使用Route URL/Path/Route的参数 理解并使用Link <Link>和<NavLink> 理解排他路由 使用<Redirect>组件实现重定向 关于默认路由 控制路由跳转 
+/前端/React教程/ReactRouter/ReactRouter%206.0文档.docx 1649919473 安装 一个完整的示例 BrowserRouter Routes Route Link 重定向 控制路由跳转 获取当前路由的信息 
 /前端/React教程/中文文档/1%20JSX%20介绍.docx 1556115408 JSX中嵌入表达式 用JSX指定属性值 用JSX指定子元素 JSX表示对象 
 /前端/React教程/中文文档/10%20组合%20VS%20继承（Composition%20vs%20Inheritance）.docx 1545377422 包含 如何看待继？ 
 /前端/React教程/中文文档/11%20React%20的编程思想.docx 1545728844 
@@ -1201,7 +1202,8 @@
 /前端/React教程/高级指南/13%20代码拆分(Code-Splitting).docx 1520489566 代码拆分 import() React.lazy 基于路由的代码分割 
 /前端/React教程/高级指南/14%20Context%20上下文.docx 1599632799 
 /前端/React教程/高级指南/15%20高级组件.docx 1626006727 高级组件示例 高阶组件解决什么问题 使用原则 
-/前端/React教程/高级指南/16%20Hook.docx 1626008233 StateHook EffectHook 自定义Hook 
+/前端/React教程/高级指南/16%20Hook.docx 1626008233 StateHook EffectHook ContextHook ReducerHook 自定义Hook 
+/前端/React教程/高级指南/17%20Hook%20与%20Class%20组件.docx 1649829449 Hook解决了什么问题 何时使用Hook 
 /前端/React教程/高级指南/2%20使用%20PropTypes%20进行类型检查.docx 1556455246 详细的PropTypes类型 
 /前端/React教程/高级指南/3%20静态类型检查.docx 1556455108 
 /前端/React教程/高级指南/4%20Refs%20和%20DOM.docx 1545639510 Ref 
@@ -1275,6 +1277,7 @@
 /前端/WebPack/概念文档/6%20插件.docx 1584929488 插件代码示例 用法 配置 通过webpack的配置应用插件 NodeAPI 
 /前端/WebPack/概念文档/7%20配置.docx 1584929492 配置(configuration) 基本配置 导出一个函数 
 /前端/WebPack/概念文档/8%20模块.docx 1584929494 模块(modules) 什么是webpack模块 模块解析(moduleresolution) webpack中的解析规则 绝对路径 相对路径 模块路径 
+/前端/WebPack/概念文档/Webpack%20简明教程.docx 1644889418 
 /前端/WebPack/调试%20npm%20包.docx 1598508299 如下，一般npm包的目录结构 package.json 指定includenode_modules路径 
 /前端/XML%20教程/XML%20基础教程/1%20XML%20简介.docx 1584929498 
 /前端/XML%20教程/XML%20基础教程/2%20XML%20用途.docx 1584929502 
@@ -1452,7 +1455,7 @@
 /平台无关/CQRS/3%20CQRS%20Saga%20模式.docx 1585123378 概念 什么是Saga Saga与处理器 代码示例 
 /平台无关/Docker/1%20ubuntu%20安装%20Docker.docx 1582082458 添加Docker仓库 
 /平台无关/Docker/2%20Hello%20World.docx 1582085068 简单示例 运行交互式的容器 示例： 各个参数解析： 退出容器： 后台模式启动 示例： 参数解析： 查看后台运行的容器： 查看容器标准输出： 停止容器 
-/平台无关/Docker/3%20Docker%20容器使用.docx 1582172320 帮助命令 获取镜像 查看运行的容器 启动容器 进入后台启动的容器 查看容器元数据 退出容器 停止容器 启动以停止的容器 导出容器 导入容器 删除容器 
+/平台无关/Docker/3%20Docker%20容器使用.docx 1582172320 帮助命令 获取镜像 查看运行的容器 启动容器 进入后台启动的容器 查看容器元数据 退出容器 停止容器 启动以停止的容器 导出容器 导入容器 删除容器 查看容器日志 
 /平台无关/Docker/4%20镜像使用.docx 1582255314 列出镜像列表 获取一个新的镜像 查找镜像 删除镜像 从容器中创建镜像 设置镜像标签 
 /平台无关/Docker/5%20容器连接.docx 1582258334 容器端口映射到主机端口 Docker网络互联 创建网络 显示所有网络 创建容器时指定网络 查看网络的元数据 手动将某个容器加入网络 配置DNS 
 /平台无关/Docker/6%20仓库管理.docx 1582510946 登录 退出 搜索镜像 拉取镜像 推送镜像 
@@ -1482,6 +1485,7 @@
 /平台无关/Jenkins/1%20Jenkins%20安装.docx 1617633630 安装Jenkins（ubuntu） 运行 
 /平台无关/Jenkins/Jenkins%20sudo%20输入密码.docx 1618135463 
 /平台无关/Kong%20学习笔记/1%20Kong%20的安装和基本概念.docx 1639564847 前置知识 基本环境 Docker安装Kong 创建Docker网络 Kong数据库安装部署 选择PostgreSQL 选择Cassandra 选择DB-less 创建数据库 运行Kong 初始化数据库 运行Kong 停止Kong Kong配置 配置文件 端口 概念 Kong基础对象 路由 服务 上游 目标 消费者 插件 证书 SNI 对象之间的关系 踩坑日志（不看白不看） 
+/平台无关/Kong%20学习笔记/10%20Kong%20与微服务.docx 1648171274 
 /平台无关/Kong%20学习笔记/2%20Kong%20管理运维.docx 1639564847 准备 Konga 创建数据库 安装konga 将konga连接到kong konga仪表盘说明 INFO配置信息 服务 路由 消费者 插件 上游 目标节点 证书 用户 快照管理 
 /平台无关/Kong%20学习笔记/3%20Kong%20的基本功能.docx 1640768371 准备工作 功能：路由转发 功能：均衡负载 灰度发布 蓝绿部署 正则路由 https重定向 混合模式 踩坑（看了也没用） 
 /平台无关/Kong%20学习笔记/4%20Kong%20的配置详解.docx 1642759651 配置文件 基于配置文件的Docker启动 Kong的配置 指令注入 
@@ -1489,6 +1493,7 @@
 /平台无关/Kong%20学习笔记/6%20Kong%20指标监控与报警.docx 1642759651 Kongprometheus插件 服务器监测 安装prometheus 安装grafana 踩坑 
 /平台无关/Kong%20学习笔记/7%20Kong%20高级.docx 1642988703 基于DNS的负载均衡 基于环形均衡器的负载均衡 健康监测 Kong集群 Kong参数优化 
 /平台无关/Kong%20学习笔记/8%20Kong%20LVS%20均衡负载.docx 1642988703 LVS介绍 LVS负载模式 LVS虚拟IP（VIP） 准备工作 安装keepalived 配置后端服务器健康监测 
+/平台无关/Kong%20学习笔记/9%20Kong%20内置插件.docx 1648171274 添加插件 IP限制插件 机器人检测插件 CORS跨域插件 关于Kong的认证授权 
 /平台无关/Kong%20学习笔记/本教程基于《Kong%20入门与实战》数据.txt 1639389774 � 
 /平台无关/MongoDB%20教程/1%20NoSQL%20简介.docx 1584929564 
 /平台无关/MongoDB%20教程/10%20MongoDB%20插入文档.docx 1584929568 实例 
@@ -1512,23 +1517,12 @@
 /平台无关/RabbitMQ/1%20RabbitMQ%20简介.docx 1585277906 什么叫消息队列 RabbitMQ 消息流过程 RabbitMQ消息流过程 RabbitMQ基本概念 Exchange类型 
 /平台无关/RabbitMQ/2%20Ubuntu%20安装.docx 1585194922 安装erlang 启用web端可视化操作界面 
 /平台无关/RabbitMQ/4%20用户管理.docx 1585277810 查看用户 添加VirtualHosts 设置用户使用的VirtualHosts 清除用户VirtualHosts 删除用户 删除virtualhost 
-/平台无关/Redis%20分布缓存教程/1%20Redis%20教程/1%20Redis%20简介.docx 1584929630 
-/平台无关/Redis%20分布缓存教程/1%20Redis%20教程/2%20Redis%20安装.docx 1584929632 
-/平台无关/Redis%20分布缓存教程/1%20Redis%20教程/3%20Redis%20配置.docx 1584929634 语法 实例 语法 实例 
-/平台无关/Redis%20分布缓存教程/1%20Redis%20教程/4%20Redis%20数据类型.docx 1584929634 实例 
-/平台无关/Redis%20分布缓存教程/2%20Redis%20命令/1%20Redis%20连接服务器.docx 1587806459 
-/平台无关/Redis%20分布缓存教程/2%20Redis%20命令/10%20Redis%20事务.docx 1584929640 
-/平台无关/Redis%20分布缓存教程/2%20Redis%20命令/11%20Redis%20连接.docx 1584929642 实例 
-/平台无关/Redis%20分布缓存教程/2%20Redis%20命令/2%20Redis%20键(key).docx 1584929644 语法 删除键示例实例 
-/平台无关/Redis%20分布缓存教程/2%20Redis%20命令/3%20Redis%20字符串(String).docx 1584929646 
-/平台无关/Redis%20分布缓存教程/2%20Redis%20命令/4%20Redis%20哈希(Hash).docx 1584929650 
-/平台无关/Redis%20分布缓存教程/2%20Redis%20命令/5%20Redis%20列表(List).docx 1584929654 Redis列表命令 
-/平台无关/Redis%20分布缓存教程/2%20Redis%20命令/6%20Redis%20集合(Set).docx 1584929658 
-/平台无关/Redis%20分布缓存教程/2%20Redis%20命令/7%20Redis%20有序集合(sorted%20set).docx 1584929662 
-/平台无关/Redis%20分布缓存教程/2%20Redis%20命令/8%20Redis%20HyperLogLog.docx 1584929666 
-/平台无关/Redis%20分布缓存教程/2%20Redis%20命令/9%20Redis%20发布订阅.docx 1584929666 
-/平台无关/Redis%20分布缓存教程/3%20Redis%20高级教程/1%20Redis%20管道技术.docx 1584929668 
-/平台无关/Redis%20分布缓存教程/3%20Redis%20高级教程/2%20c#%20Redis.docx 1584929672 
+/平台无关/Redis%20分布缓存教程/1%20安装.docx 1649649686 安装 连接服务器 配置更改 
+/平台无关/Redis%20分布缓存教程/2%20基本命令.docx 1648433399 Redis数据类型 RedisKey String（字符串） 哈希(Hash) List（列表） Set集合 sortedset有序集合 事务 
+/平台无关/Redis%20分布缓存教程/3%20发布订阅.docx 1648433399 订阅管道 发布消息 关于redis发布订阅 
+/平台无关/Redis%20分布缓存教程/4%20主从、哨兵.docx 1649649686 准备工作 主从复制 哨兵模式 
+/平台无关/Redis%20分布缓存教程/知识点/C#%20Redis.docx 1648433399 
+/平台无关/Redis%20分布缓存教程/知识点/Redis%20分区.docx 1648433399 哈希分区 范围分区 
 /平台无关/UML教程/1%20UML标准图.docx 1584929676 UML结构图： UML类图： UML对象图： UML组件图： UML部署图： UML行为图： UML用例图： UML序列图： UML协作图： UML状态图： UML活动图： 
 /平台无关/UML教程/2%20UML类图.docx 1584929678 
 /平台无关/UML教程/3%20UML对象图.docx 1584929682 
@@ -1542,7 +1536,12 @@
 /平台无关/VSCode%20使用指南/2%20调试介绍.docx 1582790600 
 /平台无关/VSCode%20使用指南/vscode%20注意事项.docx 1583812868 vscode命令行中的引用 
 /平台无关/VSCode%20使用指南/键盘快捷键参考.docx 1564995444 
-/平台无关/web安全/OIDC（OpenID%20Connect）.docx 1584929762 OpenIDConnect 示例 运行流程 登录 退出 
+/平台无关/kubenetes/1%20集群搭建.docx 1649841721 修改主机名 安装docker 安装kubeadm、kubelet、kubectl 在master部署kubernetes 在master安装pod网络插件 在nodes上执行加入集群命令 还原kubernetes 
+/平台无关/kubenetes/2%20基本命令.docx 1650362617 1基本语法格式 1.1语法格式 1.2action 1.3resource 1.4常用的选项 1.4基本示例 1.5其他名 2节点 2.1查看集群节点 3Namespace 3.1查看命名空间列表 3.3删除命名空间 4Deployment 4.1创建一个Deployment 4.2扩展Deploymeny的pod数量 4.3列出创建的Deployment 4.4查看Deployment详细信息 4.5删除Deployment 5Pod 5.1列出当前pod列表 5.2列出系统的pod 5.3查询Deployment对应的pod 5.4查询pod日志 5.5删除pod 5.6进入pod的容器 6Label 6.1为pod资源打标签 6.2为pod资源更新标签 6.3查看资源的标签 6.4筛选标签 6.5删除标签 7Sevice 7.1列出当前的服务 7.2创建服务（暴露服务） 7.3查询Deployment对应的服务 7.4删除服务 
+/平台无关/kubenetes/3%20deployment%20yaml%20管理.docx 1650362930 deployment的yaml文件 创建deployment 删除deployment 编辑deploymentyaml 扩容 版本更新策略 版本更新 
+/平台无关/kubenetes/4%20service%20yaml%20管理.docx 1650528226 Serviceyarm文件清单 创建deployment 创建Service 
+/平台无关/web安全/OAuth2授权.docx 1644889418 OAuth2简介 OAuth2的四个重要角色 OAuth2的授权流程 授权模式 AuthorizationCode（授权码） Implicit（隐式模式） OAuth2刷新令牌 所需参数 返回信息 示例 Token传递方式 URIQueryParameter AuthorizationRequestHeaderField Form-EncodedBodyParameter 
+/平台无关/web安全/OIDC（OpenID%20Connect）.docx 1584929762 OpenIDConnect 运行流程 
 /平台无关/web安全/OpenID%20Connect%20与%20SSO.docx 1584929764 
 /平台无关/web安全/SSL%20证书/OpenSSL%20生成证书.docx 1584929768 
 /平台无关/web安全/SSL%20证书/证书格式与扩展名.docx 1584929772 
@@ -1716,7 +1715,7 @@
 /平台无关/领域驱动设计/教程/5%20模型完整性/2%20上下文之间的关系.docx 1566987318 共享内核 客户/供应商 墨守成规 防腐层 各行其道 
 /平台无关/领域驱动设计/教程/DDD%20原则.docx 1622983329 ORM独立原则 展现层技术无关原则 关注状态的变化,而不是报表/查询 序列化 聚合间只通过ID相互引用 保持聚合尽量的小 聚合根/实体的主键 聚合根/实体的构造函数 实体属性访问器和方法 业务逻辑与实体异常 实体中业务逻辑依赖外部服务时 仓储 规约（规则，规格） 领域服务 应用服务 DTO通用原则和最佳实践 不要重用输入DTO 输出DTO最佳实践 对象映射到对象 应用服务示例 在创建实体时执行领域规则 领域逻辑示例 应用服务逻辑示例 
 /平台无关/领域驱动设计/教程/分离领域层.docx 1571889172 表示层： 应用层： 领域层： 基础设施层： 
-/平台无关/领域驱动设计/教程/本教程有%20IceEmblem%20所写.txt 1587287382 � 
+/平台无关/领域驱动设计/教程/本教程有%20IceEmblem%20所写.txt 1587287382 � 
 /编程语言/C#/C#%20using%20三种使用方式.docx 1584929968 
 /编程语言/C#/C#%20获取当前dll路径.docx 1554343734 
 /编程语言/C#/C#调试dll.docx 1554343764 
@@ -1795,6 +1794,7 @@
 /编程语言/C#/c#%20高级教程/c#特性.docx 1501082872 AttributeUsage Conditional Obsolete 应用自定义特性 
 /编程语言/C#/c#%20高级教程/c#索引器.docx 1501123130 
 /编程语言/C#/c#%20高级教程/c#集合.docx 1501133856 各种集合类和它们的用法 Hashtable哈希表 
+/编程语言/C#/c#10%20新增功能/C#10新增功能.docx 1648171274 顶级语句作为程序的入口点 switch表达式 ??和??=运算符 析构元组和对象 丢弃 自动using和全局using 
 /编程语言/C#/c#中调用非托管dll.docx 1483253462 
 /编程语言/C#/功能/C#正则表达式%20匹配磁盘路径和文件名.docx 1516415026 
 /编程语言/C#/功能/appSettings配置节的读写操作.docx 1516773642 
